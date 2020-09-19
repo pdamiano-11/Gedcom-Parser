@@ -3,8 +3,9 @@
 
 # In[7]:
 
+file_name = input("Enter the name of the file: ")
 
-file = open("DamianovPeterGedcomProject01.ged", "r")
+file = open(file_name, "r")
 lines = []
 for line in file:
     lines.append(str(line))
