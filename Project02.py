@@ -70,9 +70,11 @@ for idx, indi in enumerate(indi_list):
         individuals.Gender[idx] = lst[i+1]
     
     if "DEAT" in lst:
-        individuals.Dead[idx] = 'Y'
+        individuals.Dead[idx] = 'True'
+        individuals.Alive[idx] = 'False'
     else:
-        individuals.Alive[idx] = 'Y'
+        individuals.Alive[idx] = 'True'
+        individuals.Dead[idx] = 'False'
     
     if "FAMC" in lst:
         i = lst.index("FAMC")
