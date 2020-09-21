@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[31]:
 
 
 import pandas as pd
+import datetime
+from tabulate import tabulate
 
 file_name = input("Enter the name of the GEDCOM file: ")
 file = open(file_name, "r")
@@ -17,7 +19,7 @@ for idx, line in enumerate(lines):
 input_lines = ['0 NOTE Team-4-Project'] + lines
 
 
-# In[3]:
+# In[32]:
 
 
 indexes = []
@@ -36,7 +38,7 @@ for n in range(len(indexes)):
 del fam_split[0:2]
 
 
-# In[4]:
+# In[33]:
 
 
 indi_list = []
@@ -50,12 +52,14 @@ for text in fam_split:
         fam_list.append(text)
 
 
-# In[5]:
+# In[35]:
 
 
 individuals = pd.DataFrame(index = range(len(indi_list)), columns = 
                            ['ID', 'Name', 'Gender', 'Birthday', 'Age', 
                             'Alive', 'Dead', 'Child', 'Spouse'])
+
+now = pd.to_datetime('now')
 
 for idx, indi in enumerate(indi_list):
     lst = indi.strip().split()
@@ -69,12 +73,20 @@ for idx, indi in enumerate(indi_list):
         i = lst.index("SEX")
         individuals.Gender[idx] = lst[i+1]
     
+    if "BIRT" in lst:
+        i = lst.index("BIRT")
+        date_b = pd.to_datetime('-'.join(lst[i+3:i+6]))
+        individuals.Birthday[idx] = date_b.strftime("%b-%d-%Y")
+    
     if "DEAT" in lst:
-        individuals.Dead[idx] = 'True'
+        i = lst.index("DEAT")
+        date_d = pd.to_datetime('-'.join(lst[i+4:i+7]))
+        individuals.Dead[idx] = date_d.strftime("%b-%d-%Y")
+        individuals.Age[idx] = int((date_d - date_b).days/365)
         individuals.Alive[idx] = 'False'
     else:
         individuals.Alive[idx] = 'True'
-        individuals.Dead[idx] = 'False'
+        individuals.Age[idx] = int((now - date_b).days/365)
     
     if "FAMC" in lst:
         i = lst.index("FAMC")
@@ -84,11 +96,8 @@ for idx, indi in enumerate(indi_list):
         i = lst.index("FAMS")
         individuals.Spouse[idx] = lst[i+1]
 
-print("Individuals: ")
-print(individuals.head(len(individuals))
 
-
-# In[7]:
+# In[36]:
 
 
 families = pd.DataFrame(index = range(len(fam_list)), 
@@ -98,6 +107,17 @@ families = pd.DataFrame(index = range(len(fam_list)),
 for idx, fam in enumerate(fam_list):
     lst = fam.strip().split()
     families.ID[idx] = lst[1]
+    
+    if "MARR" in lst:
+        i = lst.index("MARR")
+        families.Married[idx] = pd.to_datetime('-'.join(lst[i+3:i+6])).strftime("%b %d %Y")
+        
+    div_case = lst.index("_CURRENT")
+    if lst[div_case+1] == "N":
+        families.Divorced[idx] = "True"
+    else:
+        families.Divorced[idx] = "False"
+    
     if 'HUSB' in lst:
         i = lst.index('HUSB')
         families['Husband ID'][idx] = lst[i+1]
@@ -115,11 +135,21 @@ for idx, fam in enumerate(fam_list):
         chil_ids[n] = lst[chil_ids[n]]
     families.Children[idx] = chil_ids
 
-print("Families: ")
-print(families.head(len(families)))
+
+# In[37]:
 
 
-# In[23]:
+otp = open("Project03_Output.txt", "w")
+otp.truncate(0)
+otp.write("Individuals: \n")
+otp.write(tabulate(individuals, headers='keys', tablefmt='psql'))
+otp.write("\n")
+otp.write("Families: \n")
+otp.write(tabulate(families, headers='keys', tablefmt='psql'))
+otp.close()
+
+
+# In[38]:
 
 
 supported = ['INDI', '0 NOTE', '0 HEAD', '0 TRLR', 'FAM', '1 NAME', '1 SEX', '1 BIRT', '1 DEAT', '1 FAMC', 
@@ -140,10 +170,9 @@ for line in input_lines:
     else:
         t = line.strip().split()
         output_lines.append('|'.join(t[0:2] + ['N'] + [' '.join(t[2:])]))
-print(output_lines)
 
 
-# In[27]:
+# In[39]:
 
 
 otp = open("outputProject02.txt", "w")
@@ -151,4 +180,10 @@ for n in range(len(input_lines)):
     otp.write("\n" + "--> " + input_lines[n])
     otp.write("\n" + "<-- " + output_lines[n] + "\n")
 otp.close()
+
+
+# In[ ]:
+
+
+
 

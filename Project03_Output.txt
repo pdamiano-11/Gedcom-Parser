@@ -1,0 +1,30 @@
+Individuals: 
++----+------+----------------+----------+-------------+-------+---------+-------------+---------+----------+
+|    | ID   | Name           | Gender   | Birthday    |   Age | Alive   | Dead        | Child   | Spouse   |
+|----+------+----------------+----------+-------------+-------+---------+-------------+---------+----------|
+|  0 | I1   | John Smith     | M        | Aug-11-1965 |    55 | True    | nan         | F2      | F1       |
+|  1 | I2   | Susan Jones    | F        | Aug-14-1969 |    51 | True    | nan         | F3      | F1       |
+|  2 | I3   | Dylan Smith    | M        | Nov-21-2002 |    17 | True    | nan         | F1      | nan      |
+|  3 | I4   | Frank Jones    | M        | Apr-09-1940 |    80 | True    | nan         | nan     | F3       |
+|  4 | I5   | Emily Michaels | F        | Oct-05-1942 |    78 | True    | nan         | nan     | F3       |
+|  5 | I6   | Bernard Smith  | M        | Feb-06-1940 |    80 | True    | nan         | nan     | F2       |
+|  6 | I7   | Theresa Kelly  | F        | Jul-22-1941 |    79 | True    | nan         | nan     | F2       |
+|  7 | I8   | Kevin Brown    | M        | May-30-1967 |    53 | True    | nan         | F3      | F4       |
+|  8 | I9   | Diane Brown    | F        | Jan-02-1970 |    50 | True    | nan         | nan     | F4       |
+|  9 | I10  | Paul Smith     | M        | Jul-14-1968 |    52 | True    | nan         | F2      | nan      |
+| 10 | I11  | James Jones    | M        | Oct-10-2007 |    12 | True    | nan         | F4      | nan      |
+| 11 | I12  | Lucia Johnson  | F        | Dec-05-1967 |    33 | False   | May-11-2001 | nan     | F5       |
+| 12 | I13  | Michelle Jones | F        | Mar-08-1999 |    21 | True    | nan         | F5      | nan      |
+| 13 | I14  | Evan Smith     | M        | Nov-10-1997 |    22 | True    | nan         | F1      | nan      |
+| 14 | I15  | Matthew Smith  | M        | Jul-01-1996 |    24 | True    | nan         | F1      | nan      |
++----+------+----------------+----------+-------------+-------+---------+-------------+---------+----------+
+Families: 
++----+------+-------------+------------+--------------+----------------+-----------+----------------+----------------------+
+|    | ID   | Married     | Divorced   | Husband ID   | Husband Name   | Wife ID   | Wife Name      | Children             |
+|----+------+-------------+------------+--------------+----------------+-----------+----------------+----------------------|
+|  0 | F1   | Jun 27 1995 | False      | I1           | John Smith     | I2        | Susan Jones    | ['I3', 'I14', 'I15'] |
+|  1 | F2   | Aug 07 1965 | False      | I6           | Bernard Smith  | I7        | Theresa Kelly  | ['I1', 'I10']        |
+|  2 | F3   | Sep 12 1965 | False      | I4           | Frank Jones    | I5        | Emily Michaels | ['I2', 'I8']         |
+|  3 | F4   | May 21 2006 | False      | I8           | Kevin Brown    | I9        | Diane Brown    | ['I11']              |
+|  4 | F5   | Dec 20 1996 | True       | I8           | Kevin Brown    | I12       | Lucia Johnson  | ['I13']              |
++----+------+-------------+------------+--------------+----------------+-----------+----------------+----------------------+
