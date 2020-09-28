@@ -1,6 +1,8 @@
 #sprint1 user stories 2 and 3
+import sys
+import os
 import datetime 
-import pandas as pd
+import pandas as pd 
 import unittest
 #user story 2 checks if the marriage date is before the birth date
 def user02(indiv_ID):
@@ -33,7 +35,7 @@ def user03(indiv_ID):
         return death
 
 #--------------Test Case for Use Case 02----------------
-class usecase02_test(unitTest.testCase):
+class usecase02_test(unittest.TestCase):
     
     def test1(self):
         individuals = pd.Dataframe({'ID': ['01', '02'], 'Name': ['Letty', 'Atticus'], 
@@ -75,7 +77,7 @@ class usecase02_test(unitTest.testCase):
         result = 'not married'
         assertTrue(case02(indiv_id5), result)
 #---------------------Unit Test for User Case 03---------------------
-    class usecase03_test(unitTest.testCase):
+    class usecase03_test(unittest.TestCase):
         def test1(self):
             individuals = pd.Dataframe({'ID': ['01', '02', '03', '04', '05'], 'Name': ['Letty', 'Atticus', 'Ruby', 'Donald', "Rob"], 
             'Birthday': ['01 OCT 1945', '14 APR 1948', '3 SEPT 1977', '20 JAN 1977', '22 JUL 2000'], 'Death': [null, "5 SEPT 2012", "2 DEC 2017", null, null]})
