@@ -27,7 +27,7 @@ def user02(gedcome_file):
             if couple[k][0] == indiv[m][0]:
                 if couple[k][2]> indiv[m][1]:
                     return "Marriage after birth"
-                else 
+                else: 
                     return "Error, marriange before birth"
             if couple[k][1]==indiv[m][0]:
                 if couple[k][2]> indiv[m][1]:
@@ -48,7 +48,7 @@ def user02(gedcome_file):
 def user03(gedcom_file):
     individuals = Project02.CreateIndividualsDataFrame(gedcom_file) #retrieves individuals DataFrame
     families = Project02.CreateFamiliesDataFrame(gedcom_file)       #retrieves Families DataFrame
-   indiv = []
+    indiv = []
    
     for index, row in individuals.iterrows():
         if individuals["Birthday"]< individuals["Death"]:
@@ -62,27 +62,29 @@ class usecase02_test(unittest.TestCase):
     def test1(self):
        gedcome_file = Grace_Miguel_famtree.ged
        result = "Marriage after birth."
-        self.assertEquals(user02(gedcome_file, result)
+       self.assertEquals(user02(gedcome_file, result))
+
 
     def test2(self):
         gedcome_file = seed.ged
         result = "Marriage after birth."
-        self.assertTrue(gedcome_file, result)
+        self.assertTrue(user02(gedcome_file), result)
     
+
     def test3(self):
         gedcome_file = disney_fam.ged
-        result = 'Marriage after birth."
+        result = 'Marriage after birth.'
         self.assertEquals(user02(gedcome_file), result)
 
     def test4(self):
         gedcome_file = export-BloodTree.ged
         result = 'Marriage after birth.'
-        self.assertTrue(user02(indiv_id4), result)
+        self.assertTrue(user02(gedcome_file), result)
 
     def test5(self):
         gedcome_file = doe.ged
         result = 'Marriage after birth.'
-        self.assertTrue(case02(indiv_id5), result)
+        self.assertTrue(case02(gedcome_file), result)
 unittest.main()
 
     
