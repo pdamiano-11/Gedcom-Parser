@@ -20,7 +20,7 @@ def user02(gedcom_file):
             if row["Name"] == rows["Wife Name"] or row["Name"] == rows["Husband Name"]:
                 if type(rows["Married"]) == float and pd.isna(rows["Married"]):
                     print("no marriage date")
-                elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]):
+                elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]:
                     print("Valid")
                 else: 
                     print("Invalid")
