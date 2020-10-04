@@ -3,7 +3,7 @@ sys.path.append("c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
 sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\testFiles")
 import pandas as pd 
 import Project02
-import datetime
+from datetime import datetime
 import copy
 
 #this function is to determine if the marriage date is after the birth date

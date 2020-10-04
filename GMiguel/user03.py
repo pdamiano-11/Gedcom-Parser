@@ -9,8 +9,8 @@ import Project02
 #user03 checks to see if birth dates are before death dates.
 def user03(gedcom_file):
     individuals = Project02.createIndividualsDataFrame(gedcom_file)
-    indiv = copy.deepcopy(individuals[["Birthday", "Dead"]]) #makes a copy of original inviduals dataframe
-    
+    indiv = copy.deepcopy(individuals[["Name", "Birthday", "Dead"]]) #makes a copy of original inviduals dataframe
+    lst = ""
     for index, row in indiv.iterrows(): #iterates through indiv 
         if type(row["Dead"]) == float and pd.isna(row["Dead"]):  #checks if the Dead row is empty
             pass
@@ -19,9 +19,13 @@ def user03(gedcom_file):
                 print("Valid")
                 print(row["Birthday"],row["Dead"] )
                 
-            else: 
+            else:
+                lst = lst + row["Name"] + " "
                 print("Invalid")                 #if Death date is BEFORE birth, it's invalid
                 print( row["Birthday"],row["Dead"])
+
+
+    print("The following have deaths before birth which is incorrect: " + lst)
         
 
 
