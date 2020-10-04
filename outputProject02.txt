@@ -1,0 +1,591 @@
+
+--> 0 NOTE Team-4-Project
+<-- 0|NOTE|Y|Team-4-Project
+
+--> 0 HEAD
+<-- 0|HEAD|Y|
+
+--> 1 SOUR Family Echo
+<-- 1|SOUR|N|Family Echo
+
+--> 2 WWW http://www.familyecho.com/
+<-- 2|WWW|N|http://www.familyecho.com/
+
+--> 1 FILE Family 2
+<-- 1|FILE|N|Family 2
+
+--> 1 DATE 20 SEP 2020
+<-- 1|DATE|N|20 SEP 2020
+
+--> 1 DEST ANSTFILE
+<-- 1|DEST|N|ANSTFILE
+
+--> 1 GEDC
+<-- 1|GEDC|N|
+
+--> 2 VERS 5.5.1
+<-- 2|VERS|N|5.5.1
+
+--> 2 FORM LINEAGE-LINKED
+<-- 2|FORM|N|LINEAGE-LINKED
+
+--> 1 SUBM I9
+<-- 1|SUBM|N|I9
+
+--> 2 NAME Peter Damianov
+<-- 2|NAME|N|Peter Damianov
+
+--> 1 SUBN
+<-- 1|SUBN|N|
+
+--> 1 CHAR UTF-8
+<-- 1|CHAR|N|UTF-8
+
+--> 0 I1 INDI
+<-- 0|INDI|Y|I1
+
+--> 1 NAME John /Smith/
+<-- 1|NAME|Y|John /Smith/
+
+--> 2 GIVN John
+<-- 2|GIVN|N|John
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 11 AUG 1965
+<-- 2|DATE|Y|11 AUG 1965
+
+--> 1 FAMS F1
+<-- 1|FAMS|Y|F1
+
+--> 1 FAMC F2
+<-- 1|FAMC|Y|F2
+
+--> 0 I2 INDI
+<-- 0|INDI|Y|I2
+
+--> 1 NAME Susan /Jones/
+<-- 1|NAME|Y|Susan /Jones/
+
+--> 2 GIVN Susan
+<-- 2|GIVN|N|Susan
+
+--> 2 SURN Jones
+<-- 2|SURN|N|Jones
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 14 AUG 1969
+<-- 2|DATE|Y|14 AUG 1969
+
+--> 1 FAMS F1
+<-- 1|FAMS|Y|F1
+
+--> 1 FAMC F3
+<-- 1|FAMC|Y|F3
+
+--> 0 I3 INDI
+<-- 0|INDI|Y|I3
+
+--> 1 NAME Dylan /Smith/
+<-- 1|NAME|Y|Dylan /Smith/
+
+--> 2 GIVN Dylan
+<-- 2|GIVN|N|Dylan
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 21 NOV 2002
+<-- 2|DATE|Y|21 NOV 2002
+
+--> 1 FAMC F1
+<-- 1|FAMC|Y|F1
+
+--> 0 I4 INDI
+<-- 0|INDI|Y|I4
+
+--> 1 NAME Frank /Jones/
+<-- 1|NAME|Y|Frank /Jones/
+
+--> 2 GIVN Frank
+<-- 2|GIVN|N|Frank
+
+--> 2 SURN Jones
+<-- 2|SURN|N|Jones
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 9 APR 1940
+<-- 2|DATE|Y|9 APR 1940
+
+--> 1 FAMS F3
+<-- 1|FAMS|Y|F3
+
+--> 0 I5 INDI
+<-- 0|INDI|Y|I5
+
+--> 1 NAME Emily /Michaels/
+<-- 1|NAME|Y|Emily /Michaels/
+
+--> 2 GIVN Emily
+<-- 2|GIVN|N|Emily
+
+--> 2 SURN Michaels
+<-- 2|SURN|N|Michaels
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 5 OCT 1942
+<-- 2|DATE|Y|5 OCT 1942
+
+--> 1 FAMS F3
+<-- 1|FAMS|Y|F3
+
+--> 0 I6 INDI
+<-- 0|INDI|Y|I6
+
+--> 1 NAME Bernard /Smith/
+<-- 1|NAME|Y|Bernard /Smith/
+
+--> 2 GIVN Bernard
+<-- 2|GIVN|N|Bernard
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 6 FEB 1940
+<-- 2|DATE|Y|6 FEB 1940
+
+--> 1 FAMS F2
+<-- 1|FAMS|Y|F2
+
+--> 0 I7 INDI
+<-- 0|INDI|Y|I7
+
+--> 1 NAME Theresa /Kelly/
+<-- 1|NAME|Y|Theresa /Kelly/
+
+--> 2 GIVN Theresa
+<-- 2|GIVN|N|Theresa
+
+--> 2 SURN Kelly
+<-- 2|SURN|N|Kelly
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 22 JUL 1941
+<-- 2|DATE|Y|22 JUL 1941
+
+--> 1 FAMS F2
+<-- 1|FAMS|Y|F2
+
+--> 0 I8 INDI
+<-- 0|INDI|Y|I8
+
+--> 1 NAME Kevin /Brown/
+<-- 1|NAME|Y|Kevin /Brown/
+
+--> 2 GIVN Kevin
+<-- 2|GIVN|N|Kevin
+
+--> 2 SURN Brown
+<-- 2|SURN|N|Brown
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 30 MAY 1967
+<-- 2|DATE|Y|30 MAY 1967
+
+--> 1 FAMS F4
+<-- 1|FAMS|Y|F4
+
+--> 1 FAMS F5
+<-- 1|FAMS|Y|F5
+
+--> 1 FAMC F3
+<-- 1|FAMC|Y|F3
+
+--> 0 I9 INDI
+<-- 0|INDI|Y|I9
+
+--> 1 NAME Diane /Brown/
+<-- 1|NAME|Y|Diane /Brown/
+
+--> 2 GIVN Diane
+<-- 2|GIVN|N|Diane
+
+--> 2 SURN Brown
+<-- 2|SURN|N|Brown
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 2 JAN 1970
+<-- 2|DATE|Y|2 JAN 1970
+
+--> 1 FAMS F4
+<-- 1|FAMS|Y|F4
+
+--> 0 I10 INDI
+<-- 0|INDI|Y|I10
+
+--> 1 NAME Paul /Smith/
+<-- 1|NAME|Y|Paul /Smith/
+
+--> 2 GIVN Paul
+<-- 2|GIVN|N|Paul
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 14 JUL 1968
+<-- 2|DATE|Y|14 JUL 1968
+
+--> 1 FAMC F2
+<-- 1|FAMC|Y|F2
+
+--> 0 I11 INDI
+<-- 0|INDI|Y|I11
+
+--> 1 NAME James /Jones/
+<-- 1|NAME|Y|James /Jones/
+
+--> 2 GIVN James
+<-- 2|GIVN|N|James
+
+--> 2 SURN Jones
+<-- 2|SURN|N|Jones
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 10 OCT 2007
+<-- 2|DATE|Y|10 OCT 2007
+
+--> 1 FAMC F4
+<-- 1|FAMC|Y|F4
+
+--> 0 I12 INDI
+<-- 0|INDI|Y|I12
+
+--> 1 NAME Lucia /Johnson/
+<-- 1|NAME|Y|Lucia /Johnson/
+
+--> 2 GIVN Lucia
+<-- 2|GIVN|N|Lucia
+
+--> 2 SURN Johnson
+<-- 2|SURN|N|Johnson
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 5 DEC 1967
+<-- 2|DATE|Y|5 DEC 1967
+
+--> 1 DEAT Y
+<-- 1|DEAT|Y|Y
+
+--> 2 DATE 11 MAY 2001
+<-- 2|DATE|Y|11 MAY 2001
+
+--> 1 FAMS F5
+<-- 1|FAMS|Y|F5
+
+--> 0 I13 INDI
+<-- 0|INDI|Y|I13
+
+--> 1 NAME Michelle /Jones/
+<-- 1|NAME|Y|Michelle /Jones/
+
+--> 2 GIVN Michelle
+<-- 2|GIVN|N|Michelle
+
+--> 2 SURN Jones
+<-- 2|SURN|N|Jones
+
+--> 2 MARR Jones
+<-- 2|MARR|N|Jones
+
+--> 1 SEX F
+<-- 1|SEX|Y|F
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 8 MAR 1999
+<-- 2|DATE|Y|8 MAR 1999
+
+--> 1 FAMC F5
+<-- 1|FAMC|Y|F5
+
+--> 0 I14 INDI
+<-- 0|INDI|Y|I14
+
+--> 1 NAME Evan /Smith/
+<-- 1|NAME|Y|Evan /Smith/
+
+--> 2 GIVN Evan
+<-- 2|GIVN|N|Evan
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 10 NOV 1997
+<-- 2|DATE|Y|10 NOV 1997
+
+--> 1 FAMC F1
+<-- 1|FAMC|Y|F1
+
+--> 0 I15 INDI
+<-- 0|INDI|Y|I15
+
+--> 1 NAME Matthew /Smith/
+<-- 1|NAME|Y|Matthew /Smith/
+
+--> 2 GIVN Matthew
+<-- 2|GIVN|N|Matthew
+
+--> 2 SURN Smith
+<-- 2|SURN|N|Smith
+
+--> 2 MARR Smith
+<-- 2|MARR|N|Smith
+
+--> 1 SEX M
+<-- 1|SEX|Y|M
+
+--> 1 BIRT
+<-- 1|BIRT|Y|
+
+--> 2 DATE 1 JUL 1996
+<-- 2|DATE|Y|1 JUL 1996
+
+--> 1 FAMC F1
+<-- 1|FAMC|Y|F1
+
+--> 0 F1 FAM
+<-- 0|FAM|Y|F1
+
+--> 1 HUSB I1
+<-- 1|HUSB|Y|I1
+
+--> 1 WIFE I2
+<-- 1|WIFE|Y|I2
+
+--> 1 CHIL I3
+<-- 1|CHIL|Y|I3
+
+--> 1 CHIL I14
+<-- 1|CHIL|Y|I14
+
+--> 1 CHIL I15
+<-- 1|CHIL|Y|I15
+
+--> 1 MARR
+<-- 1|MARR|Y|
+
+--> 2 DATE 27 JUN 1995
+<-- 2|DATE|Y|27 JUN 1995
+
+--> 1 _CURRENT Y
+<-- 1|_CURRENT|N|Y
+
+--> 0 F2 FAM
+<-- 0|FAM|Y|F2
+
+--> 1 HUSB I6
+<-- 1|HUSB|Y|I6
+
+--> 1 WIFE I7
+<-- 1|WIFE|Y|I7
+
+--> 1 CHIL I1
+<-- 1|CHIL|Y|I1
+
+--> 1 CHIL I10
+<-- 1|CHIL|Y|I10
+
+--> 1 MARR
+<-- 1|MARR|Y|
+
+--> 2 DATE 7 AUG 1965
+<-- 2|DATE|Y|7 AUG 1965
+
+--> 1 _CURRENT Y
+<-- 1|_CURRENT|N|Y
+
+--> 0 F3 FAM
+<-- 0|FAM|Y|F3
+
+--> 1 HUSB I4
+<-- 1|HUSB|Y|I4
+
+--> 1 WIFE I5
+<-- 1|WIFE|Y|I5
+
+--> 1 CHIL I2
+<-- 1|CHIL|Y|I2
+
+--> 1 CHIL I8
+<-- 1|CHIL|Y|I8
+
+--> 1 MARR
+<-- 1|MARR|Y|
+
+--> 2 DATE 12 SEP 1965
+<-- 2|DATE|Y|12 SEP 1965
+
+--> 1 _CURRENT Y
+<-- 1|_CURRENT|N|Y
+
+--> 0 F4 FAM
+<-- 0|FAM|Y|F4
+
+--> 1 HUSB I8
+<-- 1|HUSB|Y|I8
+
+--> 1 WIFE I9
+<-- 1|WIFE|Y|I9
+
+--> 1 CHIL I11
+<-- 1|CHIL|Y|I11
+
+--> 1 MARR
+<-- 1|MARR|Y|
+
+--> 2 DATE 21 MAY 2006
+<-- 2|DATE|Y|21 MAY 2006
+
+--> 1 _CURRENT Y
+<-- 1|_CURRENT|N|Y
+
+--> 0 F5 FAM
+<-- 0|FAM|Y|F5
+
+--> 1 HUSB I8
+<-- 1|HUSB|Y|I8
+
+--> 1 WIFE I12
+<-- 1|WIFE|Y|I12
+
+--> 1 CHIL I13
+<-- 1|CHIL|Y|I13
+
+--> 1 MARR
+<-- 1|MARR|Y|
+
+--> 2 DATE 20 DEC 1996
+<-- 2|DATE|Y|20 DEC 1996
+
+--> 1 EVEN
+<-- 1|EVEN|N|
+
+--> 2 TYPE Ending
+<-- 2|TYPE|N|Ending
+
+--> 1 _CURRENT N
+<-- 1|_CURRENT|N|N
+
+--> 0 TRLR
+<-- 0|TRLR|Y|
