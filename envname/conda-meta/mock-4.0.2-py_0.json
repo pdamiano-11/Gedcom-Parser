@@ -1,0 +1,127 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mock-4.0.2-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/mock-4.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/mock-4.0.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/mock-4.0.2.dist-info/METADATA",
+    "Lib/site-packages/mock-4.0.2.dist-info/RECORD",
+    "Lib/site-packages/mock-4.0.2.dist-info/WHEEL",
+    "Lib/site-packages/mock-4.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/mock/__init__.py",
+    "Lib/site-packages/mock/backports.py",
+    "Lib/site-packages/mock/mock.py",
+    ".nonadmin",
+    "Lib/site-packages/mock/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/mock/__pycache__/backports.cpython-38.pyc",
+    "Lib/site-packages/mock/__pycache__/mock.cpython-38.pyc"
+  ],
+  "fn": "mock-4.0.2-py_0.conda",
+  "legacy_bz2_md5": "be115444b9b1aadf574ac2a5e1104655",
+  "legacy_bz2_size": 31438,
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mock-4.0.2-py_0",
+    "type": 1
+  },
+  "md5": "8a02bea6e32b4ed7f98165b582f84b04",
+  "name": "mock",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mock-4.0.2-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "5831ee149d3850b28df8ff02fb7bd07cecda81e85cc8435c20827d3922202d34",
+        "sha256_in_prefix": "5831ee149d3850b28df8ff02fb7bd07cecda81e85cc8435c20827d3922202d34",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "57834b3364af550ef3520069680208913ada22653533e50aae676140b6e8914c",
+        "sha256_in_prefix": "57834b3364af550ef3520069680208913ada22653533e50aae676140b6e8914c",
+        "size_in_bytes": 2819
+      },
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "80b8b93de55e48b80fd6d530734b3052fe46ea90f068635bceb745ee50895ae5",
+        "sha256_in_prefix": "80b8b93de55e48b80fd6d530734b3052fe46ea90f068635bceb745ee50895ae5",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/mock-4.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "61b1946176b6d6031da0cac42e0f359e77e47c121de491809bb2bc6cc53c8564",
+        "sha256_in_prefix": "61b1946176b6d6031da0cac42e0f359e77e47c121de491809bb2bc6cc53c8564",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/mock/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ebd3c27dee9ce566c060d34391255982390e34ee989a8cbff41e8baf0531d4cb",
+        "sha256_in_prefix": "ebd3c27dee9ce566c060d34391255982390e34ee989a8cbff41e8baf0531d4cb",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "site-packages/mock/backports.py",
+        "path_type": "hardlink",
+        "sha256": "cf1bb71671643c54febf2f4b4d870447e7610d87104b01ed6c62186af113deaf",
+        "sha256_in_prefix": "cf1bb71671643c54febf2f4b4d870447e7610d87104b01ed6c62186af113deaf",
+        "size_in_bytes": 2808
+      },
+      {
+        "_path": "site-packages/mock/mock.py",
+        "path_type": "hardlink",
+        "sha256": "9f3591d6adca2f5a58a134f081d3e3cff85b1eb4891586ac4a10ca92eac6cb67",
+        "sha256_in_prefix": "9f3591d6adca2f5a58a134f081d3e3cff85b1eb4891586ac4a10ca92eac6cb67",
+        "size_in_bytes": 100579
+      },
+      {
+        "_path": "Lib/site-packages/mock/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/mock/__pycache__/backports.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/mock/__pycache__/mock.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9e4a0941f479caf6126bb1ebf8e152efeb32aa73b12502fb3259276fd9d0c624",
+  "size": 32679,
+  "subdir": "noarch",
+  "timestamp": 1588171944050,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/mock-4.0.2-py_0.conda",
+  "version": "4.0.2"
+}

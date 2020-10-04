@@ -1,0 +1,97 @@
+{
+  "build": "py38ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pyodbc-4.0.30-py38ha925a31_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/INSTALLER",
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/LICENSE.txt",
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/METADATA",
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/RECORD",
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/WHEEL",
+    "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/top_level.txt",
+    "Lib/site-packages/pyodbc.cp38-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "pyodbc-4.0.30-py38ha925a31_0.conda",
+  "legacy_bz2_md5": "3880958db460570004e06edcd0d83e46",
+  "legacy_bz2_size": 74337,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pyodbc-4.0.30-py38ha925a31_0",
+    "type": 1
+  },
+  "md5": "26e12e1aae0022e5cdde72ec2aa33059",
+  "name": "pyodbc",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pyodbc-4.0.30-py38ha925a31_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "9859c85770c91b7866b0f769c938e36d64d0260141b529b947b4ead96883eab4",
+        "sha256_in_prefix": "9859c85770c91b7866b0f769c938e36d64d0260141b529b947b4ead96883eab4",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ab75cf0173e126f4f45ec4a1438e67e76ccd1e2fe43a023932fd7028cfaa02b1",
+        "sha256_in_prefix": "ab75cf0173e126f4f45ec4a1438e67e76ccd1e2fe43a023932fd7028cfaa02b1",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "55205e3b7bd4aebf76e27ac0a24c481d3b4eb49b736eca6f1d4651b6b6137cdc",
+        "sha256_in_prefix": "55205e3b7bd4aebf76e27ac0a24c481d3b4eb49b736eca6f1d4651b6b6137cdc",
+        "size_in_bytes": 633
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f8e0dcd9ad803bf609e53e3a34eaae1df5a344cedb42f96df9fdf345a2c18cbe",
+        "sha256_in_prefix": "f8e0dcd9ad803bf609e53e3a34eaae1df5a344cedb42f96df9fdf345a2c18cbe",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc-4.0.0_unsupported.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+        "sha256_in_prefix": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/pyodbc.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "0b418aa9e61ece7e9a6f23a460b31799ab951cc09f294dcc4ad384b7028aa574",
+        "sha256_in_prefix": "0b418aa9e61ece7e9a6f23a460b31799ab951cc09f294dcc4ad384b7028aa574",
+        "size_in_bytes": 152576
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c21721bd6594109c342865eb98d6fc804a9007a12e74c0853cdd6fefebdb3948",
+  "size": 69812,
+  "subdir": "win-64",
+  "timestamp": 1581353736605,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyodbc-4.0.30-py38ha925a31_0.conda",
+  "version": "4.0.30"
+}

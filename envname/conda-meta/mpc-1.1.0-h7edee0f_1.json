@@ -1,0 +1,81 @@
+{
+  "build": "h7edee0f_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "mpfr >=4.0.2,<5.0a0",
+    "mpir",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpc-1.1.0-h7edee0f_1",
+  "features": "",
+  "files": [
+    "Library/bin/mpc.dll",
+    "Library/bin/mpc.pdb",
+    "Library/include/mpc.h",
+    "Library/lib/mpc.lib",
+    "Library/lib/mpc_static.lib",
+    ".nonadmin"
+  ],
+  "fn": "mpc-1.1.0-h7edee0f_1.conda",
+  "legacy_bz2_md5": "b1f4a2141e12612249b8089819955455",
+  "legacy_bz2_size": 318236,
+  "license": "LGPL-3-or-later",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpc-1.1.0-h7edee0f_1",
+    "type": 1
+  },
+  "md5": "28e63ce0fc73626eacf9aaabc85e3215",
+  "name": "mpc",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpc-1.1.0-h7edee0f_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/mpc.dll",
+        "path_type": "hardlink",
+        "sha256": "ba29f18e287215bfe6d650acd70b2b653e9c0a09103d51f790d1e06fb4034a69",
+        "sha256_in_prefix": "ba29f18e287215bfe6d650acd70b2b653e9c0a09103d51f790d1e06fb4034a69",
+        "size_in_bytes": 82944
+      },
+      {
+        "_path": "Library/bin/mpc.pdb",
+        "path_type": "hardlink",
+        "sha256": "fe6c7f382d0a5f4f622948dc47ae62e222f315b46a9169900cc637907bd79c22",
+        "sha256_in_prefix": "fe6c7f382d0a5f4f622948dc47ae62e222f315b46a9169900cc637907bd79c22",
+        "size_in_bytes": 905216
+      },
+      {
+        "_path": "Library/include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "sha256_in_prefix": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "size_in_bytes": 12898
+      },
+      {
+        "_path": "Library/lib/mpc.lib",
+        "path_type": "hardlink",
+        "sha256": "61fc0993447c16eae5b85491fff9b20481595a57674196a3c35caebac5fe74c4",
+        "sha256_in_prefix": "61fc0993447c16eae5b85491fff9b20481595a57674196a3c35caebac5fe74c4",
+        "size_in_bytes": 19996
+      },
+      {
+        "_path": "Library/lib/mpc_static.lib",
+        "path_type": "hardlink",
+        "sha256": "fa98ab7b1889d891aeae9306bc53125a35f278ba1261aacde701959248f30c44",
+        "sha256_in_prefix": "fa98ab7b1889d891aeae9306bc53125a35f278ba1261aacde701959248f30c44",
+        "size_in_bytes": 469454
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4b6bdc2959b2e677ab88ee1e9f5fc3bd7215d0a9512c25fabd51b2e694b4402d",
+  "size": 266142,
+  "subdir": "win-64",
+  "timestamp": 1593196545234,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mpc-1.1.0-h7edee0f_1.conda",
+  "version": "1.1.0"
+}

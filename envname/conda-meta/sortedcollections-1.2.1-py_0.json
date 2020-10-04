@@ -1,0 +1,129 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sortedcontainers >=2.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sortedcollections-1.2.1-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/LICENSE",
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/METADATA",
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/RECORD",
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/WHEEL",
+    "Lib/site-packages/sortedcollections-1.2.1.dist-info/top_level.txt",
+    "Lib/site-packages/sortedcollections/__init__.py",
+    "Lib/site-packages/sortedcollections/ordereddict.py",
+    "Lib/site-packages/sortedcollections/recipes.py",
+    ".nonadmin",
+    "Lib/site-packages/sortedcollections/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sortedcollections/__pycache__/ordereddict.cpython-38.pyc",
+    "Lib/site-packages/sortedcollections/__pycache__/recipes.cpython-38.pyc"
+  ],
+  "fn": "sortedcollections-1.2.1-py_0.conda",
+  "legacy_bz2_md5": "a0b6c2c949b894f56b6675b3761dbe2a",
+  "legacy_bz2_size": 12992,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sortedcollections-1.2.1-py_0",
+    "type": 1
+  },
+  "md5": "f54f0237ba6e665cf14576acad384e9e",
+  "name": "sortedcollections",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sortedcollections-1.2.1-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "eb8178fd2d080e56088eb0c7ab43079ceca7105ccbc2843220ee895f4ca4836b",
+        "sha256_in_prefix": "eb8178fd2d080e56088eb0c7ab43079ceca7105ccbc2843220ee895f4ca4836b",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "949787688fd473237b6bd83b2486e076ccf747cb2a84375ce61ad756e6c2a8bb",
+        "sha256_in_prefix": "949787688fd473237b6bd83b2486e076ccf747cb2a84375ce61ad756e6c2a8bb",
+        "size_in_bytes": 4811
+      },
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "76a492fd83f3f5da65588b265708e10783a815fdd29460e65dd003a8590b474a",
+        "sha256_in_prefix": "76a492fd83f3f5da65588b265708e10783a815fdd29460e65dd003a8590b474a",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/sortedcollections-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "edb9fc8d56a96ae486411243d44e52be105e7f25a7d9aa374d17271687f73c62",
+        "sha256_in_prefix": "edb9fc8d56a96ae486411243d44e52be105e7f25a7d9aa374d17271687f73c62",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/sortedcollections/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93d3329c9eb3a00bfd85e82fc1df5b08decacac8f7ea7cd346d704c4826adb33",
+        "sha256_in_prefix": "93d3329c9eb3a00bfd85e82fc1df5b08decacac8f7ea7cd346d704c4826adb33",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "site-packages/sortedcollections/ordereddict.py",
+        "path_type": "hardlink",
+        "sha256": "1dec52430df20e4bb98f097f3c2ee378a556f360b4a9d5a2539b8b01b67c05c9",
+        "sha256_in_prefix": "1dec52430df20e4bb98f097f3c2ee378a556f360b4a9d5a2539b8b01b67c05c9",
+        "size_in_bytes": 6574
+      },
+      {
+        "_path": "site-packages/sortedcollections/recipes.py",
+        "path_type": "hardlink",
+        "sha256": "062cd01580cc1bd93748e0b69418e03c326a1283103dd9934b0803d141c9f0a8",
+        "sha256_in_prefix": "062cd01580cc1bd93748e0b69418e03c326a1283103dd9934b0803d141c9f0a8",
+        "size_in_bytes": 10421
+      },
+      {
+        "_path": "Lib/site-packages/sortedcollections/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sortedcollections/__pycache__/ordereddict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sortedcollections/__pycache__/recipes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2e5df4033be54f111814c1dfc994eb2a518cf335f28aafa1479e58700a23a0c8",
+  "size": 12953,
+  "subdir": "noarch",
+  "timestamp": 1592328091058,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sortedcollections-1.2.1-py_0.conda",
+  "version": "1.2.1"
+}

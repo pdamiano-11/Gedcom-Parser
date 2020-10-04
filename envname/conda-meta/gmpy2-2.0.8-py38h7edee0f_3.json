@@ -1,0 +1,59 @@
+{
+  "build": "py38h7edee0f_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "mpc",
+    "mpfr >=4.0.1,<5.0a0",
+    "mpir",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\gmpy2-2.0.8-py38h7edee0f_3",
+  "features": "",
+  "files": [
+    "Lib/site-packages/gmpy2-2.0.8-py3.8.egg-info",
+    "Lib/site-packages/gmpy2.cp38-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "gmpy2-2.0.8-py38h7edee0f_3.conda",
+  "legacy_bz2_md5": "b231829e3950d2b4b8c085df9a70bd39",
+  "legacy_bz2_size": 172333,
+  "license": "LGPL 3",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\gmpy2-2.0.8-py38h7edee0f_3",
+    "type": 1
+  },
+  "md5": "0800a3cf13ec7580aecb1e3ec341eb9b",
+  "name": "gmpy2",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\gmpy2-2.0.8-py38h7edee0f_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/gmpy2-2.0.8-py3.8.egg-info",
+        "path_type": "hardlink",
+        "sha256": "2f77dc401d09649620f35f3481347fc1a1c1ada668c02e2b1a907097654dc8b8",
+        "sha256_in_prefix": "2f77dc401d09649620f35f3481347fc1a1c1ada668c02e2b1a907097654dc8b8",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "Lib/site-packages/gmpy2.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "9e0e7aa256857da4391cc71e894afe994bc36c0fd0a731b21828f826b0aaa299",
+        "sha256_in_prefix": "9e0e7aa256857da4391cc71e894afe994bc36c0fd0a731b21828f826b0aaa299",
+        "size_in_bytes": 501248
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6e518dae6b4a8c11602cc0c4fd66de01ac4e85ca5eed29e4a89275f40a2a7800",
+  "size": 148022,
+  "subdir": "win-64",
+  "timestamp": 1572874420987,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/gmpy2-2.0.8-py38h7edee0f_3.conda",
+  "version": "2.0.8"
+}

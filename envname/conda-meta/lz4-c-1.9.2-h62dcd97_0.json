@@ -1,0 +1,95 @@
+{
+  "build": "h62dcd97_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\lz4-c-1.9.2-h62dcd97_0",
+  "features": "",
+  "files": [
+    "Library/bin/liblz4.dll",
+    "Library/bin/lz4.exe",
+    "Library/include/lz4.h",
+    "Library/include/lz4frame.h",
+    "Library/include/lz4hc.h",
+    "Library/lib/liblz4.lib",
+    "Library/lib/liblz4_static.lib",
+    ".nonadmin"
+  ],
+  "fn": "lz4-c-1.9.2-h62dcd97_0.conda",
+  "legacy_bz2_md5": "4faf2f59795e8e1a95cfc346c99233d4",
+  "legacy_bz2_size": 302299,
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\lz4-c-1.9.2-h62dcd97_0",
+    "type": 1
+  },
+  "md5": "f4db2d1054a2ab5c640554c731711ba1",
+  "name": "lz4-c",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\lz4-c-1.9.2-h62dcd97_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/liblz4.dll",
+        "path_type": "hardlink",
+        "sha256": "7b188f777bf1083e7b11949ad2248f37978aa41072cb33d0f57197356f550bfe",
+        "sha256_in_prefix": "7b188f777bf1083e7b11949ad2248f37978aa41072cb33d0f57197356f550bfe",
+        "size_in_bytes": 101888
+      },
+      {
+        "_path": "Library/bin/lz4.exe",
+        "path_type": "hardlink",
+        "sha256": "9d3dd2844499fbc00d1da309a275ff0062054f8f861c343fd1a6bbfa9fc7df5f",
+        "sha256_in_prefix": "9d3dd2844499fbc00d1da309a275ff0062054f8f861c343fd1a6bbfa9fc7df5f",
+        "size_in_bytes": 143360
+      },
+      {
+        "_path": "Library/include/lz4.h",
+        "path_type": "hardlink",
+        "sha256": "13dee89947a6e2adc051072861a0da1a938ee26d0fdf177777f8aba2a46fd435",
+        "sha256_in_prefix": "13dee89947a6e2adc051072861a0da1a938ee26d0fdf177777f8aba2a46fd435",
+        "size_in_bytes": 39943
+      },
+      {
+        "_path": "Library/include/lz4frame.h",
+        "path_type": "hardlink",
+        "sha256": "85ec247097470f227ef27d6291a49fe475d0d779d67679b72dfd8d38a102a395",
+        "sha256_in_prefix": "85ec247097470f227ef27d6291a49fe475d0d779d67679b72dfd8d38a102a395",
+        "size_in_bytes": 28657
+      },
+      {
+        "_path": "Library/include/lz4hc.h",
+        "path_type": "hardlink",
+        "sha256": "12d5d9424059d5b6d7570e7a3cb54ed6e8b4b5ed5bb51977bb150c68c056f228",
+        "sha256_in_prefix": "12d5d9424059d5b6d7570e7a3cb54ed6e8b4b5ed5bb51977bb150c68c056f228",
+        "size_in_bytes": 21357
+      },
+      {
+        "_path": "Library/lib/liblz4.lib",
+        "path_type": "hardlink",
+        "sha256": "a81f6c58148d1b46d4965679fceb2d0af24bc6d543ee14a7ebcc5a1ede35cf19",
+        "sha256_in_prefix": "a81f6c58148d1b46d4965679fceb2d0af24bc6d543ee14a7ebcc5a1ede35cf19",
+        "size_in_bytes": 22278
+      },
+      {
+        "_path": "Library/lib/liblz4_static.lib",
+        "path_type": "hardlink",
+        "sha256": "8f5b8f6fa1e99b1c5935f02187b19bad851c0279678fc15f8ea75ce2cb213ece",
+        "sha256_in_prefix": "8f5b8f6fa1e99b1c5935f02187b19bad851c0279678fc15f8ea75ce2cb213ece",
+        "size_in_bytes": 541716
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88edb5939e25470a3ed68105a8eef65a202e9e009453905f11e3c4428ed0e1ff",
+  "size": 235900,
+  "subdir": "win-64",
+  "timestamp": 1587011860447,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.9.2-h62dcd97_0.conda",
+  "version": "1.9.2"
+}

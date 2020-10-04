@@ -1,0 +1,2448 @@
+{
+  "build": "ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\liblief-0.10.1-ha925a31_0",
+  "features": "",
+  "files": [
+    "bin/libLIEF.dll",
+    "include/LIEF/ART.hpp",
+    "include/LIEF/ART/EnumToString.hpp",
+    "include/LIEF/ART/File.hpp",
+    "include/LIEF/ART/Header.hpp",
+    "include/LIEF/ART/Parser.hpp",
+    "include/LIEF/ART/Structures.hpp",
+    "include/LIEF/ART/enums.hpp",
+    "include/LIEF/ART/hash.hpp",
+    "include/LIEF/ART/java_structures.hpp",
+    "include/LIEF/ART/json.hpp",
+    "include/LIEF/ART/type_traits.hpp",
+    "include/LIEF/ART/utils.hpp",
+    "include/LIEF/Abstract.hpp",
+    "include/LIEF/Abstract/Binary.hpp",
+    "include/LIEF/Abstract/EnumToString.hpp",
+    "include/LIEF/Abstract/Function.hpp",
+    "include/LIEF/Abstract/Header.hpp",
+    "include/LIEF/Abstract/Parser.hpp",
+    "include/LIEF/Abstract/Relocation.hpp",
+    "include/LIEF/Abstract/Section.hpp",
+    "include/LIEF/Abstract/Symbol.hpp",
+    "include/LIEF/Abstract/enums.hpp",
+    "include/LIEF/Abstract/hash.hpp",
+    "include/LIEF/Abstract/json.hpp",
+    "include/LIEF/Abstract/type_traits.hpp",
+    "include/LIEF/BinaryStream/BinaryStream.hpp",
+    "include/LIEF/BinaryStream/Convert.hpp",
+    "include/LIEF/BinaryStream/VectorStream.hpp",
+    "include/LIEF/DEX.hpp",
+    "include/LIEF/DEX/Class.hpp",
+    "include/LIEF/DEX/CodeInfo.hpp",
+    "include/LIEF/DEX/EnumToString.hpp",
+    "include/LIEF/DEX/File.hpp",
+    "include/LIEF/DEX/Header.hpp",
+    "include/LIEF/DEX/MapItem.hpp",
+    "include/LIEF/DEX/MapList.hpp",
+    "include/LIEF/DEX/Method.hpp",
+    "include/LIEF/DEX/Parser.hpp",
+    "include/LIEF/DEX/Prototype.hpp",
+    "include/LIEF/DEX/Structures.hpp",
+    "include/LIEF/DEX/Type.hpp",
+    "include/LIEF/DEX/enums.hpp",
+    "include/LIEF/DEX/hash.hpp",
+    "include/LIEF/DEX/instructions.hpp",
+    "include/LIEF/DEX/json.hpp",
+    "include/LIEF/DEX/type_traits.hpp",
+    "include/LIEF/DEX/utils.hpp",
+    "include/LIEF/DWARF.hpp",
+    "include/LIEF/DWARF/enums.hpp",
+    "include/LIEF/ELF.h",
+    "include/LIEF/ELF.hpp",
+    "include/LIEF/ELF/Binary.h",
+    "include/LIEF/ELF/Binary.hpp",
+    "include/LIEF/ELF/Builder.hpp",
+    "include/LIEF/ELF/DataHandler/Handler.hpp",
+    "include/LIEF/ELF/DataHandler/Node.hpp",
+    "include/LIEF/ELF/DynamicEntry.h",
+    "include/LIEF/ELF/DynamicEntry.hpp",
+    "include/LIEF/ELF/DynamicEntryArray.hpp",
+    "include/LIEF/ELF/DynamicEntryFlags.hpp",
+    "include/LIEF/ELF/DynamicEntryLibrary.hpp",
+    "include/LIEF/ELF/DynamicEntryRpath.hpp",
+    "include/LIEF/ELF/DynamicEntryRunPath.hpp",
+    "include/LIEF/ELF/DynamicSharedObject.hpp",
+    "include/LIEF/ELF/EnumToString.h",
+    "include/LIEF/ELF/EnumToString.hpp",
+    "include/LIEF/ELF/GnuHash.hpp",
+    "include/LIEF/ELF/Header.h",
+    "include/LIEF/ELF/Header.hpp",
+    "include/LIEF/ELF/Note.hpp",
+    "include/LIEF/ELF/NoteDetails.hpp",
+    "include/LIEF/ELF/NoteDetails/AndroidNote.hpp",
+    "include/LIEF/ELF/NoteDetails/Core.hpp",
+    "include/LIEF/ELF/NoteDetails/NoteAbi.hpp",
+    "include/LIEF/ELF/NoteDetails/core/CoreAuxv.hpp",
+    "include/LIEF/ELF/NoteDetails/core/CoreFile.hpp",
+    "include/LIEF/ELF/NoteDetails/core/CorePrPsInfo.hpp",
+    "include/LIEF/ELF/NoteDetails/core/CorePrStatus.hpp",
+    "include/LIEF/ELF/NoteDetails/core/CoreSigInfo.hpp",
+    "include/LIEF/ELF/Parser.hpp",
+    "include/LIEF/ELF/Relocation.hpp",
+    "include/LIEF/ELF/RelocationSizes.hpp",
+    "include/LIEF/ELF/Relocations/AArch64.def",
+    "include/LIEF/ELF/Relocations/ARM.def",
+    "include/LIEF/ELF/Relocations/Hexagon.def",
+    "include/LIEF/ELF/Relocations/Mips.def",
+    "include/LIEF/ELF/Relocations/PowerPC.def",
+    "include/LIEF/ELF/Relocations/PowerPC64.def",
+    "include/LIEF/ELF/Relocations/Sparc.def",
+    "include/LIEF/ELF/Relocations/SystemZ.def",
+    "include/LIEF/ELF/Relocations/i386.def",
+    "include/LIEF/ELF/Relocations/x86_64.def",
+    "include/LIEF/ELF/Section.h",
+    "include/LIEF/ELF/Section.hpp",
+    "include/LIEF/ELF/Segment.h",
+    "include/LIEF/ELF/Segment.hpp",
+    "include/LIEF/ELF/Structures.hpp",
+    "include/LIEF/ELF/Symbol.h",
+    "include/LIEF/ELF/Symbol.hpp",
+    "include/LIEF/ELF/SymbolVersion.hpp",
+    "include/LIEF/ELF/SymbolVersionAux.hpp",
+    "include/LIEF/ELF/SymbolVersionAuxRequirement.hpp",
+    "include/LIEF/ELF/SymbolVersionDefinition.hpp",
+    "include/LIEF/ELF/SymbolVersionRequirement.hpp",
+    "include/LIEF/ELF/SysvHash.hpp",
+    "include/LIEF/ELF/enums.h",
+    "include/LIEF/ELF/enums.hpp",
+    "include/LIEF/ELF/hash.hpp",
+    "include/LIEF/ELF/json.hpp",
+    "include/LIEF/ELF/structures.h",
+    "include/LIEF/ELF/type_traits.hpp",
+    "include/LIEF/ELF/undef.h",
+    "include/LIEF/ELF/utils.h",
+    "include/LIEF/ELF/utils.hpp",
+    "include/LIEF/LIEF.h",
+    "include/LIEF/LIEF.hpp",
+    "include/LIEF/MachO.h",
+    "include/LIEF/MachO.hpp",
+    "include/LIEF/MachO/Binary.h",
+    "include/LIEF/MachO/Binary.hpp",
+    "include/LIEF/MachO/BinaryParser.hpp",
+    "include/LIEF/MachO/BindingInfo.hpp",
+    "include/LIEF/MachO/BuildVersion.hpp",
+    "include/LIEF/MachO/Builder.hpp",
+    "include/LIEF/MachO/CodeSignature.hpp",
+    "include/LIEF/MachO/DataCodeEntry.hpp",
+    "include/LIEF/MachO/DataInCode.hpp",
+    "include/LIEF/MachO/DyldEnvironment.hpp",
+    "include/LIEF/MachO/DyldInfo.hpp",
+    "include/LIEF/MachO/DylibCommand.hpp",
+    "include/LIEF/MachO/DylinkerCommand.hpp",
+    "include/LIEF/MachO/DynamicSymbolCommand.hpp",
+    "include/LIEF/MachO/EncryptionInfo.hpp",
+    "include/LIEF/MachO/EnumToString.h",
+    "include/LIEF/MachO/EnumToString.hpp",
+    "include/LIEF/MachO/ExportInfo.hpp",
+    "include/LIEF/MachO/FatBinary.hpp",
+    "include/LIEF/MachO/FunctionStarts.hpp",
+    "include/LIEF/MachO/Header.h",
+    "include/LIEF/MachO/Header.hpp",
+    "include/LIEF/MachO/LoadCommand.h",
+    "include/LIEF/MachO/LoadCommand.hpp",
+    "include/LIEF/MachO/MainCommand.hpp",
+    "include/LIEF/MachO/Parser.hpp",
+    "include/LIEF/MachO/ParserConfig.hpp",
+    "include/LIEF/MachO/RPathCommand.hpp",
+    "include/LIEF/MachO/Relocation.hpp",
+    "include/LIEF/MachO/RelocationDyld.hpp",
+    "include/LIEF/MachO/RelocationObject.hpp",
+    "include/LIEF/MachO/Section.h",
+    "include/LIEF/MachO/Section.hpp",
+    "include/LIEF/MachO/Segment.h",
+    "include/LIEF/MachO/SegmentCommand.hpp",
+    "include/LIEF/MachO/SegmentSplitInfo.hpp",
+    "include/LIEF/MachO/SourceVersion.hpp",
+    "include/LIEF/MachO/Structures.hpp",
+    "include/LIEF/MachO/SubFramework.hpp",
+    "include/LIEF/MachO/Symbol.h",
+    "include/LIEF/MachO/Symbol.hpp",
+    "include/LIEF/MachO/SymbolCommand.hpp",
+    "include/LIEF/MachO/ThreadCommand.hpp",
+    "include/LIEF/MachO/UUIDCommand.hpp",
+    "include/LIEF/MachO/VersionMin.hpp",
+    "include/LIEF/MachO/enums.h",
+    "include/LIEF/MachO/enums.hpp",
+    "include/LIEF/MachO/hash.hpp",
+    "include/LIEF/MachO/json.hpp",
+    "include/LIEF/MachO/structures.h",
+    "include/LIEF/MachO/type_traits.hpp",
+    "include/LIEF/MachO/undef.h",
+    "include/LIEF/MachO/utils.hpp",
+    "include/LIEF/OAT.hpp",
+    "include/LIEF/OAT/Binary.hpp",
+    "include/LIEF/OAT/Class.hpp",
+    "include/LIEF/OAT/DexFile.hpp",
+    "include/LIEF/OAT/EnumToString.hpp",
+    "include/LIEF/OAT/Header.hpp",
+    "include/LIEF/OAT/Method.hpp",
+    "include/LIEF/OAT/Parser.hpp",
+    "include/LIEF/OAT/Structures.hpp",
+    "include/LIEF/OAT/enums.hpp",
+    "include/LIEF/OAT/hash.hpp",
+    "include/LIEF/OAT/json.hpp",
+    "include/LIEF/OAT/type_traits.hpp",
+    "include/LIEF/OAT/utils.hpp",
+    "include/LIEF/Object.hpp",
+    "include/LIEF/PE.h",
+    "include/LIEF/PE.hpp",
+    "include/LIEF/PE/AuxiliarySymbol.hpp",
+    "include/LIEF/PE/Binary.h",
+    "include/LIEF/PE/Binary.hpp",
+    "include/LIEF/PE/Builder.hpp",
+    "include/LIEF/PE/CodeIntegrity.hpp",
+    "include/LIEF/PE/CodeView.hpp",
+    "include/LIEF/PE/CodeViewPDB.hpp",
+    "include/LIEF/PE/DataDirectory.h",
+    "include/LIEF/PE/DataDirectory.hpp",
+    "include/LIEF/PE/Debug.hpp",
+    "include/LIEF/PE/DosHeader.h",
+    "include/LIEF/PE/DosHeader.hpp",
+    "include/LIEF/PE/EnumToString.h",
+    "include/LIEF/PE/EnumToString.hpp",
+    "include/LIEF/PE/Export.hpp",
+    "include/LIEF/PE/ExportEntry.hpp",
+    "include/LIEF/PE/Header.h",
+    "include/LIEF/PE/Header.hpp",
+    "include/LIEF/PE/Import.h",
+    "include/LIEF/PE/Import.hpp",
+    "include/LIEF/PE/ImportEntry.h",
+    "include/LIEF/PE/ImportEntry.hpp",
+    "include/LIEF/PE/LoadConfigurations.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfiguration.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV0.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV1.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV2.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV3.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV4.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV5.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV6.hpp",
+    "include/LIEF/PE/LoadConfigurations/LoadConfigurationV7.hpp",
+    "include/LIEF/PE/OptionalHeader.h",
+    "include/LIEF/PE/OptionalHeader.hpp",
+    "include/LIEF/PE/Parser.hpp",
+    "include/LIEF/PE/Pogo.hpp",
+    "include/LIEF/PE/PogoEntry.hpp",
+    "include/LIEF/PE/Relocation.hpp",
+    "include/LIEF/PE/RelocationEntry.hpp",
+    "include/LIEF/PE/ResourceData.hpp",
+    "include/LIEF/PE/ResourceDirectory.hpp",
+    "include/LIEF/PE/ResourceNode.hpp",
+    "include/LIEF/PE/ResourcesManager.hpp",
+    "include/LIEF/PE/RichEntry.hpp",
+    "include/LIEF/PE/RichHeader.hpp",
+    "include/LIEF/PE/Section.h",
+    "include/LIEF/PE/Section.hpp",
+    "include/LIEF/PE/Structures.hpp",
+    "include/LIEF/PE/Symbol.hpp",
+    "include/LIEF/PE/TLS.hpp",
+    "include/LIEF/PE/enums.h",
+    "include/LIEF/PE/enums.hpp",
+    "include/LIEF/PE/hash.hpp",
+    "include/LIEF/PE/json.hpp",
+    "include/LIEF/PE/resources/LangCodeItem.hpp",
+    "include/LIEF/PE/resources/ResourceDialog.hpp",
+    "include/LIEF/PE/resources/ResourceDialogItem.hpp",
+    "include/LIEF/PE/resources/ResourceFixedFileInfo.hpp",
+    "include/LIEF/PE/resources/ResourceIcon.hpp",
+    "include/LIEF/PE/resources/ResourceStringFileInfo.hpp",
+    "include/LIEF/PE/resources/ResourceVarFileInfo.hpp",
+    "include/LIEF/PE/resources/ResourceVersion.hpp",
+    "include/LIEF/PE/signature/AuthenticatedAttributes.hpp",
+    "include/LIEF/PE/signature/ContentInfo.hpp",
+    "include/LIEF/PE/signature/OIDToString.hpp",
+    "include/LIEF/PE/signature/Signature.hpp",
+    "include/LIEF/PE/signature/SignatureParser.hpp",
+    "include/LIEF/PE/signature/SignerInfo.hpp",
+    "include/LIEF/PE/signature/types.hpp",
+    "include/LIEF/PE/signature/x509.hpp",
+    "include/LIEF/PE/structures.h",
+    "include/LIEF/PE/type_traits.hpp",
+    "include/LIEF/PE/undef.h",
+    "include/LIEF/PE/utils.hpp",
+    "include/LIEF/VDEX.hpp",
+    "include/LIEF/VDEX/EnumToString.hpp",
+    "include/LIEF/VDEX/File.hpp",
+    "include/LIEF/VDEX/Header.hpp",
+    "include/LIEF/VDEX/Parser.hpp",
+    "include/LIEF/VDEX/Structures.hpp",
+    "include/LIEF/VDEX/enums.hpp",
+    "include/LIEF/VDEX/hash.hpp",
+    "include/LIEF/VDEX/json.hpp",
+    "include/LIEF/VDEX/type_traits.hpp",
+    "include/LIEF/VDEX/utils.hpp",
+    "include/LIEF/Visitor.hpp",
+    "include/LIEF/associative_iterators.hpp",
+    "include/LIEF/config.h",
+    "include/LIEF/enums.hpp",
+    "include/LIEF/exception.hpp",
+    "include/LIEF/hash.hpp",
+    "include/LIEF/iostream.hpp",
+    "include/LIEF/iterators.hpp",
+    "include/LIEF/json.hpp",
+    "include/LIEF/logging++.hpp",
+    "include/LIEF/logging.h",
+    "include/LIEF/logging.hpp",
+    "include/LIEF/platforms.hpp",
+    "include/LIEF/platforms/android.hpp",
+    "include/LIEF/platforms/android/version.hpp",
+    "include/LIEF/to_json.hpp",
+    "include/LIEF/types.h",
+    "include/LIEF/types.hpp",
+    "include/LIEF/utils.hpp",
+    "include/LIEF/version.h",
+    "include/LIEF/visibility.h",
+    "include/LIEF/visitor_macros.hpp",
+    "include/LIEF/visitors/json.hpp",
+    "include/json.hpp",
+    "lib/libLIEF.dll",
+    "lib/libLIEF.lib",
+    "share/LIEF/cmake/FindLIEF.cmake",
+    ".nonadmin"
+  ],
+  "fn": "liblief-0.10.1-ha925a31_0.conda",
+  "legacy_bz2_md5": "e0d6df645938104de12df326a8af30c3",
+  "legacy_bz2_size": 3791824,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\liblief-0.10.1-ha925a31_0",
+    "type": 1
+  },
+  "md5": "f00102a864c1d4891ff87d34962b25e7",
+  "name": "liblief",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\liblief-0.10.1-ha925a31_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/libLIEF.dll",
+        "path_type": "hardlink",
+        "sha256": "d9254a5bca189cbb0c7cd56968b9ab733f63acf18b3b5a4d05b20d52ab7d6583",
+        "sha256_in_prefix": "d9254a5bca189cbb0c7cd56968b9ab733f63acf18b3b5a4d05b20d52ab7d6583",
+        "size_in_bytes": 6068224
+      },
+      {
+        "_path": "include/LIEF/ART.hpp",
+        "path_type": "hardlink",
+        "sha256": "11b1c69068f0b0edeae139835dbaa73c3b606169a5284aae8a4b7ffeae049fc8",
+        "sha256_in_prefix": "11b1c69068f0b0edeae139835dbaa73c3b606169a5284aae8a4b7ffeae049fc8",
+        "size_in_bytes": 820
+      },
+      {
+        "_path": "include/LIEF/ART/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "548d64065b34d819d009cabefd30ee0afb546c119cf3679b8d5a971cb8fe1703",
+        "sha256_in_prefix": "548d64065b34d819d009cabefd30ee0afb546c119cf3679b8d5a971cb8fe1703",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "include/LIEF/ART/File.hpp",
+        "path_type": "hardlink",
+        "sha256": "cfa2a156c9e1433685e54c57f3f5ac95b0d97a313ad46a941a98c9d9b288b27b",
+        "sha256_in_prefix": "cfa2a156c9e1433685e54c57f3f5ac95b0d97a313ad46a941a98c9d9b288b27b",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "include/LIEF/ART/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "0accee8710bf2a0fa3abe25a610776df442a5a3d4995c93e879ed6cfb76785ba",
+        "sha256_in_prefix": "0accee8710bf2a0fa3abe25a610776df442a5a3d4995c93e879ed6cfb76785ba",
+        "size_in_bytes": 2814
+      },
+      {
+        "_path": "include/LIEF/ART/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "44a560bbe95f5cbaf47ed7bc8bf23801d9c62d48e919d2cfb33d3e9655a97d8f",
+        "sha256_in_prefix": "44a560bbe95f5cbaf47ed7bc8bf23801d9c62d48e919d2cfb33d3e9655a97d8f",
+        "size_in_bytes": 3234
+      },
+      {
+        "_path": "include/LIEF/ART/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "d059c6f2888bf24e0d1dadf572a21d07989f25713752603c706418a8ce4ab977",
+        "sha256_in_prefix": "d059c6f2888bf24e0d1dadf572a21d07989f25713752603c706418a8ce4ab977",
+        "size_in_bytes": 19407
+      },
+      {
+        "_path": "include/LIEF/ART/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "54d548afedd33add622c2293c255fe98e42b80b36a0a30b39c0950ccbb787777",
+        "sha256_in_prefix": "54d548afedd33add622c2293c255fe98e42b80b36a0a30b39c0950ccbb787777",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "include/LIEF/ART/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "d7ef6a8e4d8456f8a0fd58edc4a2f4f7b78a1ede668513f7f096c408c4d0b9cb",
+        "sha256_in_prefix": "d7ef6a8e4d8456f8a0fd58edc4a2f4f7b78a1ede668513f7f096c408c4d0b9cb",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "include/LIEF/ART/java_structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "4caebbea0f110d607a7ede8a73ac086a29894bdb82a087934fa9b3f1ab282736",
+        "sha256_in_prefix": "4caebbea0f110d607a7ede8a73ac086a29894bdb82a087934fa9b3f1ab282736",
+        "size_in_bytes": 11567
+      },
+      {
+        "_path": "include/LIEF/ART/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "beb31fd6a8e981d3e82e916cd1d6e5a26a2bc47dfe435525d018b497f67db628",
+        "sha256_in_prefix": "beb31fd6a8e981d3e82e916cd1d6e5a26a2bc47dfe435525d018b497f67db628",
+        "size_in_bytes": 1222
+      },
+      {
+        "_path": "include/LIEF/ART/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "00467a9a2eeda1d73fa7a8d1a0da0e00550bc0059da7779dca1bcc69b3469a7f",
+        "sha256_in_prefix": "00467a9a2eeda1d73fa7a8d1a0da0e00550bc0059da7779dca1bcc69b3469a7f",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "include/LIEF/ART/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "53c2e53b4d966ea7a06535c69ae5420c9b27ea02500bf547fe444310cfa18380",
+        "sha256_in_prefix": "53c2e53b4d966ea7a06535c69ae5420c9b27ea02500bf547fe444310cfa18380",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "include/LIEF/Abstract.hpp",
+        "path_type": "hardlink",
+        "sha256": "d2b4a29270ba542955c40661804b6f9b86869be79f18312ed7c73e3a97bcc41a",
+        "sha256_in_prefix": "d2b4a29270ba542955c40661804b6f9b86869be79f18312ed7c73e3a97bcc41a",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "include/LIEF/Abstract/Binary.hpp",
+        "path_type": "hardlink",
+        "sha256": "a826dc4e76a4dc8aa5f7465d392efafe4d33888a7ab3e91aa62f13c5bdc2360e",
+        "sha256_in_prefix": "a826dc4e76a4dc8aa5f7465d392efafe4d33888a7ab3e91aa62f13c5bdc2360e",
+        "size_in_bytes": 5621
+      },
+      {
+        "_path": "include/LIEF/Abstract/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "bdeed2c6ecbda8069a2d7f1fc24a18a60e6dc41dda8dde8898f4f964667a854e",
+        "sha256_in_prefix": "bdeed2c6ecbda8069a2d7f1fc24a18a60e6dc41dda8dde8898f4f964667a854e",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "include/LIEF/Abstract/Function.hpp",
+        "path_type": "hardlink",
+        "sha256": "60444181528648387e6c67168585bd88ed22b5476464845bb84f452edf2302b5",
+        "sha256_in_prefix": "60444181528648387e6c67168585bd88ed22b5476464845bb84f452edf2302b5",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "include/LIEF/Abstract/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "84876b9ec86358b61e507c1180b6a313ff2bd3a7236cd0fcd9d33430fab9e56b",
+        "sha256_in_prefix": "84876b9ec86358b61e507c1180b6a313ff2bd3a7236cd0fcd9d33430fab9e56b",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "include/LIEF/Abstract/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "19fea23b7cd916896e3b75b915e0b261fe2c5fa134775c0ff269fddab5c60eb6",
+        "sha256_in_prefix": "19fea23b7cd916896e3b75b915e0b261fe2c5fa134775c0ff269fddab5c60eb6",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "include/LIEF/Abstract/Relocation.hpp",
+        "path_type": "hardlink",
+        "sha256": "d7619b5ba953c4e1904f491e7bce1d8bba6ffb179b87abf281cd4f9e4822682f",
+        "sha256_in_prefix": "d7619b5ba953c4e1904f491e7bce1d8bba6ffb179b87abf281cd4f9e4822682f",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "include/LIEF/Abstract/Section.hpp",
+        "path_type": "hardlink",
+        "sha256": "600a4f8322c479a49c660e2cb2f3183c8a14b89f431221aaa06c477a44315707",
+        "sha256_in_prefix": "600a4f8322c479a49c660e2cb2f3183c8a14b89f431221aaa06c477a44315707",
+        "size_in_bytes": 3090
+      },
+      {
+        "_path": "include/LIEF/Abstract/Symbol.hpp",
+        "path_type": "hardlink",
+        "sha256": "d0592e0645c93c93d71d5e459502dac2095423e55467b266da1d7d00a62a511e",
+        "sha256_in_prefix": "d0592e0645c93c93d71d5e459502dac2095423e55467b266da1d7d00a62a511e",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "include/LIEF/Abstract/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "7c17349869c71de08cadf2b060f45e7a34aed30d99903ccce4f82634de2b5045",
+        "sha256_in_prefix": "7c17349869c71de08cadf2b060f45e7a34aed30d99903ccce4f82634de2b5045",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "include/LIEF/Abstract/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "eb6409083c4795b979045b0a9916e0c258684df494703cf929aaedf84c6b54d5",
+        "sha256_in_prefix": "eb6409083c4795b979045b0a9916e0c258684df494703cf929aaedf84c6b54d5",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "include/LIEF/Abstract/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "5b6f4fe02c785d3daf28c8e82a3eabf306a8aad787a93ff39dee64a24fa1c595",
+        "sha256_in_prefix": "5b6f4fe02c785d3daf28c8e82a3eabf306a8aad787a93ff39dee64a24fa1c595",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "include/LIEF/Abstract/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "18e49bca4bb1525d318ec1084ead1d7dec451365f69cc88c98433c97fae174f3",
+        "sha256_in_prefix": "18e49bca4bb1525d318ec1084ead1d7dec451365f69cc88c98433c97fae174f3",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "include/LIEF/BinaryStream/BinaryStream.hpp",
+        "path_type": "hardlink",
+        "sha256": "74efe6a5ad64ef52f922deeacd4b16859aeadc040095c35bfa248f2b31e274f0",
+        "sha256_in_prefix": "74efe6a5ad64ef52f922deeacd4b16859aeadc040095c35bfa248f2b31e274f0",
+        "size_in_bytes": 6307
+      },
+      {
+        "_path": "include/LIEF/BinaryStream/Convert.hpp",
+        "path_type": "hardlink",
+        "sha256": "f01fd7831fff169fe808d33359942c4ac39cc041859ebdf7c7ba57fa5c7e02bb",
+        "sha256_in_prefix": "f01fd7831fff169fe808d33359942c4ac39cc041859ebdf7c7ba57fa5c7e02bb",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "include/LIEF/BinaryStream/VectorStream.hpp",
+        "path_type": "hardlink",
+        "sha256": "58d74bca64cc8d88e9961aad0cd145f3392794e0662d8a83e24c3c3f5857961f",
+        "sha256_in_prefix": "58d74bca64cc8d88e9961aad0cd145f3392794e0662d8a83e24c3c3f5857961f",
+        "size_in_bytes": 1229
+      },
+      {
+        "_path": "include/LIEF/DEX.hpp",
+        "path_type": "hardlink",
+        "sha256": "b94bde4abf28cd07cbdd14d68f10cfbfc89db01380fc1bd33282ef1640716510",
+        "sha256_in_prefix": "b94bde4abf28cd07cbdd14d68f10cfbfc89db01380fc1bd33282ef1640716510",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "include/LIEF/DEX/Class.hpp",
+        "path_type": "hardlink",
+        "sha256": "5f68c9a90f81fd95b6168a9db78c70002c56b26f5d23169cf930fd9cc3082ed4",
+        "sha256_in_prefix": "5f68c9a90f81fd95b6168a9db78c70002c56b26f5d23169cf930fd9cc3082ed4",
+        "size_in_bytes": 3189
+      },
+      {
+        "_path": "include/LIEF/DEX/CodeInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "eb94c686c3395dba1ddc7df21f9b3c2141de82299bdbe625bba43bb3fd935836",
+        "sha256_in_prefix": "eb94c686c3395dba1ddc7df21f9b3c2141de82299bdbe625bba43bb3fd935836",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "include/LIEF/DEX/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "0fe7358cf246ad75342b84c37440eef7574a5f5f2cc4dbde2f758968954fec1e",
+        "sha256_in_prefix": "0fe7358cf246ad75342b84c37440eef7574a5f5f2cc4dbde2f758968954fec1e",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "include/LIEF/DEX/File.hpp",
+        "path_type": "hardlink",
+        "sha256": "9351ba238a55adc5fa7cd507c7f84f9b50b55a775348ad872a1c19956c79d4c8",
+        "sha256_in_prefix": "9351ba238a55adc5fa7cd507c7f84f9b50b55a775348ad872a1c19956c79d4c8",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "include/LIEF/DEX/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "564e259d71a4aff310d3afd61bdc4dfaef860eb7f10e12f3aa9e361a73f7f888",
+        "sha256_in_prefix": "564e259d71a4aff310d3afd61bdc4dfaef860eb7f10e12f3aa9e361a73f7f888",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "include/LIEF/DEX/MapItem.hpp",
+        "path_type": "hardlink",
+        "sha256": "30a82eb39252474489f06d73b0ea0708a343bd8c131ac6a0c4750821fdbae729",
+        "sha256_in_prefix": "30a82eb39252474489f06d73b0ea0708a343bd8c131ac6a0c4750821fdbae729",
+        "size_in_bytes": 2352
+      },
+      {
+        "_path": "include/LIEF/DEX/MapList.hpp",
+        "path_type": "hardlink",
+        "sha256": "23b3c93815c170d6f8a40ca0b2c8d7aadaae25e8e5e172b49255cca60230fcd1",
+        "sha256_in_prefix": "23b3c93815c170d6f8a40ca0b2c8d7aadaae25e8e5e172b49255cca60230fcd1",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "include/LIEF/DEX/Method.hpp",
+        "path_type": "hardlink",
+        "sha256": "109b0ebcb83dfb0a5d749b0a416fdb7535aee2e2e7a4f98c10569fc60d9ef921",
+        "sha256_in_prefix": "109b0ebcb83dfb0a5d749b0a416fdb7535aee2e2e7a4f98c10569fc60d9ef921",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "include/LIEF/DEX/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ebe3d9ae3021c09eaddecfb97479261fe1bf9e7a6c85c8f7abab8db6ee412ca",
+        "sha256_in_prefix": "8ebe3d9ae3021c09eaddecfb97479261fe1bf9e7a6c85c8f7abab8db6ee412ca",
+        "size_in_bytes": 2981
+      },
+      {
+        "_path": "include/LIEF/DEX/Prototype.hpp",
+        "path_type": "hardlink",
+        "sha256": "f9ecb7e36528f871f8f0a6ce912ef40c675d6e7a4b75f7427b020286442936ae",
+        "sha256_in_prefix": "f9ecb7e36528f871f8f0a6ce912ef40c675d6e7a4b75f7427b020286442936ae",
+        "size_in_bytes": 1759
+      },
+      {
+        "_path": "include/LIEF/DEX/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "8c3af099287256a9c2ad71160f4848de625ca3d999dfaae2782283ac4e68a3e7",
+        "sha256_in_prefix": "8c3af099287256a9c2ad71160f4848de625ca3d999dfaae2782283ac4e68a3e7",
+        "size_in_bytes": 7064
+      },
+      {
+        "_path": "include/LIEF/DEX/Type.hpp",
+        "path_type": "hardlink",
+        "sha256": "687a8b6d3320b4432c5d7c5ab4571173741386ce10a621a8f5742c26d42320cd",
+        "sha256_in_prefix": "687a8b6d3320b4432c5d7c5ab4571173741386ce10a621a8f5742c26d42320cd",
+        "size_in_bytes": 2234
+      },
+      {
+        "_path": "include/LIEF/DEX/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "3d7deeaf4350b3d3d1d8db759dd0ae22d63fd71a920ab5204f6afb86d674866a",
+        "sha256_in_prefix": "3d7deeaf4350b3d3d1d8db759dd0ae22d63fd71a920ab5204f6afb86d674866a",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "include/LIEF/DEX/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "6d435d4cc861d769a9660f10e45c78f45906ec5249ac6b17482b66d6209a3665",
+        "sha256_in_prefix": "6d435d4cc861d769a9660f10e45c78f45906ec5249ac6b17482b66d6209a3665",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "include/LIEF/DEX/instructions.hpp",
+        "path_type": "hardlink",
+        "sha256": "b551a2a6a77debc36aba9978f79fb5b2c8a6fa336d0f4885c3ad70d0b9668b99",
+        "sha256_in_prefix": "b551a2a6a77debc36aba9978f79fb5b2c8a6fa336d0f4885c3ad70d0b9668b99",
+        "size_in_bytes": 10897
+      },
+      {
+        "_path": "include/LIEF/DEX/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "3f0e4eac1a3865678934744ee08326ad023c994ce87df60e12388f1b8a4ac3bf",
+        "sha256_in_prefix": "3f0e4eac1a3865678934744ee08326ad023c994ce87df60e12388f1b8a4ac3bf",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "include/LIEF/DEX/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "9aecdc2d08422d40459708efb9f89069f0d9b0dba6aa3883905325b044015549",
+        "sha256_in_prefix": "9aecdc2d08422d40459708efb9f89069f0d9b0dba6aa3883905325b044015549",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "include/LIEF/DEX/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "8299416cc3dd6b6af68bdec6c6a7eca239751a916e0a60bd8996cabfeba13176",
+        "sha256_in_prefix": "8299416cc3dd6b6af68bdec6c6a7eca239751a916e0a60bd8996cabfeba13176",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "include/LIEF/DWARF.hpp",
+        "path_type": "hardlink",
+        "sha256": "1d66420f826fe547971a49d476d20a7c354140e6dad1e77ab31b5103fb6e017f",
+        "sha256_in_prefix": "1d66420f826fe547971a49d476d20a7c354140e6dad1e77ab31b5103fb6e017f",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "include/LIEF/DWARF/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "986efbc19afcf26d4c4eb7c5030fa80aa463e12544b14d4e0e858089bb1aa687",
+        "sha256_in_prefix": "986efbc19afcf26d4c4eb7c5030fa80aa463e12544b14d4e0e858089bb1aa687",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "include/LIEF/ELF.h",
+        "path_type": "hardlink",
+        "sha256": "d114778ce83c6ab24a765181fe30c05dff5800ff7b09faea8d5d07abca5261d6",
+        "sha256_in_prefix": "d114778ce83c6ab24a765181fe30c05dff5800ff7b09faea8d5d07abca5261d6",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "include/LIEF/ELF.hpp",
+        "path_type": "hardlink",
+        "sha256": "105aa5645b3d65faa2999aeda0cad3710932130f76e27f7c79ba4a049d76a789",
+        "sha256_in_prefix": "105aa5645b3d65faa2999aeda0cad3710932130f76e27f7c79ba4a049d76a789",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "include/LIEF/ELF/Binary.h",
+        "path_type": "hardlink",
+        "sha256": "f2d17e02d6ecb337353bd913c63093bd523200cea97f73cf9a48dfbeb79a4cb7",
+        "sha256_in_prefix": "f2d17e02d6ecb337353bd913c63093bd523200cea97f73cf9a48dfbeb79a4cb7",
+        "size_in_bytes": 1902
+      },
+      {
+        "_path": "include/LIEF/ELF/Binary.hpp",
+        "path_type": "hardlink",
+        "sha256": "ab78b7b2b35135239a83bc3bf226b2705865a01b594bf98956513f998e5bc529",
+        "sha256_in_prefix": "ab78b7b2b35135239a83bc3bf226b2705865a01b594bf98956513f998e5bc529",
+        "size_in_bytes": 22770
+      },
+      {
+        "_path": "include/LIEF/ELF/Builder.hpp",
+        "path_type": "hardlink",
+        "sha256": "86bb9f0e98377ffcbecbb9736e95b4ccd1785a3a77aab27ff3993f3d6c839aab",
+        "sha256_in_prefix": "86bb9f0e98377ffcbecbb9736e95b4ccd1785a3a77aab27ff3993f3d6c839aab",
+        "size_in_bytes": 3131
+      },
+      {
+        "_path": "include/LIEF/ELF/DataHandler/Handler.hpp",
+        "path_type": "hardlink",
+        "sha256": "f71c78f6aecad85d71384e7ca4f4a7d01cd337f48ced8a42558c120b55a20099",
+        "sha256_in_prefix": "f71c78f6aecad85d71384e7ca4f4a7d01cd337f48ced8a42558c120b55a20099",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "include/LIEF/ELF/DataHandler/Node.hpp",
+        "path_type": "hardlink",
+        "sha256": "df95f4656b2fc6e09c75d3f55f0e2fdedfc3ab661f244dbe5a251acfedb3a4fe",
+        "sha256_in_prefix": "df95f4656b2fc6e09c75d3f55f0e2fdedfc3ab661f244dbe5a251acfedb3a4fe",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntry.h",
+        "path_type": "hardlink",
+        "sha256": "0a90da07a2ab153a38e175bf614f7c0e0e6c5fc5265479db4ae8263e9be03135",
+        "sha256_in_prefix": "0a90da07a2ab153a38e175bf614f7c0e0e6c5fc5265479db4ae8263e9be03135",
+        "size_in_bytes": 2428
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "33b8f0765a0d9c81bd27c779c6ae0e4327d563189e0a3be70784b126b85ca243",
+        "sha256_in_prefix": "33b8f0765a0d9c81bd27c779c6ae0e4327d563189e0a3be70784b126b85ca243",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntryArray.hpp",
+        "path_type": "hardlink",
+        "sha256": "744262878e6b19df43229586f6f278d85e3bf46604bcb8a39b0c98e43caf9251",
+        "sha256_in_prefix": "744262878e6b19df43229586f6f278d85e3bf46604bcb8a39b0c98e43caf9251",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntryFlags.hpp",
+        "path_type": "hardlink",
+        "sha256": "9813c8399c5f104fbb2b52d1a831519459760ec764634cc63abf81d92f44cc95",
+        "sha256_in_prefix": "9813c8399c5f104fbb2b52d1a831519459760ec764634cc63abf81d92f44cc95",
+        "size_in_bytes": 2183
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntryLibrary.hpp",
+        "path_type": "hardlink",
+        "sha256": "e1095c6d6ca122e4c9a95f5072cf718815e6362e78a15f04df7bbf8c88fb3926",
+        "sha256_in_prefix": "e1095c6d6ca122e4c9a95f5072cf718815e6362e78a15f04df7bbf8c88fb3926",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntryRpath.hpp",
+        "path_type": "hardlink",
+        "sha256": "9595444844af7ab78eb4adcdc1ddfe487f0db650d61d59c319ce5cb715ee9f56",
+        "sha256_in_prefix": "9595444844af7ab78eb4adcdc1ddfe487f0db650d61d59c319ce5cb715ee9f56",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicEntryRunPath.hpp",
+        "path_type": "hardlink",
+        "sha256": "4242c18324e91e378449a395eb068c160929c83e55d0e210244e581df84c806e",
+        "sha256_in_prefix": "4242c18324e91e378449a395eb068c160929c83e55d0e210244e581df84c806e",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "include/LIEF/ELF/DynamicSharedObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "346a2886c3ec4a58ee4a4c4efd0e77c7c942d43b7fdac06ab211cc96f4d976a9",
+        "sha256_in_prefix": "346a2886c3ec4a58ee4a4c4efd0e77c7c942d43b7fdac06ab211cc96f4d976a9",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "include/LIEF/ELF/EnumToString.h",
+        "path_type": "hardlink",
+        "sha256": "133c43fa87c77a9a93939f285aaa610a6239bf9ee356f69ccd45ba0545d2e243",
+        "sha256_in_prefix": "133c43fa87c77a9a93939f285aaa610a6239bf9ee356f69ccd45ba0545d2e243",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "include/LIEF/ELF/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "98bdb37dcd1254a93eb4c166f606bc0359443570cf7909da6bcd723c470fe2d6",
+        "sha256_in_prefix": "98bdb37dcd1254a93eb4c166f606bc0359443570cf7909da6bcd723c470fe2d6",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "include/LIEF/ELF/GnuHash.hpp",
+        "path_type": "hardlink",
+        "sha256": "b4a8a1ec1ef0eaeb18f0abcfbc5a0dcef48324f73faccbd5e2f2275a3b3ae041",
+        "sha256_in_prefix": "b4a8a1ec1ef0eaeb18f0abcfbc5a0dcef48324f73faccbd5e2f2275a3b3ae041",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "include/LIEF/ELF/Header.h",
+        "path_type": "hardlink",
+        "sha256": "31eee550a782e648e193272aff5a86a1b85980c73fa5b2c7abcbdba321f7dcca",
+        "sha256_in_prefix": "31eee550a782e648e193272aff5a86a1b85980c73fa5b2c7abcbdba321f7dcca",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "include/LIEF/ELF/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "1e790cb3f8fe81166fdca1f706103e95c9df72e68d892d95932145cbb56cc1fb",
+        "sha256_in_prefix": "1e790cb3f8fe81166fdca1f706103e95c9df72e68d892d95932145cbb56cc1fb",
+        "size_in_bytes": 7231
+      },
+      {
+        "_path": "include/LIEF/ELF/Note.hpp",
+        "path_type": "hardlink",
+        "sha256": "fe9699744a8a51fa5e7f4a5aa8acdcc48e41c28d0a8898bccdfa4ebb6e96c366",
+        "sha256_in_prefix": "fe9699744a8a51fa5e7f4a5aa8acdcc48e41c28d0a8898bccdfa4ebb6e96c366",
+        "size_in_bytes": 3205
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails.hpp",
+        "path_type": "hardlink",
+        "sha256": "a88ca5ca110819d5463d29d068624148450ab5f3a4fb3e05cff595e761ac8e15",
+        "sha256_in_prefix": "a88ca5ca110819d5463d29d068624148450ab5f3a4fb3e05cff595e761ac8e15",
+        "size_in_bytes": 1813
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/AndroidNote.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f1cfe5fdbaecf43274c155b0d560030da247f69339e60b3bcd9f795b8fbc624",
+        "sha256_in_prefix": "9f1cfe5fdbaecf43274c155b0d560030da247f69339e60b3bcd9f795b8fbc624",
+        "size_in_bytes": 2852
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/Core.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ee9b6aece04d7db4d745b284307417b7b554bdc75acb5d339af012caed1ac67",
+        "sha256_in_prefix": "9ee9b6aece04d7db4d745b284307417b7b554bdc75acb5d339af012caed1ac67",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/NoteAbi.hpp",
+        "path_type": "hardlink",
+        "sha256": "c626f282a90d0d41a9bd33be9f8c15bafe8a2d60272441c1b9bfd2ee0e9889da",
+        "sha256_in_prefix": "c626f282a90d0d41a9bd33be9f8c15bafe8a2d60272441c1b9bfd2ee0e9889da",
+        "size_in_bytes": 2428
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/core/CoreAuxv.hpp",
+        "path_type": "hardlink",
+        "sha256": "95bbb9bd01cd49d1e8ff0784df1c728e342f76811038c6808db213cc8cf3d8bb",
+        "sha256_in_prefix": "95bbb9bd01cd49d1e8ff0784df1c728e342f76811038c6808db213cc8cf3d8bb",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/core/CoreFile.hpp",
+        "path_type": "hardlink",
+        "sha256": "cb766925de719dd693d989c6f099f86df859b9e2bd53d25e1879bcdf63bb9a1a",
+        "sha256_in_prefix": "cb766925de719dd693d989c6f099f86df859b9e2bd53d25e1879bcdf63bb9a1a",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/core/CorePrPsInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "4a6de92f1efffefe4a0a241605f419b483d0b95bd7a7079b56fc577ebed2014b",
+        "sha256_in_prefix": "4a6de92f1efffefe4a0a241605f419b483d0b95bd7a7079b56fc577ebed2014b",
+        "size_in_bytes": 2588
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/core/CorePrStatus.hpp",
+        "path_type": "hardlink",
+        "sha256": "283af03e5ffa19fdbc84b53a82f500c214798b0ffc54ce3cbe232492d45b9624",
+        "sha256_in_prefix": "283af03e5ffa19fdbc84b53a82f500c214798b0ffc54ce3cbe232492d45b9624",
+        "size_in_bytes": 5639
+      },
+      {
+        "_path": "include/LIEF/ELF/NoteDetails/core/CoreSigInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "5bc5a93113a2291ba38cc16f74723198faa4b84865d1531aefc60a27e972dbf7",
+        "sha256_in_prefix": "5bc5a93113a2291ba38cc16f74723198faa4b84865d1531aefc60a27e972dbf7",
+        "size_in_bytes": 2029
+      },
+      {
+        "_path": "include/LIEF/ELF/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "89e3e89d7c2b68223ac5646becd5299a8426addbb41f168529a4f110077fcf0f",
+        "sha256_in_prefix": "89e3e89d7c2b68223ac5646becd5299a8426addbb41f168529a4f110077fcf0f",
+        "size_in_bytes": 8956
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocation.hpp",
+        "path_type": "hardlink",
+        "sha256": "8cc70fb1e79d4632144eae01bdc3e7b2088e7be0248f20a617cad324ffac74db",
+        "sha256_in_prefix": "8cc70fb1e79d4632144eae01bdc3e7b2088e7be0248f20a617cad324ffac74db",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "include/LIEF/ELF/RelocationSizes.hpp",
+        "path_type": "hardlink",
+        "sha256": "c419166bf49c7f573773ee08aa23fcee236b0c7e394f016a03a5c8ff0d5f49cc",
+        "sha256_in_prefix": "c419166bf49c7f573773ee08aa23fcee236b0c7e394f016a03a5c8ff0d5f49cc",
+        "size_in_bytes": 27760
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/AArch64.def",
+        "path_type": "hardlink",
+        "sha256": "eba27df731950ae9fa457fed5c15f7b56114c5a8663c54678ca9d2059f078aff",
+        "sha256_in_prefix": "eba27df731950ae9fa457fed5c15f7b56114c5a8663c54678ca9d2059f078aff",
+        "size_in_bytes": 7113
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/ARM.def",
+        "path_type": "hardlink",
+        "sha256": "60adb102062f7b457be38c30e105280c40070caa775273899ac120acc3f29ae1",
+        "sha256_in_prefix": "60adb102062f7b457be38c30e105280c40070caa775273899ac120acc3f29ae1",
+        "size_in_bytes": 6439
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/Hexagon.def",
+        "path_type": "hardlink",
+        "sha256": "395f5c28995daf74822b3ac4f64591ed2a4620b0c7d265ada68b7627222094bd",
+        "sha256_in_prefix": "395f5c28995daf74822b3ac4f64591ed2a4620b0c7d265ada68b7627222094bd",
+        "size_in_bytes": 3926
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/Mips.def",
+        "path_type": "hardlink",
+        "sha256": "66165b8984e54182fccb3c89a2112590acec3db2c3899b16759570970c140346",
+        "sha256_in_prefix": "66165b8984e54182fccb3c89a2112590acec3db2c3899b16759570970c140346",
+        "size_in_bytes": 4747
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/PowerPC.def",
+        "path_type": "hardlink",
+        "sha256": "22c3d1925e974842a6a2c1d20ac2170a94a8df7d075e1536da667902b8c7defd",
+        "sha256_in_prefix": "22c3d1925e974842a6a2c1d20ac2170a94a8df7d075e1536da667902b8c7defd",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/PowerPC64.def",
+        "path_type": "hardlink",
+        "sha256": "e414fe9e638e6d2c78ad56124593d115a43d91b18ea78e92f0904d9d3e36d6f0",
+        "sha256_in_prefix": "e414fe9e638e6d2c78ad56124593d115a43d91b18ea78e92f0904d9d3e36d6f0",
+        "size_in_bytes": 3761
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/Sparc.def",
+        "path_type": "hardlink",
+        "sha256": "874db113739f803b3d54e1c93ea75ef8e9422be2b08b02f35329aa6be9329a41",
+        "sha256_in_prefix": "874db113739f803b3d54e1c93ea75ef8e9422be2b08b02f35329aa6be9329a41",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/SystemZ.def",
+        "path_type": "hardlink",
+        "sha256": "62fa3eab7a57043f1d95c310e35dd8db88689351c91cbf88ac5924b8117520b4",
+        "sha256_in_prefix": "62fa3eab7a57043f1d95c310e35dd8db88689351c91cbf88ac5924b8117520b4",
+        "size_in_bytes": 2170
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/i386.def",
+        "path_type": "hardlink",
+        "sha256": "e7c1c98b80b4c9ee4f66f92c804586190962a66a324e166edb6a08ed0f75da3a",
+        "sha256_in_prefix": "e7c1c98b80b4c9ee4f66f92c804586190962a66a324e166edb6a08ed0f75da3a",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "include/LIEF/ELF/Relocations/x86_64.def",
+        "path_type": "hardlink",
+        "sha256": "c0be52c94676f15d237b232aa42bb711c878daed31c958a2da9b3f34b0034304",
+        "sha256_in_prefix": "c0be52c94676f15d237b232aa42bb711c878daed31c958a2da9b3f34b0034304",
+        "size_in_bytes": 1817
+      },
+      {
+        "_path": "include/LIEF/ELF/Section.h",
+        "path_type": "hardlink",
+        "sha256": "bf59c9562dfa6e2a1ee59640af858d0730e2200922c791bbc23b1ae0d69b3624",
+        "sha256_in_prefix": "bf59c9562dfa6e2a1ee59640af858d0730e2200922c791bbc23b1ae0d69b3624",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "include/LIEF/ELF/Section.hpp",
+        "path_type": "hardlink",
+        "sha256": "601525ada4d452b40b1f95b62c36418bd899ee359bb715b97ba3ac4385412abb",
+        "sha256_in_prefix": "601525ada4d452b40b1f95b62c36418bd899ee359bb715b97ba3ac4385412abb",
+        "size_in_bytes": 4406
+      },
+      {
+        "_path": "include/LIEF/ELF/Segment.h",
+        "path_type": "hardlink",
+        "sha256": "611e6a08b4615c6456b047f73ca463de3173cb8c7ce5edc7c1b8816396d0fc82",
+        "sha256_in_prefix": "611e6a08b4615c6456b047f73ca463de3173cb8c7ce5edc7c1b8816396d0fc82",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "include/LIEF/ELF/Segment.hpp",
+        "path_type": "hardlink",
+        "sha256": "99a25f532e572334d5b2e79242d4b98eb80ce50d3917c5ccb1d9ee97f8683de4",
+        "sha256_in_prefix": "99a25f532e572334d5b2e79242d4b98eb80ce50d3917c5ccb1d9ee97f8683de4",
+        "size_in_bytes": 3447
+      },
+      {
+        "_path": "include/LIEF/ELF/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "2ebfe4a1ffe0fe177ba29cbf1d3653df0c03304af7956b65af4cf207e9d17512",
+        "sha256_in_prefix": "2ebfe4a1ffe0fe177ba29cbf1d3653df0c03304af7956b65af4cf207e9d17512",
+        "size_in_bytes": 19518
+      },
+      {
+        "_path": "include/LIEF/ELF/Symbol.h",
+        "path_type": "hardlink",
+        "sha256": "72ae74be4aea93df43801f8bb8dbe19973fc9f9f681508222b5c4386114db7ac",
+        "sha256_in_prefix": "72ae74be4aea93df43801f8bb8dbe19973fc9f9f681508222b5c4386114db7ac",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "include/LIEF/ELF/Symbol.hpp",
+        "path_type": "hardlink",
+        "sha256": "ed8e4a60db19bbb1768fa77e255c9c79f93183d5e938aa50dc41a6b6b07f9993",
+        "sha256_in_prefix": "ed8e4a60db19bbb1768fa77e255c9c79f93183d5e938aa50dc41a6b6b07f9993",
+        "size_in_bytes": 5368
+      },
+      {
+        "_path": "include/LIEF/ELF/SymbolVersion.hpp",
+        "path_type": "hardlink",
+        "sha256": "0ccea78a9c19013d4a84ee45833bb32f72a23369303985f6634e65451a16d9d5",
+        "sha256_in_prefix": "0ccea78a9c19013d4a84ee45833bb32f72a23369303985f6634e65451a16d9d5",
+        "size_in_bytes": 2355
+      },
+      {
+        "_path": "include/LIEF/ELF/SymbolVersionAux.hpp",
+        "path_type": "hardlink",
+        "sha256": "a776047d91efa2a2f643ab0737b5a470f9614ee63c869c77301dbcfa066ee830",
+        "sha256_in_prefix": "a776047d91efa2a2f643ab0737b5a470f9614ee63c869c77301dbcfa066ee830",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "include/LIEF/ELF/SymbolVersionAuxRequirement.hpp",
+        "path_type": "hardlink",
+        "sha256": "acc1bd8f95129f4d85ea4c2363bf07129d0bab801b5d84421b6f57c661ae7a1d",
+        "sha256_in_prefix": "acc1bd8f95129f4d85ea4c2363bf07129d0bab801b5d84421b6f57c661ae7a1d",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "include/LIEF/ELF/SymbolVersionDefinition.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4c94ee2a04e970486b917728627cd79d2b7468fdede394e5e2568d437e53ebc",
+        "sha256_in_prefix": "e4c94ee2a04e970486b917728627cd79d2b7468fdede394e5e2568d437e53ebc",
+        "size_in_bytes": 2842
+      },
+      {
+        "_path": "include/LIEF/ELF/SymbolVersionRequirement.hpp",
+        "path_type": "hardlink",
+        "sha256": "c6856659db40bb5669e4e9aab9a5bdac6adb523ec57d50bdae163009cd55fa4a",
+        "sha256_in_prefix": "c6856659db40bb5669e4e9aab9a5bdac6adb523ec57d50bdae163009cd55fa4a",
+        "size_in_bytes": 2687
+      },
+      {
+        "_path": "include/LIEF/ELF/SysvHash.hpp",
+        "path_type": "hardlink",
+        "sha256": "5b81bfd9ce9ace9062c9c8ede2f7359713729774e7d8befe7dd2c252c44cfac4",
+        "sha256_in_prefix": "5b81bfd9ce9ace9062c9c8ede2f7359713729774e7d8befe7dd2c252c44cfac4",
+        "size_in_bytes": 1789
+      },
+      {
+        "_path": "include/LIEF/ELF/enums.h",
+        "path_type": "hardlink",
+        "sha256": "25a321e5a7c81ba41fc1525dd3838f8dc846576f81d4098725ec5d07ad712c85",
+        "sha256_in_prefix": "25a321e5a7c81ba41fc1525dd3838f8dc846576f81d4098725ec5d07ad712c85",
+        "size_in_bytes": 55418
+      },
+      {
+        "_path": "include/LIEF/ELF/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "a0a498fa1c8f2175fca57bbf9e4fcfcf294d9e334413b956751233d2bcdbe36e",
+        "sha256_in_prefix": "a0a498fa1c8f2175fca57bbf9e4fcfcf294d9e334413b956751233d2bcdbe36e",
+        "size_in_bytes": 56199
+      },
+      {
+        "_path": "include/LIEF/ELF/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "cbdef906201ffcc82c4dabca8f7585f96972655025eb8fe4087036b776eae7c5",
+        "sha256_in_prefix": "cbdef906201ffcc82c4dabca8f7585f96972655025eb8fe4087036b776eae7c5",
+        "size_in_bytes": 3020
+      },
+      {
+        "_path": "include/LIEF/ELF/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "a62b674bb10f20f022b6688218e83a7d63e17b006a0e39747f333d809e49d907",
+        "sha256_in_prefix": "a62b674bb10f20f022b6688218e83a7d63e17b006a0e39747f333d809e49d907",
+        "size_in_bytes": 3076
+      },
+      {
+        "_path": "include/LIEF/ELF/structures.h",
+        "path_type": "hardlink",
+        "sha256": "b028e1e71560c7f30c4931b3fdaef1d8a04928cd935874408134452cac6bfb45",
+        "sha256_in_prefix": "b028e1e71560c7f30c4931b3fdaef1d8a04928cd935874408134452cac6bfb45",
+        "size_in_bytes": 13022
+      },
+      {
+        "_path": "include/LIEF/ELF/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "6288f65e763904b4c027deb2f8070c1b49163f11c01b1c1bf9e59ee779deb45d",
+        "sha256_in_prefix": "6288f65e763904b4c027deb2f8070c1b49163f11c01b1c1bf9e59ee779deb45d",
+        "size_in_bytes": 5048
+      },
+      {
+        "_path": "include/LIEF/ELF/undef.h",
+        "path_type": "hardlink",
+        "sha256": "67ec376cf63beeb06e595536be32091879216c68e485bccffdf6d82f5b9d82d9",
+        "sha256_in_prefix": "67ec376cf63beeb06e595536be32091879216c68e485bccffdf6d82f5b9d82d9",
+        "size_in_bytes": 34397
+      },
+      {
+        "_path": "include/LIEF/ELF/utils.h",
+        "path_type": "hardlink",
+        "sha256": "6d950d025591823e4a21835798ad4137511984888a5dde7e5720f0fd6f05ddb7",
+        "sha256_in_prefix": "6d950d025591823e4a21835798ad4137511984888a5dde7e5720f0fd6f05ddb7",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "include/LIEF/ELF/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "789573553bfd5935c49959c189ccfd81a0d289113db85fbe282d3b2a240fc061",
+        "sha256_in_prefix": "789573553bfd5935c49959c189ccfd81a0d289113db85fbe282d3b2a240fc061",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "include/LIEF/LIEF.h",
+        "path_type": "hardlink",
+        "sha256": "f11811cf33753fd088ff7354db416e99a73e4852067e8fa37f338344a237c6cf",
+        "sha256_in_prefix": "f11811cf33753fd088ff7354db416e99a73e4852067e8fa37f338344a237c6cf",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "include/LIEF/LIEF.hpp",
+        "path_type": "hardlink",
+        "sha256": "17fb3c9a21e40fe0dd08df70ea08a6b8f3a98b96524f61382d65c556e3f07df9",
+        "sha256_in_prefix": "17fb3c9a21e40fe0dd08df70ea08a6b8f3a98b96524f61382d65c556e3f07df9",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "include/LIEF/MachO.h",
+        "path_type": "hardlink",
+        "sha256": "5734ae355e86f2944d441fedf4387b4e49d0e61cc0b1538717f462c74fd909c1",
+        "sha256_in_prefix": "5734ae355e86f2944d441fedf4387b4e49d0e61cc0b1538717f462c74fd909c1",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "include/LIEF/MachO.hpp",
+        "path_type": "hardlink",
+        "sha256": "257dbc20a0188cb0532271e709c2ad044b629480dc008484acb6105e7b7c4db2",
+        "sha256_in_prefix": "257dbc20a0188cb0532271e709c2ad044b629480dc008484acb6105e7b7c4db2",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "include/LIEF/MachO/Binary.h",
+        "path_type": "hardlink",
+        "sha256": "7f9a295a0f6489c41d1967e7af6f64c99dabe33bc9b9ac45ce1cb39a3db8aadc",
+        "sha256_in_prefix": "7f9a295a0f6489c41d1967e7af6f64c99dabe33bc9b9ac45ce1cb39a3db8aadc",
+        "size_in_bytes": 1696
+      },
+      {
+        "_path": "include/LIEF/MachO/Binary.hpp",
+        "path_type": "hardlink",
+        "sha256": "858995eed61835d59bcd24076fc82c12f10c350a7befe1a8d945fddc10761778",
+        "sha256_in_prefix": "858995eed61835d59bcd24076fc82c12f10c350a7befe1a8d945fddc10761778",
+        "size_in_bytes": 16579
+      },
+      {
+        "_path": "include/LIEF/MachO/BinaryParser.hpp",
+        "path_type": "hardlink",
+        "sha256": "5ace3d1eb36e614df72bcc6586d7af81892649f7b0834bdce7036c23bd0f543a",
+        "sha256_in_prefix": "5ace3d1eb36e614df72bcc6586d7af81892649f7b0834bdce7036c23bd0f543a",
+        "size_in_bytes": 3677
+      },
+      {
+        "_path": "include/LIEF/MachO/BindingInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "7dc8174b35a4b0555d7d11008a9972d9387bfb31959022f8104fa8666b18d126",
+        "sha256_in_prefix": "7dc8174b35a4b0555d7d11008a9972d9387bfb31959022f8104fa8666b18d126",
+        "size_in_bytes": 3964
+      },
+      {
+        "_path": "include/LIEF/MachO/BuildVersion.hpp",
+        "path_type": "hardlink",
+        "sha256": "7231b3310f728bc82d83f4eb97bf7ee4a1875a720aa5c80b28b8ca1731fedf5e",
+        "sha256_in_prefix": "7231b3310f728bc82d83f4eb97bf7ee4a1875a720aa5c80b28b8ca1731fedf5e",
+        "size_in_bytes": 2971
+      },
+      {
+        "_path": "include/LIEF/MachO/Builder.hpp",
+        "path_type": "hardlink",
+        "sha256": "aea4672b9bfcb3390070462c40d04812e663de09ed5e0c7c4aea629b33844853",
+        "sha256_in_prefix": "aea4672b9bfcb3390070462c40d04812e663de09ed5e0c7c4aea629b33844853",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "include/LIEF/MachO/CodeSignature.hpp",
+        "path_type": "hardlink",
+        "sha256": "4deb6ebaa9109cf5dd7a1db7c696bacf9d058534f47e982a4b757f7ff5835361",
+        "sha256_in_prefix": "4deb6ebaa9109cf5dd7a1db7c696bacf9d058534f47e982a4b757f7ff5835361",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "include/LIEF/MachO/DataCodeEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "b012a22de1e557952e314e72311b6c4ab7efd9b300e027cb1abf03114afc72c2",
+        "sha256_in_prefix": "b012a22de1e557952e314e72311b6c4ab7efd9b300e027cb1abf03114afc72c2",
+        "size_in_bytes": 2014
+      },
+      {
+        "_path": "include/LIEF/MachO/DataInCode.hpp",
+        "path_type": "hardlink",
+        "sha256": "7d38e72e806936b3bb2706d96ad5e95a29b8e3070cda96155d275a790bc3182e",
+        "sha256_in_prefix": "7d38e72e806936b3bb2706d96ad5e95a29b8e3070cda96155d275a790bc3182e",
+        "size_in_bytes": 2075
+      },
+      {
+        "_path": "include/LIEF/MachO/DyldEnvironment.hpp",
+        "path_type": "hardlink",
+        "sha256": "6c37aefb86703d4c4050e2318b0845b160249189b24b63c1f635f72f73dcb2db",
+        "sha256_in_prefix": "6c37aefb86703d4c4050e2318b0845b160249189b24b63c1f635f72f73dcb2db",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "include/LIEF/MachO/DyldInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "745c8f564b97a79cc830ec1a75698fd6d0271d6f83888d8056c54dd4541931b1",
+        "sha256_in_prefix": "745c8f564b97a79cc830ec1a75698fd6d0271d6f83888d8056c54dd4541931b1",
+        "size_in_bytes": 10173
+      },
+      {
+        "_path": "include/LIEF/MachO/DylibCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "3fe31f75af6b3dfae20174621a3afd133c8bc46154a33859a0eeea0f69fb36c9",
+        "sha256_in_prefix": "3fe31f75af6b3dfae20174621a3afd133c8bc46154a33859a0eeea0f69fb36c9",
+        "size_in_bytes": 3850
+      },
+      {
+        "_path": "include/LIEF/MachO/DylinkerCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "290cab8dec0acf9889970d69d429d53a7636a7e611688afd980fc3a09a65a834",
+        "sha256_in_prefix": "290cab8dec0acf9889970d69d429d53a7636a7e611688afd980fc3a09a65a834",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "include/LIEF/MachO/DynamicSymbolCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "d02a1d330da8943d2f72b698c6f77b1f26ee16c97550c602c2a4e58e5042ab29",
+        "sha256_in_prefix": "d02a1d330da8943d2f72b698c6f77b1f26ee16c97550c602c2a4e58e5042ab29",
+        "size_in_bytes": 6159
+      },
+      {
+        "_path": "include/LIEF/MachO/EncryptionInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "fd5c9ba312905eb1fdbde65ea996fedbc855208ab0f21f41eab4fd5ad4072ee9",
+        "sha256_in_prefix": "fd5c9ba312905eb1fdbde65ea996fedbc855208ab0f21f41eab4fd5ad4072ee9",
+        "size_in_bytes": 1711
+      },
+      {
+        "_path": "include/LIEF/MachO/EnumToString.h",
+        "path_type": "hardlink",
+        "sha256": "198e935be53af66a1373d80816c312d040670da934c5e8af4e006ee2604eee68",
+        "sha256_in_prefix": "198e935be53af66a1373d80816c312d040670da934c5e8af4e006ee2604eee68",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "include/LIEF/MachO/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "dabfd19c6ec7da40ea2b57f11eb1e4b85eef4c208d1bb48ef1e718208ef68e24",
+        "sha256_in_prefix": "dabfd19c6ec7da40ea2b57f11eb1e4b85eef4c208d1bb48ef1e718208ef68e24",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "include/LIEF/MachO/ExportInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "1787350c975a6f44754e5139a60c35a81eb556112fcaa6d4f205d9c07db11f7e",
+        "sha256_in_prefix": "1787350c975a6f44754e5139a60c35a81eb556112fcaa6d4f205d9c07db11f7e",
+        "size_in_bytes": 2409
+      },
+      {
+        "_path": "include/LIEF/MachO/FatBinary.hpp",
+        "path_type": "hardlink",
+        "sha256": "badc0d27d26e53f6a15aa6b28a9434a93042f06e898434d00c90a69d6115be47",
+        "sha256_in_prefix": "badc0d27d26e53f6a15aa6b28a9434a93042f06e898434d00c90a69d6115be47",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "include/LIEF/MachO/FunctionStarts.hpp",
+        "path_type": "hardlink",
+        "sha256": "18a8c1e846021b06cc2f20128538747d83a4957f7967fdd48595cb8f05856892",
+        "sha256_in_prefix": "18a8c1e846021b06cc2f20128538747d83a4957f7967fdd48595cb8f05856892",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "include/LIEF/MachO/Header.h",
+        "path_type": "hardlink",
+        "sha256": "5a1c6c9d5cc99b8ce8814287479d541dac172fabf1078e6da51dd4e30728f575",
+        "sha256_in_prefix": "5a1c6c9d5cc99b8ce8814287479d541dac172fabf1078e6da51dd4e30728f575",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "include/LIEF/MachO/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "874a2bb4ac644f0711181cd1cf5edd39550a01730f8a360df092424dc99388db",
+        "sha256_in_prefix": "874a2bb4ac644f0711181cd1cf5edd39550a01730f8a360df092424dc99388db",
+        "size_in_bytes": 2796
+      },
+      {
+        "_path": "include/LIEF/MachO/LoadCommand.h",
+        "path_type": "hardlink",
+        "sha256": "e421378480144b20193c13415776442321b5960cc5f8b0b2b9eb0bef75dc4c34",
+        "sha256_in_prefix": "e421378480144b20193c13415776442321b5960cc5f8b0b2b9eb0bef75dc4c34",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "include/LIEF/MachO/LoadCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "4a180621f051814945300531fa05ac9d14effaf8192e44874267d30301f8e8a4",
+        "sha256_in_prefix": "4a180621f051814945300531fa05ac9d14effaf8192e44874267d30301f8e8a4",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "include/LIEF/MachO/MainCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "9c4dd9a1dab3cfae880226a171c5f65e260c8708822f439e03d7487b956abf63",
+        "sha256_in_prefix": "9c4dd9a1dab3cfae880226a171c5f65e260c8708822f439e03d7487b956abf63",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "include/LIEF/MachO/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "7028be206d3a4fe3b47995b1d2cf6952bca4bc351088b0cd054787ca65fc2cb1",
+        "sha256_in_prefix": "7028be206d3a4fe3b47995b1d2cf6952bca4bc351088b0cd054787ca65fc2cb1",
+        "size_in_bytes": 1879
+      },
+      {
+        "_path": "include/LIEF/MachO/ParserConfig.hpp",
+        "path_type": "hardlink",
+        "sha256": "2ad50067a7135f75183281c0a8855efdb0f0b3aaaf67d5d960552cd7770df736",
+        "sha256_in_prefix": "2ad50067a7135f75183281c0a8855efdb0f0b3aaaf67d5d960552cd7770df736",
+        "size_in_bytes": 1768
+      },
+      {
+        "_path": "include/LIEF/MachO/RPathCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "e30ab7459ce5a65972953cd2236b42a773630ef6628dbf979adeb49161d8bfdc",
+        "sha256_in_prefix": "e30ab7459ce5a65972953cd2236b42a773630ef6628dbf979adeb49161d8bfdc",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "include/LIEF/MachO/Relocation.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4427e401da4ae8134364689e6681399ef5613244c5ae6e8f3aac6538b8592c4",
+        "sha256_in_prefix": "e4427e401da4ae8134364689e6681399ef5613244c5ae6e8f3aac6538b8592c4",
+        "size_in_bytes": 4270
+      },
+      {
+        "_path": "include/LIEF/MachO/RelocationDyld.hpp",
+        "path_type": "hardlink",
+        "sha256": "33b55652b666dc5ba96b1d0b6ca273a83f3c806c6daeac027573670b2ad75ecb",
+        "sha256_in_prefix": "33b55652b666dc5ba96b1d0b6ca273a83f3c806c6daeac027573670b2ad75ecb",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "include/LIEF/MachO/RelocationObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "1be25c00a2255fa084213e2b757cd564f1bcea0fb1234164916673cf3dc2339d",
+        "sha256_in_prefix": "1be25c00a2255fa084213e2b757cd564f1bcea0fb1234164916673cf3dc2339d",
+        "size_in_bytes": 2921
+      },
+      {
+        "_path": "include/LIEF/MachO/Section.h",
+        "path_type": "hardlink",
+        "sha256": "e86c2294f86562a3069333523fb9f6d370c14728d8b8400a238fcb5061201550",
+        "sha256_in_prefix": "e86c2294f86562a3069333523fb9f6d370c14728d8b8400a238fcb5061201550",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "include/LIEF/MachO/Section.hpp",
+        "path_type": "hardlink",
+        "sha256": "20224434b47e036ac3789150f8db31a284f021cc98d186b5134c1d5009d21436",
+        "sha256_in_prefix": "20224434b47e036ac3789150f8db31a284f021cc98d186b5134c1d5009d21436",
+        "size_in_bytes": 4248
+      },
+      {
+        "_path": "include/LIEF/MachO/Segment.h",
+        "path_type": "hardlink",
+        "sha256": "0977c6f2281ca3061fa4b64b33b21cda6c394036d876faca983df4ed058bb817",
+        "sha256_in_prefix": "0977c6f2281ca3061fa4b64b33b21cda6c394036d876faca983df4ed058bb817",
+        "size_in_bytes": 1428
+      },
+      {
+        "_path": "include/LIEF/MachO/SegmentCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "49b7e647f4095387bb08a8d001d9ae84aff46d177f966bf7067ca8742a8030de",
+        "sha256_in_prefix": "49b7e647f4095387bb08a8d001d9ae84aff46d177f966bf7067ca8742a8030de",
+        "size_in_bytes": 3768
+      },
+      {
+        "_path": "include/LIEF/MachO/SegmentSplitInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ea8c14b4c1fcc452b3d45086c0da1627fb87dee8eee1f13f81e4a716bcfbf98",
+        "sha256_in_prefix": "9ea8c14b4c1fcc452b3d45086c0da1627fb87dee8eee1f13f81e4a716bcfbf98",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "include/LIEF/MachO/SourceVersion.hpp",
+        "path_type": "hardlink",
+        "sha256": "60bddb2bbe180cdf4018a2802ae2535a1140d817ddadc32896bef6b3c95d227d",
+        "sha256_in_prefix": "60bddb2bbe180cdf4018a2802ae2535a1140d817ddadc32896bef6b3c95d227d",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "include/LIEF/MachO/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "11ed450ab5e44fafebf349dea1db0e1b3ef34727d3539d52831832c6ea2a5666",
+        "sha256_in_prefix": "11ed450ab5e44fafebf349dea1db0e1b3ef34727d3539d52831832c6ea2a5666",
+        "size_in_bytes": 14238
+      },
+      {
+        "_path": "include/LIEF/MachO/SubFramework.hpp",
+        "path_type": "hardlink",
+        "sha256": "9fc89075a85752dfcbee500c90d0612f763c67d0cd1f51bd3d20ab71b9d35a87",
+        "sha256_in_prefix": "9fc89075a85752dfcbee500c90d0612f763c67d0cd1f51bd3d20ab71b9d35a87",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "include/LIEF/MachO/Symbol.h",
+        "path_type": "hardlink",
+        "sha256": "676e082cf96f845bd4a9c2ca95a6f01f21f2123eb0fd02f38a7bd993eed4613f",
+        "sha256_in_prefix": "676e082cf96f845bd4a9c2ca95a6f01f21f2123eb0fd02f38a7bd993eed4613f",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "include/LIEF/MachO/Symbol.hpp",
+        "path_type": "hardlink",
+        "sha256": "03de213f1d7d9268c06300bafdfc6ac0a5c473e9bc9cf322bcc3388cdfd78e63",
+        "sha256_in_prefix": "03de213f1d7d9268c06300bafdfc6ac0a5c473e9bc9cf322bcc3388cdfd78e63",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "include/LIEF/MachO/SymbolCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "e38672c068573486f0716ec6042e09ee819ccf8e72ed0337158d8fd1ef6f4f28",
+        "sha256_in_prefix": "e38672c068573486f0716ec6042e09ee819ccf8e72ed0337158d8fd1ef6f4f28",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "include/LIEF/MachO/ThreadCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "a032c072e663315fd6eda38c741291ab90a7542796ecb962682cc269c6e367ca",
+        "sha256_in_prefix": "a032c072e663315fd6eda38c741291ab90a7542796ecb962682cc269c6e367ca",
+        "size_in_bytes": 2194
+      },
+      {
+        "_path": "include/LIEF/MachO/UUIDCommand.hpp",
+        "path_type": "hardlink",
+        "sha256": "36d7e41906f96526ac19eb0a35264fc66843e8135ad6308f89362a1e1880e003",
+        "sha256_in_prefix": "36d7e41906f96526ac19eb0a35264fc66843e8135ad6308f89362a1e1880e003",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "include/LIEF/MachO/VersionMin.hpp",
+        "path_type": "hardlink",
+        "sha256": "5f70ecd338b217f8665b64d09f16aef58c06b35ec3154b4aa434fdd2c883c47d",
+        "sha256_in_prefix": "5f70ecd338b217f8665b64d09f16aef58c06b35ec3154b4aa434fdd2c883c47d",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "include/LIEF/MachO/enums.h",
+        "path_type": "hardlink",
+        "sha256": "90fa855a8b9f6fdfa8ca2427fb09cad18c1050a417570f1d8545e82cd0dafda9",
+        "sha256_in_prefix": "90fa855a8b9f6fdfa8ca2427fb09cad18c1050a417570f1d8545e82cd0dafda9",
+        "size_in_bytes": 31102
+      },
+      {
+        "_path": "include/LIEF/MachO/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "d65aada0ad0bf633bd1558bd923324909c4bd8251cbf16d2d3e682f97f4c1c26",
+        "sha256_in_prefix": "d65aada0ad0bf633bd1558bd923324909c4bd8251cbf16d2d3e682f97f4c1c26",
+        "size_in_bytes": 32818
+      },
+      {
+        "_path": "include/LIEF/MachO/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "c20d3400834badbc145d18407f8bf150eff704dab1288dadcaa2fc0f1f063006",
+        "sha256_in_prefix": "c20d3400834badbc145d18407f8bf150eff704dab1288dadcaa2fc0f1f063006",
+        "size_in_bytes": 3354
+      },
+      {
+        "_path": "include/LIEF/MachO/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "4d8b660e8b3193f41b422b0ff79855cf795ba47870aef743cdb891831dd9309d",
+        "sha256_in_prefix": "4d8b660e8b3193f41b422b0ff79855cf795ba47870aef743cdb891831dd9309d",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "include/LIEF/MachO/structures.h",
+        "path_type": "hardlink",
+        "sha256": "b51783744bde7b467e0a69296fae60f8733b35f583082dc6017467bcf609b415",
+        "sha256_in_prefix": "b51783744bde7b467e0a69296fae60f8733b35f583082dc6017467bcf609b415",
+        "size_in_bytes": 11824
+      },
+      {
+        "_path": "include/LIEF/MachO/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "a560d3bb3dc732ae25ac7fb464470767da5f7ee82cb86db2ffed16960afa2b42",
+        "sha256_in_prefix": "a560d3bb3dc732ae25ac7fb464470767da5f7ee82cb86db2ffed16960afa2b42",
+        "size_in_bytes": 3629
+      },
+      {
+        "_path": "include/LIEF/MachO/undef.h",
+        "path_type": "hardlink",
+        "sha256": "92384cf7d12b93d8efe812ebfc6c790c4d5f52cf3dce7104dfa2e41fe4bec72c",
+        "sha256_in_prefix": "92384cf7d12b93d8efe812ebfc6c790c4d5f52cf3dce7104dfa2e41fe4bec72c",
+        "size_in_bytes": 10999
+      },
+      {
+        "_path": "include/LIEF/MachO/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "fe1d539fce8f41732eddcb58aafc89dedba3f4a4022c51f1cbc931b189a6cc5b",
+        "sha256_in_prefix": "fe1d539fce8f41732eddcb58aafc89dedba3f4a4022c51f1cbc931b189a6cc5b",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "include/LIEF/OAT.hpp",
+        "path_type": "hardlink",
+        "sha256": "64e2fb8e32334e6181dfba86426ded3554338e2d161877dc52de4dbc9b83ed38",
+        "sha256_in_prefix": "64e2fb8e32334e6181dfba86426ded3554338e2d161877dc52de4dbc9b83ed38",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "include/LIEF/OAT/Binary.hpp",
+        "path_type": "hardlink",
+        "sha256": "6580fddc2fc141f1c467ff482ac5fa0aa7d3a9103341a3cd614af61b9308a184",
+        "sha256_in_prefix": "6580fddc2fc141f1c467ff482ac5fa0aa7d3a9103341a3cd614af61b9308a184",
+        "size_in_bytes": 2734
+      },
+      {
+        "_path": "include/LIEF/OAT/Class.hpp",
+        "path_type": "hardlink",
+        "sha256": "6c506666ab7eda30e27163643d6e81f4ae87a3e8417f8b4bf18e9dff4ae05812",
+        "sha256_in_prefix": "6c506666ab7eda30e27163643d6e81f4ae87a3e8417f8b4bf18e9dff4ae05812",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "include/LIEF/OAT/DexFile.hpp",
+        "path_type": "hardlink",
+        "sha256": "6be8484a0c4e9e23bf27259c77ff9f55a22b91e8abd8f0f319263d45b3cd9b05",
+        "sha256_in_prefix": "6be8484a0c4e9e23bf27259c77ff9f55a22b91e8abd8f0f319263d45b3cd9b05",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "include/LIEF/OAT/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "f6e3dc15e6e863c658783e79a0ccdf16069f16b52ad72f8a914bda9b94f5dd10",
+        "sha256_in_prefix": "f6e3dc15e6e863c658783e79a0ccdf16069f16b52ad72f8a914bda9b94f5dd10",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "include/LIEF/OAT/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "0e11c630927b7cb98ce8237c7ed044f2cb8e99802fe70909d72450ae42f0b8a0",
+        "sha256_in_prefix": "0e11c630927b7cb98ce8237c7ed044f2cb8e99802fe70909d72450ae42f0b8a0",
+        "size_in_bytes": 4149
+      },
+      {
+        "_path": "include/LIEF/OAT/Method.hpp",
+        "path_type": "hardlink",
+        "sha256": "64b143a051d70e16271c1714339d7f6f4109027e0934e8e8d3a8e2a837e0a1c3",
+        "sha256_in_prefix": "64b143a051d70e16271c1714339d7f6f4109027e0934e8e8d3a8e2a837e0a1c3",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "include/LIEF/OAT/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "1564429f4b39afac56ba659c009e55fac599ed6bd18f288a641447425e97d82d",
+        "sha256_in_prefix": "1564429f4b39afac56ba659c009e55fac599ed6bd18f288a641447425e97d82d",
+        "size_in_bytes": 2565
+      },
+      {
+        "_path": "include/LIEF/OAT/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "f1b09aa61d6bdfb67cac040d4841f0619d17023e6b5aae968cd57d2497ccf3e0",
+        "sha256_in_prefix": "f1b09aa61d6bdfb67cac040d4841f0619d17023e6b5aae968cd57d2497ccf3e0",
+        "size_in_bytes": 9005
+      },
+      {
+        "_path": "include/LIEF/OAT/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "7e7bce0b75fc92944297c65e33156ce82d11dd8b39be77b881502165a55847aa",
+        "sha256_in_prefix": "7e7bce0b75fc92944297c65e33156ce82d11dd8b39be77b881502165a55847aa",
+        "size_in_bytes": 3374
+      },
+      {
+        "_path": "include/LIEF/OAT/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "fdcc5bf82ae4132eaa3c6776bb891dbe4e3d0cad63d08f596ed7084f65c84d8b",
+        "sha256_in_prefix": "fdcc5bf82ae4132eaa3c6776bb891dbe4e3d0cad63d08f596ed7084f65c84d8b",
+        "size_in_bytes": 1290
+      },
+      {
+        "_path": "include/LIEF/OAT/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "8dd7a995f1fab92d51b8cf692b8fa5abd0ff397007e6b1804472fc75e71988f6",
+        "sha256_in_prefix": "8dd7a995f1fab92d51b8cf692b8fa5abd0ff397007e6b1804472fc75e71988f6",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "include/LIEF/OAT/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "fc530ec34cb00983b5dd9b6ee043f46fe56d2ff4670f2d7b8aea0101add7b7c4",
+        "sha256_in_prefix": "fc530ec34cb00983b5dd9b6ee043f46fe56d2ff4670f2d7b8aea0101add7b7c4",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "include/LIEF/OAT/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "1b1563280ac6869c712344db052854e03dacdd7498987750a47ad856ad7bc954",
+        "sha256_in_prefix": "1b1563280ac6869c712344db052854e03dacdd7498987750a47ad856ad7bc954",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "include/LIEF/Object.hpp",
+        "path_type": "hardlink",
+        "sha256": "bd7059f55b04279336bba232ebb36532e1418a7b94079b0ad197a693a7f34ae5",
+        "sha256_in_prefix": "bd7059f55b04279336bba232ebb36532e1418a7b94079b0ad197a693a7f34ae5",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "include/LIEF/PE.h",
+        "path_type": "hardlink",
+        "sha256": "de63821a815370e996fd72a4bea868d2f557ad7ab59e8313b71c3901d7c3defc",
+        "sha256_in_prefix": "de63821a815370e996fd72a4bea868d2f557ad7ab59e8313b71c3901d7c3defc",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "include/LIEF/PE.hpp",
+        "path_type": "hardlink",
+        "sha256": "3ba157338d37f8d389502b4d7c0e6404aa0408b1457b19b71b497ddc99c7a824",
+        "sha256_in_prefix": "3ba157338d37f8d389502b4d7c0e6404aa0408b1457b19b71b497ddc99c7a824",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "include/LIEF/PE/AuxiliarySymbol.hpp",
+        "path_type": "hardlink",
+        "sha256": "14499a9722cefee1e3fc5873fb7d380d80a915c883709b2f39bad9b3cd5f85b7",
+        "sha256_in_prefix": "14499a9722cefee1e3fc5873fb7d380d80a915c883709b2f39bad9b3cd5f85b7",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "include/LIEF/PE/Binary.h",
+        "path_type": "hardlink",
+        "sha256": "3ab1252bbbc53bbcc97abe56a253b7d19d91777a2e499054ce0c130fb9b248e3",
+        "sha256_in_prefix": "3ab1252bbbc53bbcc97abe56a253b7d19d91777a2e499054ce0c130fb9b248e3",
+        "size_in_bytes": 1694
+      },
+      {
+        "_path": "include/LIEF/PE/Binary.hpp",
+        "path_type": "hardlink",
+        "sha256": "10f83970dd32551bc81ae631d6dcb83454fb79da461e953481a3cf6be19eddac",
+        "sha256_in_prefix": "10f83970dd32551bc81ae631d6dcb83454fb79da461e953481a3cf6be19eddac",
+        "size_in_bytes": 15592
+      },
+      {
+        "_path": "include/LIEF/PE/Builder.hpp",
+        "path_type": "hardlink",
+        "sha256": "c4472ee29145387d257a4888aa589998648468223b989a63325382c47be4d748",
+        "sha256_in_prefix": "c4472ee29145387d257a4888aa589998648468223b989a63325382c47be4d748",
+        "size_in_bytes": 4219
+      },
+      {
+        "_path": "include/LIEF/PE/CodeIntegrity.hpp",
+        "path_type": "hardlink",
+        "sha256": "6333a8de994948d1f90ba4c6c74cf15a948c4dd33c3fd3bf7f2da538cc852cb9",
+        "sha256_in_prefix": "6333a8de994948d1f90ba4c6c74cf15a948c4dd33c3fd3bf7f2da538cc852cb9",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "include/LIEF/PE/CodeView.hpp",
+        "path_type": "hardlink",
+        "sha256": "7941fc6772a11e1dd452a8ccac3bf81245635cd89ff1a820ecb5e785255cf2eb",
+        "sha256_in_prefix": "7941fc6772a11e1dd452a8ccac3bf81245635cd89ff1a820ecb5e785255cf2eb",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "include/LIEF/PE/CodeViewPDB.hpp",
+        "path_type": "hardlink",
+        "sha256": "15d051a82ec1062c16d74378e9ac1ffb4c855c49fcdcf1b5e76836e65e285dc4",
+        "sha256_in_prefix": "15d051a82ec1062c16d74378e9ac1ffb4c855c49fcdcf1b5e76836e65e285dc4",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "include/LIEF/PE/DataDirectory.h",
+        "path_type": "hardlink",
+        "sha256": "32506d69839dbf4187c432ed65fd8f04c0917ea36a5ced8ffa3ca5d053f6c75e",
+        "sha256_in_prefix": "32506d69839dbf4187c432ed65fd8f04c0917ea36a5ced8ffa3ca5d053f6c75e",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "include/LIEF/PE/DataDirectory.hpp",
+        "path_type": "hardlink",
+        "sha256": "ac8f50ed00eab9c4b65c3143e8db4afde1fcca7d988731d24bfe93f55451c845",
+        "sha256_in_prefix": "ac8f50ed00eab9c4b65c3143e8db4afde1fcca7d988731d24bfe93f55451c845",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "include/LIEF/PE/Debug.hpp",
+        "path_type": "hardlink",
+        "sha256": "d38af2e85b3488eda47ae6add9dcf3ad82b36313f53f74d47578342c7a8abc2f",
+        "sha256_in_prefix": "d38af2e85b3488eda47ae6add9dcf3ad82b36313f53f74d47578342c7a8abc2f",
+        "size_in_bytes": 3059
+      },
+      {
+        "_path": "include/LIEF/PE/DosHeader.h",
+        "path_type": "hardlink",
+        "sha256": "bad340b626b70a0216bc8d3928cabd8f333df19ed34b757f28347b1706a064b6",
+        "sha256_in_prefix": "bad340b626b70a0216bc8d3928cabd8f333df19ed34b757f28347b1706a064b6",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "include/LIEF/PE/DosHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "0b619b73ffc061440100a4768d27608df893021df9b0dd78d0c851e29ea5313c",
+        "sha256_in_prefix": "0b619b73ffc061440100a4768d27608df893021df9b0dd78d0c851e29ea5313c",
+        "size_in_bytes": 3961
+      },
+      {
+        "_path": "include/LIEF/PE/EnumToString.h",
+        "path_type": "hardlink",
+        "sha256": "a80c1a3eae2a3d0e041ccdabc730e0c994a644471e4eca60a3f43348a15be521",
+        "sha256_in_prefix": "a80c1a3eae2a3d0e041ccdabc730e0c994a644471e4eca60a3f43348a15be521",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "include/LIEF/PE/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "671e2473a06851b6d5b9fbfe71fa395ae33de2330d06c3a0e9906ffef82457a5",
+        "sha256_in_prefix": "671e2473a06851b6d5b9fbfe71fa395ae33de2330d06c3a0e9906ffef82457a5",
+        "size_in_bytes": 2582
+      },
+      {
+        "_path": "include/LIEF/PE/Export.hpp",
+        "path_type": "hardlink",
+        "sha256": "b71f7d973dde3bc23753e626f4fd9b6fd8d794a6bab87dc5b97c7e6cb71bca99",
+        "sha256_in_prefix": "b71f7d973dde3bc23753e626f4fd9b6fd8d794a6bab87dc5b97c7e6cb71bca99",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "include/LIEF/PE/ExportEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "b8332d289cfcf79bf5343fac0abb0c0f3295250e3bbbcb6d8301048184d547b2",
+        "sha256_in_prefix": "b8332d289cfcf79bf5343fac0abb0c0f3295250e3bbbcb6d8301048184d547b2",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "include/LIEF/PE/Header.h",
+        "path_type": "hardlink",
+        "sha256": "3d2ff847377ed85ca77040110f0bf8ae9519b3dcf2cc4c9e8e9a91118dc175a6",
+        "sha256_in_prefix": "3d2ff847377ed85ca77040110f0bf8ae9519b3dcf2cc4c9e8e9a91118dc175a6",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "include/LIEF/PE/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "f0880b6bcdab3fb410c21435beb94ff2851864b8595455d46b4077cdc3dd5bb0",
+        "sha256_in_prefix": "f0880b6bcdab3fb410c21435beb94ff2851864b8595455d46b4077cdc3dd5bb0",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "include/LIEF/PE/Import.h",
+        "path_type": "hardlink",
+        "sha256": "1a39bfb78ade7088e38bf0a062b9162c7122a1b3b019ffd2b546cf2a6312be4f",
+        "sha256_in_prefix": "1a39bfb78ade7088e38bf0a062b9162c7122a1b3b019ffd2b546cf2a6312be4f",
+        "size_in_bytes": 1267
+      },
+      {
+        "_path": "include/LIEF/PE/Import.hpp",
+        "path_type": "hardlink",
+        "sha256": "1f23daa87ee70140dec726cf27be2976384579c72805fbcd3a853d65a913e915",
+        "sha256_in_prefix": "1f23daa87ee70140dec726cf27be2976384579c72805fbcd3a853d65a913e915",
+        "size_in_bytes": 3964
+      },
+      {
+        "_path": "include/LIEF/PE/ImportEntry.h",
+        "path_type": "hardlink",
+        "sha256": "0d27546dff03184171f3f52217546f752cb7e05ca10e82554a7de9abcfeb6ae2",
+        "sha256_in_prefix": "0d27546dff03184171f3f52217546f752cb7e05ca10e82554a7de9abcfeb6ae2",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "include/LIEF/PE/ImportEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "909caa41416d7dbe298f80190d26b5592d55f86822940fa4a973df03774ff60a",
+        "sha256_in_prefix": "909caa41416d7dbe298f80190d26b5592d55f86822940fa4a973df03774ff60a",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations.hpp",
+        "path_type": "hardlink",
+        "sha256": "5dd8d38ebca64ceaff763e761362dc924e31239ea42b0d92da57593337135921",
+        "sha256_in_prefix": "5dd8d38ebca64ceaff763e761362dc924e31239ea42b0d92da57593337135921",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfiguration.hpp",
+        "path_type": "hardlink",
+        "sha256": "43f5e47f011ace98931de0c972a7cd6e554d9ead2f18c4fc7cac598a4c756e8d",
+        "sha256_in_prefix": "43f5e47f011ace98931de0c972a7cd6e554d9ead2f18c4fc7cac598a4c756e8d",
+        "size_in_bytes": 5861
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV0.hpp",
+        "path_type": "hardlink",
+        "sha256": "f1bb3074fe1bbedccdae2a253aef827751822eeb822163888b7e1a3098507c38",
+        "sha256_in_prefix": "f1bb3074fe1bbedccdae2a253aef827751822eeb822163888b7e1a3098507c38",
+        "size_in_bytes": 2141
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV1.hpp",
+        "path_type": "hardlink",
+        "sha256": "1373cd3bdc136eadec51011b9015a957a88518f976e1fb0d7e05e9831d9bbc52",
+        "sha256_in_prefix": "1373cd3bdc136eadec51011b9015a957a88518f976e1fb0d7e05e9831d9bbc52",
+        "size_in_bytes": 3323
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV2.hpp",
+        "path_type": "hardlink",
+        "sha256": "f23ca215c13fa81d2542459134b37fc282a4b978a0397d285cec6ddd398893e8",
+        "sha256_in_prefix": "f23ca215c13fa81d2542459134b37fc282a4b978a0397d285cec6ddd398893e8",
+        "size_in_bytes": 1958
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV3.hpp",
+        "path_type": "hardlink",
+        "sha256": "cd3b30850d30243e23558b3d8c9bf8c248b61bd10a9acedd28857ef477676722",
+        "sha256_in_prefix": "cd3b30850d30243e23558b3d8c9bf8c248b61bd10a9acedd28857ef477676722",
+        "size_in_bytes": 2706
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV4.hpp",
+        "path_type": "hardlink",
+        "sha256": "b8a83f1c446837573bf1bfc5fefc8ac9d3067cd2a6331834332454deb53c2d27",
+        "sha256_in_prefix": "b8a83f1c446837573bf1bfc5fefc8ac9d3067cd2a6331834332454deb53c2d27",
+        "size_in_bytes": 2151
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV5.hpp",
+        "path_type": "hardlink",
+        "sha256": "9cd379643f431a194d6bba2fbbcc059cd159470b0dd67686f845d14655fbe2a2",
+        "sha256_in_prefix": "9cd379643f431a194d6bba2fbbcc059cd159470b0dd67686f845d14655fbe2a2",
+        "size_in_bytes": 2753
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV6.hpp",
+        "path_type": "hardlink",
+        "sha256": "f668d36d685b79b5487b3dfd8f18d2e20e1552698228a367f7f1de679fcfb11e",
+        "sha256_in_prefix": "f668d36d685b79b5487b3dfd8f18d2e20e1552698228a367f7f1de679fcfb11e",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV7.hpp",
+        "path_type": "hardlink",
+        "sha256": "cf802641d6b181381e9c464ef1936467248cd0546002fd264deeb08965e9d47a",
+        "sha256_in_prefix": "cf802641d6b181381e9c464ef1936467248cd0546002fd264deeb08965e9d47a",
+        "size_in_bytes": 1911
+      },
+      {
+        "_path": "include/LIEF/PE/OptionalHeader.h",
+        "path_type": "hardlink",
+        "sha256": "106df7d097269a4e58943cfd5ee54f50b895698d83f50de574e26833558102f0",
+        "sha256_in_prefix": "106df7d097269a4e58943cfd5ee54f50b895698d83f50de574e26833558102f0",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "include/LIEF/PE/OptionalHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ea1c479e49946537da41b4d021e2f10a03170bc9dd8df92bf5039c417e9f91d",
+        "sha256_in_prefix": "8ea1c479e49946537da41b4d021e2f10a03170bc9dd8df92bf5039c417e9f91d",
+        "size_in_bytes": 5828
+      },
+      {
+        "_path": "include/LIEF/PE/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "f2443e0ec9a17a237491bb891fbec0b3b421dc9c0234d3e498ea29320de341f4",
+        "sha256_in_prefix": "f2443e0ec9a17a237491bb891fbec0b3b421dc9c0234d3e498ea29320de341f4",
+        "size_in_bytes": 3089
+      },
+      {
+        "_path": "include/LIEF/PE/Pogo.hpp",
+        "path_type": "hardlink",
+        "sha256": "2119fbde5ad6186cf5a87e1813403a63cc09e0f44c019a897c2e7d614121cd21",
+        "sha256_in_prefix": "2119fbde5ad6186cf5a87e1813403a63cc09e0f44c019a897c2e7d614121cd21",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "include/LIEF/PE/PogoEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "31fa986104a9bfd97c0685260d81fae67fd1ce6ead7aff98cda45b2c2e54e0e7",
+        "sha256_in_prefix": "31fa986104a9bfd97c0685260d81fae67fd1ce6ead7aff98cda45b2c2e54e0e7",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "include/LIEF/PE/Relocation.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f64f8bfb308c564feec7d4eb7402d693262edf70595cffbf3a1bc03fdf80747",
+        "sha256_in_prefix": "4f64f8bfb308c564feec7d4eb7402d693262edf70595cffbf3a1bc03fdf80747",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "include/LIEF/PE/RelocationEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "f2531facead375efe506cb11b67b2e42077b984581e752308518b853234ca3cb",
+        "sha256_in_prefix": "f2531facead375efe506cb11b67b2e42077b984581e752308518b853234ca3cb",
+        "size_in_bytes": 2572
+      },
+      {
+        "_path": "include/LIEF/PE/ResourceData.hpp",
+        "path_type": "hardlink",
+        "sha256": "692c31e9ae1d480c0257f315ce904f19a1baa29b3bb40c2e2360d0fb341ff425",
+        "sha256_in_prefix": "692c31e9ae1d480c0257f315ce904f19a1baa29b3bb40c2e2360d0fb341ff425",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "include/LIEF/PE/ResourceDirectory.hpp",
+        "path_type": "hardlink",
+        "sha256": "c11db83c19613e7c507d90b08a24b802da1180e27eac95d10768b39d5d09546c",
+        "sha256_in_prefix": "c11db83c19613e7c507d90b08a24b802da1180e27eac95d10768b39d5d09546c",
+        "size_in_bytes": 3142
+      },
+      {
+        "_path": "include/LIEF/PE/ResourceNode.hpp",
+        "path_type": "hardlink",
+        "sha256": "a76b0a858e4a227a2542a3d2a467f2e6ea95f35b87712dd1789af5d448d3baaa",
+        "sha256_in_prefix": "a76b0a858e4a227a2542a3d2a467f2e6ea95f35b87712dd1789af5d448d3baaa",
+        "size_in_bytes": 2936
+      },
+      {
+        "_path": "include/LIEF/PE/ResourcesManager.hpp",
+        "path_type": "hardlink",
+        "sha256": "3fe038070b6a205d600ce92926830af00bfeb556b09a3a5ea6b34a766da92fe9",
+        "sha256_in_prefix": "3fe038070b6a205d600ce92926830af00bfeb556b09a3a5ea6b34a766da92fe9",
+        "size_in_bytes": 4818
+      },
+      {
+        "_path": "include/LIEF/PE/RichEntry.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a85833ab335d623d88ca597903a64407d88125bbf0e5d68183a81a37de15e08",
+        "sha256_in_prefix": "5a85833ab335d623d88ca597903a64407d88125bbf0e5d68183a81a37de15e08",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "include/LIEF/PE/RichHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "82e750172346dc99e0fb8644647591ddb20944fed17f6e3e7f6394407d3d4f24",
+        "sha256_in_prefix": "82e750172346dc99e0fb8644647591ddb20944fed17f6e3e7f6394407d3d4f24",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "include/LIEF/PE/Section.h",
+        "path_type": "hardlink",
+        "sha256": "b151a18d9d391b0252f1c2d714aa918445349ecfb7dedf718f56e2f2e06fc146",
+        "sha256_in_prefix": "b151a18d9d391b0252f1c2d714aa918445349ecfb7dedf718f56e2f2e06fc146",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "include/LIEF/PE/Section.hpp",
+        "path_type": "hardlink",
+        "sha256": "7b31f927daf25c28ff37e9e4d528ca5282cc7102016c4e430298400736b93b84",
+        "sha256_in_prefix": "7b31f927daf25c28ff37e9e4d528ca5282cc7102016c4e430298400736b93b84",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "include/LIEF/PE/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "ad6b58089e6b0d9e4ae2d89a1c15f269659ae269b70a8caf3e1c0324407aebca",
+        "sha256_in_prefix": "ad6b58089e6b0d9e4ae2d89a1c15f269659ae269b70a8caf3e1c0324407aebca",
+        "size_in_bytes": 24890
+      },
+      {
+        "_path": "include/LIEF/PE/Symbol.hpp",
+        "path_type": "hardlink",
+        "sha256": "f284e0b3542de1911cc826589760a067720f7970c27c58852968a5cbff56d1b3",
+        "sha256_in_prefix": "f284e0b3542de1911cc826589760a067720f7970c27c58852968a5cbff56d1b3",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "include/LIEF/PE/TLS.hpp",
+        "path_type": "hardlink",
+        "sha256": "536cf995102bc2372d0150a9f1a5caefbc07d5bc0a41538a3368f6e959df5b82",
+        "sha256_in_prefix": "536cf995102bc2372d0150a9f1a5caefbc07d5bc0a41538a3368f6e959df5b82",
+        "size_in_bytes": 3148
+      },
+      {
+        "_path": "include/LIEF/PE/enums.h",
+        "path_type": "hardlink",
+        "sha256": "0a95e4a4bed956ff5b440ee006bfdafae6fee858f1c8f6835793f7b86415dbd2",
+        "sha256_in_prefix": "0a95e4a4bed956ff5b440ee006bfdafae6fee858f1c8f6835793f7b86415dbd2",
+        "size_in_bytes": 54659
+      },
+      {
+        "_path": "include/LIEF/PE/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "f2c637fe698ecf2296d41d13f4c511d3552549b5e288ebce898cdd5e0a9fbe57",
+        "sha256_in_prefix": "f2c637fe698ecf2296d41d13f4c511d3552549b5e288ebce898cdd5e0a9fbe57",
+        "size_in_bytes": 69794
+      },
+      {
+        "_path": "include/LIEF/PE/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "90a1cf4946afce756ad6f1e8ffdff154c8232d2e6287fa8a1fbf6b565e8c2d38",
+        "sha256_in_prefix": "90a1cf4946afce756ad6f1e8ffdff154c8232d2e6287fa8a1fbf6b565e8c2d38",
+        "size_in_bytes": 4577
+      },
+      {
+        "_path": "include/LIEF/PE/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "c02356199a56bd210ff26e3ffc76374676932a6057c3b9d3e8b6f42ab4c43077",
+        "sha256_in_prefix": "c02356199a56bd210ff26e3ffc76374676932a6057c3b9d3e8b6f42ab4c43077",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "include/LIEF/PE/resources/LangCodeItem.hpp",
+        "path_type": "hardlink",
+        "sha256": "2eca96dc6221a2f37c2f6e18ca0203cc3c5d552d916d80bf7e0ece76bd8ec429",
+        "sha256_in_prefix": "2eca96dc6221a2f37c2f6e18ca0203cc3c5d552d916d80bf7e0ece76bd8ec429",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceDialog.hpp",
+        "path_type": "hardlink",
+        "sha256": "69df19d2f3f771bea6b013663a9144dfd8f0ffbad233edc98644af4bffee8d12",
+        "sha256_in_prefix": "69df19d2f3f771bea6b013663a9144dfd8f0ffbad233edc98644af4bffee8d12",
+        "size_in_bytes": 5292
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceDialogItem.hpp",
+        "path_type": "hardlink",
+        "sha256": "a5d4ba72600dcc95a45d0db7784fda58a37bd0c651f4295f7acc381773b16609",
+        "sha256_in_prefix": "a5d4ba72600dcc95a45d0db7784fda58a37bd0c651f4295f7acc381773b16609",
+        "size_in_bytes": 3409
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceFixedFileInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "0181260346a9648f9dbcb76dbf8cb14fe894cdf13067f5e747bf56b64b2fe9c9",
+        "sha256_in_prefix": "0181260346a9648f9dbcb76dbf8cb14fe894cdf13067f5e747bf56b64b2fe9c9",
+        "size_in_bytes": 5342
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceIcon.hpp",
+        "path_type": "hardlink",
+        "sha256": "61763625790f9771332b11c0c8e32619e5b1d546838a758b0d9eaf63a84e9bf2",
+        "sha256_in_prefix": "61763625790f9771332b11c0c8e32619e5b1d546838a758b0d9eaf63a84e9bf2",
+        "size_in_bytes": 3224
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceStringFileInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "202e055e8de5475415b65decd649d3a022d38ed9d6732e4b7f79a425b4fb8cc3",
+        "sha256_in_prefix": "202e055e8de5475415b65decd649d3a022d38ed9d6732e4b7f79a425b4fb8cc3",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceVarFileInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "fc664a13341e10f57256eca905e9cf1e01ddbeb75a1e8cd6c88606ebc79d2ef2",
+        "sha256_in_prefix": "fc664a13341e10f57256eca905e9cf1e01ddbeb75a1e8cd6c88606ebc79d2ef2",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "include/LIEF/PE/resources/ResourceVersion.hpp",
+        "path_type": "hardlink",
+        "sha256": "2e745340cd7f3799b42abd00f2ddfd89c5877ae50a979556d85467dc2de7f1db",
+        "sha256_in_prefix": "2e745340cd7f3799b42abd00f2ddfd89c5877ae50a979556d85467dc2de7f1db",
+        "size_in_bytes": 3855
+      },
+      {
+        "_path": "include/LIEF/PE/signature/AuthenticatedAttributes.hpp",
+        "path_type": "hardlink",
+        "sha256": "8bc7ca5605d94238ee910678ac640628039a5328ef199e1c20f62f41fb90fc90",
+        "sha256_in_prefix": "8bc7ca5605d94238ee910678ac640628039a5328ef199e1c20f62f41fb90fc90",
+        "size_in_bytes": 2161
+      },
+      {
+        "_path": "include/LIEF/PE/signature/ContentInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "b033586ad3a5755d0679575ccde428c6bbe7496c34f2fcf9e237b4dca207486f",
+        "sha256_in_prefix": "b033586ad3a5755d0679575ccde428c6bbe7496c34f2fcf9e237b4dca207486f",
+        "size_in_bytes": 2137
+      },
+      {
+        "_path": "include/LIEF/PE/signature/OIDToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "305ae698284a14440515052a04279c16f25143af09ea0cf3715e5cb570c01341",
+        "sha256_in_prefix": "305ae698284a14440515052a04279c16f25143af09ea0cf3715e5cb570c01341",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "include/LIEF/PE/signature/Signature.hpp",
+        "path_type": "hardlink",
+        "sha256": "d299e81929f20504ca3881ea509eddb9ee56bbd476a11339ed4665fc44ac7c1c",
+        "sha256_in_prefix": "d299e81929f20504ca3881ea509eddb9ee56bbd476a11339ed4665fc44ac7c1c",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "include/LIEF/PE/signature/SignatureParser.hpp",
+        "path_type": "hardlink",
+        "sha256": "28a6b42e07672a6046312a90a4f41caafa7693debd7d9095ad9a48a9247048b0",
+        "sha256_in_prefix": "28a6b42e07672a6046312a90a4f41caafa7693debd7d9095ad9a48a9247048b0",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "include/LIEF/PE/signature/SignerInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "24ad4d44b22d691c608df8df450d6db4d8773b09ededb8b1dc12c0b58bbc8f29",
+        "sha256_in_prefix": "24ad4d44b22d691c608df8df450d6db4d8773b09ededb8b1dc12c0b58bbc8f29",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "include/LIEF/PE/signature/types.hpp",
+        "path_type": "hardlink",
+        "sha256": "b43cc609a16e8cb214aa8341d67797f5f373a7e31e588d561bf3b4377e24f2a7",
+        "sha256_in_prefix": "b43cc609a16e8cb214aa8341d67797f5f373a7e31e588d561bf3b4377e24f2a7",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "include/LIEF/PE/signature/x509.hpp",
+        "path_type": "hardlink",
+        "sha256": "bea75902361590d280cd2171e0ccfe2c4924ecfc2fde177eec8bdcbcb376f936",
+        "sha256_in_prefix": "bea75902361590d280cd2171e0ccfe2c4924ecfc2fde177eec8bdcbcb376f936",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "include/LIEF/PE/structures.h",
+        "path_type": "hardlink",
+        "sha256": "89d1d25ea5904733c152afc3f102e47200d288af1881b815d0dfa6d5c74aa683",
+        "sha256_in_prefix": "89d1d25ea5904733c152afc3f102e47200d288af1881b815d0dfa6d5c74aa683",
+        "size_in_bytes": 12631
+      },
+      {
+        "_path": "include/LIEF/PE/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "3fee7e1deac131cc24070e83aeadfc327352738102cccb1d9634763cdf86ae7c",
+        "sha256_in_prefix": "3fee7e1deac131cc24070e83aeadfc327352738102cccb1d9634763cdf86ae7c",
+        "size_in_bytes": 4104
+      },
+      {
+        "_path": "include/LIEF/PE/undef.h",
+        "path_type": "hardlink",
+        "sha256": "f985ec462ab431bc9eb71daef7bb88aa07cfb1d18622aecc6778b41063748dea",
+        "sha256_in_prefix": "f985ec462ab431bc9eb71daef7bb88aa07cfb1d18622aecc6778b41063748dea",
+        "size_in_bytes": 19940
+      },
+      {
+        "_path": "include/LIEF/PE/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "51c07322522b8deec01b04ceacb6dc694607d56d50cfeb8fd80270366c4c1ec5",
+        "sha256_in_prefix": "51c07322522b8deec01b04ceacb6dc694607d56d50cfeb8fd80270366c4c1ec5",
+        "size_in_bytes": 2287
+      },
+      {
+        "_path": "include/LIEF/VDEX.hpp",
+        "path_type": "hardlink",
+        "sha256": "54a557f8dbce33e1182ab9e40aa7d5a8a10dd35a43d163374608a003a1ed7188",
+        "sha256_in_prefix": "54a557f8dbce33e1182ab9e40aa7d5a8a10dd35a43d163374608a003a1ed7188",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "include/LIEF/VDEX/EnumToString.hpp",
+        "path_type": "hardlink",
+        "sha256": "a6dc8bb22ed8930e053fe8d3c620e6ba169be28e8263f491ed4ffdcad45e1211",
+        "sha256_in_prefix": "a6dc8bb22ed8930e053fe8d3c620e6ba169be28e8263f491ed4ffdcad45e1211",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "include/LIEF/VDEX/File.hpp",
+        "path_type": "hardlink",
+        "sha256": "c905340e9e1eba01f41c5ba317f56cbe4584c447408e11a256ca3aeec37f9b78",
+        "sha256_in_prefix": "c905340e9e1eba01f41c5ba317f56cbe4584c447408e11a256ca3aeec37f9b78",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "include/LIEF/VDEX/Header.hpp",
+        "path_type": "hardlink",
+        "sha256": "a06394f5431f9ac2190a344f3f7f56b095d17a2e39ee70f4eb39a6ade705db81",
+        "sha256_in_prefix": "a06394f5431f9ac2190a344f3f7f56b095d17a2e39ee70f4eb39a6ade705db81",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "include/LIEF/VDEX/Parser.hpp",
+        "path_type": "hardlink",
+        "sha256": "f477d48fde7f315e5e76160b861c79a7d1a93c4fa17742194cc4a52258df5031",
+        "sha256_in_prefix": "f477d48fde7f315e5e76160b861c79a7d1a93c4fa17742194cc4a52258df5031",
+        "size_in_bytes": 1965
+      },
+      {
+        "_path": "include/LIEF/VDEX/Structures.hpp",
+        "path_type": "hardlink",
+        "sha256": "820e1748028903844e86fb5951d793b4cefbadb524d8ff371af7d8690a5cdde0",
+        "sha256_in_prefix": "820e1748028903844e86fb5951d793b4cefbadb524d8ff371af7d8690a5cdde0",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "include/LIEF/VDEX/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "dd8e94706ee1f8e6da537fd67d377b5f60dd218cc68d5edbab06fa60576356d5",
+        "sha256_in_prefix": "dd8e94706ee1f8e6da537fd67d377b5f60dd218cc68d5edbab06fa60576356d5",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "include/LIEF/VDEX/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f382d586104ad7ad430709e53bfb98266a7bd82b9bef7f9fc47250ef341ead5",
+        "sha256_in_prefix": "9f382d586104ad7ad430709e53bfb98266a7bd82b9bef7f9fc47250ef341ead5",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "include/LIEF/VDEX/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "0bb6d93ed59a6d75eb597aed31cdef3476acf190879f59361281460db499e778",
+        "sha256_in_prefix": "0bb6d93ed59a6d75eb597aed31cdef3476acf190879f59361281460db499e778",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "include/LIEF/VDEX/type_traits.hpp",
+        "path_type": "hardlink",
+        "sha256": "26ae37f883915cd762e88434a7b2f996f817c579dfc23d577fbf6b3188f08173",
+        "sha256_in_prefix": "26ae37f883915cd762e88434a7b2f996f817c579dfc23d577fbf6b3188f08173",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "include/LIEF/VDEX/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "bdfac2c5be62f2322a626fe08769506d895f727fc1cd1c6ccbf21b200e0730c8",
+        "sha256_in_prefix": "bdfac2c5be62f2322a626fe08769506d895f727fc1cd1c6ccbf21b200e0730c8",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "include/LIEF/Visitor.hpp",
+        "path_type": "hardlink",
+        "sha256": "7326f04aa656f297e4daec0d58ed645752a372a34151820ad82074a376b235eb",
+        "sha256_in_prefix": "7326f04aa656f297e4daec0d58ed645752a372a34151820ad82074a376b235eb",
+        "size_in_bytes": 16060
+      },
+      {
+        "_path": "include/LIEF/associative_iterators.hpp",
+        "path_type": "hardlink",
+        "sha256": "017df8450165cac8ee23cabb628aefa2291ff52cea81592e8597d53702c72da7",
+        "sha256_in_prefix": "017df8450165cac8ee23cabb628aefa2291ff52cea81592e8597d53702c72da7",
+        "size_in_bytes": 9057
+      },
+      {
+        "_path": "include/LIEF/config.h",
+        "path_type": "hardlink",
+        "sha256": "6f3deeaf24fe3705b3c71d0d251962f40631afd8e03d1cee857cab9fab658d49",
+        "sha256_in_prefix": "6f3deeaf24fe3705b3c71d0d251962f40631afd8e03d1cee857cab9fab658d49",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "include/LIEF/enums.hpp",
+        "path_type": "hardlink",
+        "sha256": "c3c06b58427e3cc83ffb51aed06b6e9b73012c23bb5709bfb843a64ec41df4c2",
+        "sha256_in_prefix": "c3c06b58427e3cc83ffb51aed06b6e9b73012c23bb5709bfb843a64ec41df4c2",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "include/LIEF/exception.hpp",
+        "path_type": "hardlink",
+        "sha256": "b57d4f5c60d5630940534befb3cd48c57fc4b0ea2cbe95a4b9d29efa226777e6",
+        "sha256_in_prefix": "b57d4f5c60d5630940534befb3cd48c57fc4b0ea2cbe95a4b9d29efa226777e6",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "include/LIEF/hash.hpp",
+        "path_type": "hardlink",
+        "sha256": "84c1aa2d06c2194eb7b97ff49176c912bf9b6e90b6bcf374f8a12f77201d6733",
+        "sha256_in_prefix": "84c1aa2d06c2194eb7b97ff49176c912bf9b6e90b6bcf374f8a12f77201d6733",
+        "size_in_bytes": 2945
+      },
+      {
+        "_path": "include/LIEF/iostream.hpp",
+        "path_type": "hardlink",
+        "sha256": "5ea7ad2c9dc8165a3a348f8fbbc792bf4e7f30dbd5b72c81936b8693e775ab8e",
+        "sha256_in_prefix": "5ea7ad2c9dc8165a3a348f8fbbc792bf4e7f30dbd5b72c81936b8693e775ab8e",
+        "size_in_bytes": 4091
+      },
+      {
+        "_path": "include/LIEF/iterators.hpp",
+        "path_type": "hardlink",
+        "sha256": "d5bf5d97a2ae9d4104f9f7d6af96207e4b8b0bd67dd890424f897183cc15b8a1",
+        "sha256_in_prefix": "d5bf5d97a2ae9d4104f9f7d6af96207e4b8b0bd67dd890424f897183cc15b8a1",
+        "size_in_bytes": 13524
+      },
+      {
+        "_path": "include/LIEF/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "f2b2fd59f0058c4a1d9d699e00bd36e3692e990654c25da7845d0534355d1ff5",
+        "sha256_in_prefix": "f2b2fd59f0058c4a1d9d699e00bd36e3692e990654c25da7845d0534355d1ff5",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "include/LIEF/logging++.hpp",
+        "path_type": "hardlink",
+        "sha256": "a44f2071ea622d4b914aa14c53858c778354e14699b8b2956b23c0092125b80f",
+        "sha256_in_prefix": "a44f2071ea622d4b914aa14c53858c778354e14699b8b2956b23c0092125b80f",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "include/LIEF/logging.h",
+        "path_type": "hardlink",
+        "sha256": "39db33a687962e43fba53601b7395aedaaf3d8e5a16cc78637345f305dc300f7",
+        "sha256_in_prefix": "39db33a687962e43fba53601b7395aedaaf3d8e5a16cc78637345f305dc300f7",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "include/LIEF/logging.hpp",
+        "path_type": "hardlink",
+        "sha256": "542b9b125c10dca5680db119f2c1af375f21a2d5448d4748763125e77a03336d",
+        "sha256_in_prefix": "542b9b125c10dca5680db119f2c1af375f21a2d5448d4748763125e77a03336d",
+        "size_in_bytes": 1698
+      },
+      {
+        "_path": "include/LIEF/platforms.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4e6cc416742e1fd85ae147dcf502b2b1f2d971afab3d7977d9b57fe6937f58b",
+        "sha256_in_prefix": "e4e6cc416742e1fd85ae147dcf502b2b1f2d971afab3d7977d9b57fe6937f58b",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "include/LIEF/platforms/android.hpp",
+        "path_type": "hardlink",
+        "sha256": "2cbd5d989ff043e22efefb709e4a260f0649cdd9aaba39290e5c318235c56d9e",
+        "sha256_in_prefix": "2cbd5d989ff043e22efefb709e4a260f0649cdd9aaba39290e5c318235c56d9e",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "include/LIEF/platforms/android/version.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4063c9e42b511893e9ab426dca3220a1fc528fcacbd4d03aec5e51017fa16da",
+        "sha256_in_prefix": "e4063c9e42b511893e9ab426dca3220a1fc528fcacbd4d03aec5e51017fa16da",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "include/LIEF/to_json.hpp",
+        "path_type": "hardlink",
+        "sha256": "17fca9f2dac039932ccc609ef04badf5263b7bceaf6142460ca615632a479486",
+        "sha256_in_prefix": "17fca9f2dac039932ccc609ef04badf5263b7bceaf6142460ca615632a479486",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "include/LIEF/types.h",
+        "path_type": "hardlink",
+        "sha256": "7f1decb77422b91fbaff330748bcb0cbad4f25bcc25db1cdd81b96f76c12e1c4",
+        "sha256_in_prefix": "7f1decb77422b91fbaff330748bcb0cbad4f25bcc25db1cdd81b96f76c12e1c4",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "include/LIEF/types.hpp",
+        "path_type": "hardlink",
+        "sha256": "1caf9fb7b9d30f6679f03398ceedcca1827d4446306b20be3bbe39be5cda711b",
+        "sha256_in_prefix": "1caf9fb7b9d30f6679f03398ceedcca1827d4446306b20be3bbe39be5cda711b",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "include/LIEF/utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "f8a95c7db7b1b7b7094ffb10923d2b26ddea898b0d8062c88175d8bc8ec193cd",
+        "sha256_in_prefix": "f8a95c7db7b1b7b7094ffb10923d2b26ddea898b0d8062c88175d8bc8ec193cd",
+        "size_in_bytes": 2109
+      },
+      {
+        "_path": "include/LIEF/version.h",
+        "path_type": "hardlink",
+        "sha256": "38e5151e053e750b5db241fa9f865b5710ecabbcf0f9ee7cd74902c40a787520",
+        "sha256_in_prefix": "38e5151e053e750b5db241fa9f865b5710ecabbcf0f9ee7cd74902c40a787520",
+        "size_in_bytes": 957
+      },
+      {
+        "_path": "include/LIEF/visibility.h",
+        "path_type": "hardlink",
+        "sha256": "7202fd3d57f95b480153413b7b5e422331a4b77cb2a291ccc8ea93dfcc141aa2",
+        "sha256_in_prefix": "7202fd3d57f95b480153413b7b5e422331a4b77cb2a291ccc8ea93dfcc141aa2",
+        "size_in_bytes": 1558
+      },
+      {
+        "_path": "include/LIEF/visitor_macros.hpp",
+        "path_type": "hardlink",
+        "sha256": "c2cfd95269813426c44f2054bd389806fe62b0ec395c07c34b4201a2f74579c6",
+        "sha256_in_prefix": "c2cfd95269813426c44f2054bd389806fe62b0ec395c07c34b4201a2f74579c6",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "include/LIEF/visitors/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "ba9a3b82ef30392e00928d338a64d574a8e6ed152cf7b0f55d18f727c44b9630",
+        "sha256_in_prefix": "ba9a3b82ef30392e00928d338a64d574a8e6ed152cf7b0f55d18f727c44b9630",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "include/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "e14ce5e33d6a2daf748026bd4947f3d9686ca4cfd53d10c3da46a0a9aceb7f2e",
+        "sha256_in_prefix": "e14ce5e33d6a2daf748026bd4947f3d9686ca4cfd53d10c3da46a0a9aceb7f2e",
+        "size_in_bytes": 591107
+      },
+      {
+        "_path": "lib/libLIEF.dll",
+        "path_type": "hardlink",
+        "sha256": "d9254a5bca189cbb0c7cd56968b9ab733f63acf18b3b5a4d05b20d52ab7d6583",
+        "sha256_in_prefix": "d9254a5bca189cbb0c7cd56968b9ab733f63acf18b3b5a4d05b20d52ab7d6583",
+        "size_in_bytes": 6068224
+      },
+      {
+        "_path": "lib/libLIEF.lib",
+        "path_type": "hardlink",
+        "sha256": "1e3abe4af93dc02d4d03aae7bf2c90fe22dc557cea9a617be398eaa77f1eb0d3",
+        "sha256_in_prefix": "1e3abe4af93dc02d4d03aae7bf2c90fe22dc557cea9a617be398eaa77f1eb0d3",
+        "size_in_bytes": 2040650
+      },
+      {
+        "_path": "share/LIEF/cmake/FindLIEF.cmake",
+        "path_type": "hardlink",
+        "sha256": "8349a3989be01279a678ab581525bc386c81c71ba9b98af84764a54575370468",
+        "sha256_in_prefix": "8349a3989be01279a678ab581525bc386c81c71ba9b98af84764a54575370468",
+        "size_in_bytes": 4884
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d69718265e7a8c604d1ae839d6c958566f2902ef6d7a84d8bd98d53055c5f95d",
+  "size": 1721454,
+  "subdir": "win-64",
+  "timestamp": 1588591237057,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/liblief-0.10.1-ha925a31_0.conda",
+  "version": "0.10.1"
+}
