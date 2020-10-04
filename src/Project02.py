@@ -50,7 +50,7 @@ def createIndiList(gedcom_name):
     return indi_list
 
 def createFamList(gedcom_name):
-    fam_split = collectInputFile(gedcom_name)
+    fam_split = organizeInput(gedcom_name)
     fam_list = []
     for text in fam_split:
         sub_text = text.strip().split()
@@ -108,7 +108,8 @@ def createIndividualsDataFrame(gedcom_name):
 
 
 def createFamiliesDataFrame(gedcom_name):
-    families_list = createIndiList(gedcom_name)
+    fam_list = createFamList(gedcom_name)
+    individuals = createIndividualsDataFrame(gedcom_name)
 
     families = pd.DataFrame(index = range(len(fam_list)), 
                             columns = ['ID', 'Married', 'Divorced', 'Husband ID', 
