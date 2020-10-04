@@ -1,0 +1,135 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\unicodecsv-0.14.1-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/PKG-INFO",
+    "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/SOURCES.txt",
+    "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/dependency_links.txt",
+    "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/top_level.txt",
+    "Lib/site-packages/unicodecsv/__init__.py",
+    "Lib/site-packages/unicodecsv/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/unicodecsv/__pycache__/py2.cpython-38.pyc",
+    "Lib/site-packages/unicodecsv/__pycache__/py3.cpython-38.pyc",
+    "Lib/site-packages/unicodecsv/__pycache__/test.cpython-38.pyc",
+    "Lib/site-packages/unicodecsv/py2.py",
+    "Lib/site-packages/unicodecsv/py3.py",
+    "Lib/site-packages/unicodecsv/test.py",
+    ".nonadmin"
+  ],
+  "fn": "unicodecsv-0.14.1-py38_0.conda",
+  "legacy_bz2_md5": "98cfdd17ed2406d4e97fa8f356499cf8",
+  "legacy_bz2_size": 27218,
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\unicodecsv-0.14.1-py38_0",
+    "type": 1
+  },
+  "md5": "baf4e57894edbc021bed01fbe4145801",
+  "name": "unicodecsv",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\unicodecsv-0.14.1-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a4d0e1f609173f8d2ac266c162f006cd6909ab79b70ec34988b989e4b0ce65c3",
+        "sha256_in_prefix": "a4d0e1f609173f8d2ac266c162f006cd6909ab79b70ec34988b989e4b0ce65c3",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4320ea6c017541b0c824f55eaba62de2c7387e1c53d68777f872117427d97867",
+        "sha256_in_prefix": "4320ea6c017541b0c824f55eaba62de2c7387e1c53d68777f872117427d97867",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv-0.14.1-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e55a4776e6480dac71a60fb07457f41edb667300538226f6f0bb731a28bb6e60",
+        "sha256_in_prefix": "e55a4776e6480dac71a60fb07457f41edb667300538226f6f0bb731a28bb6e60",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "451202b70d030a2c1723fd4843b252e3c148f2f13c6b3562f134d30ac6959bb5",
+        "sha256_in_prefix": "451202b70d030a2c1723fd4843b252e3c148f2f13c6b3562f134d30ac6959bb5",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a10c0fb28f9f5098b60f112db117990f1264088aaa7b08478500b6c5b899109",
+        "sha256_in_prefix": "9a10c0fb28f9f5098b60f112db117990f1264088aaa7b08478500b6c5b899109",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/__pycache__/py2.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "853f82a3e202c3cd1566a80e96757332f2a665948923045610b9c18cebc67a5d",
+        "sha256_in_prefix": "853f82a3e202c3cd1566a80e96757332f2a665948923045610b9c18cebc67a5d",
+        "size_in_bytes": 7723
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/__pycache__/py3.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27ad6fe1ccae1990eafecc7071ecc33bc3721c3d8fab54ca089ede501173a749",
+        "sha256_in_prefix": "27ad6fe1ccae1990eafecc7071ecc33bc3721c3d8fab54ca089ede501173a749",
+        "size_in_bytes": 4291
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/__pycache__/test.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d096bf5be7f575fa75db0472ef7462ce4344a4546f8850d27d0ca26270f31495",
+        "sha256_in_prefix": "d096bf5be7f575fa75db0472ef7462ce4344a4546f8850d27d0ca26270f31495",
+        "size_in_bytes": 34249
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/py2.py",
+        "path_type": "hardlink",
+        "sha256": "cadf619cb95a695ae5ff5b7231ad49418bff366a77f06728122f848a9121ef80",
+        "sha256_in_prefix": "cadf619cb95a695ae5ff5b7231ad49418bff366a77f06728122f848a9121ef80",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/py3.py",
+        "path_type": "hardlink",
+        "sha256": "e15383f8c25222273bab2b0f54dd96f672fd66ab0b7759aaa751fdbae88cc856",
+        "sha256_in_prefix": "e15383f8c25222273bab2b0f54dd96f672fd66ab0b7759aaa751fdbae88cc856",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "Lib/site-packages/unicodecsv/test.py",
+        "path_type": "hardlink",
+        "sha256": "d3eb099cd07a0a770bfd4ecf8446bf1040e526e2aa1edc93af2376882e6fe7af",
+        "sha256_in_prefix": "d3eb099cd07a0a770bfd4ecf8446bf1040e526e2aa1edc93af2376882e6fe7af",
+        "size_in_bytes": 34943
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8e281bb04d133ef0aeb7d08250c0fb87f9c68f469c75d077fbf261ed94efbfc3",
+  "size": 28287,
+  "subdir": "win-64",
+  "timestamp": 1573200535876,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/unicodecsv-0.14.1-py38_0.conda",
+  "version": "0.14.1"
+}

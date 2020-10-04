@@ -1,0 +1,39 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.2.2,<3.2.3.0a0",
+    "pyqt"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\matplotlib-3.2.2-0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "matplotlib-3.2.2-0.conda",
+  "legacy_bz2_md5": "18965a4589371ee20497a784596f7047",
+  "legacy_bz2_size": 21356,
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\matplotlib-3.2.2-0",
+    "type": 1
+  },
+  "md5": "4805148dd3c849fcb84efbee96bd7264",
+  "name": "matplotlib",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\matplotlib-3.2.2-0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9b183d94f2892b4ef48bd6bd835ce92424b62eb6643ee9d00c3ee0fc884f977d",
+  "size": 22198,
+  "subdir": "win-64",
+  "timestamp": 1592846452231,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/matplotlib-3.2.2-0.conda",
+  "version": "3.2.2"
+}

@@ -1,0 +1,37 @@
+{
+  "build": "h38e98db_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\get_terminal_size-1.0.0-h38e98db_0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "get_terminal_size-1.0.0-h38e98db_0.conda",
+  "legacy_bz2_md5": "d97df1f48a67f30346b8df55f494e1ad",
+  "legacy_bz2_size": 2954,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\get_terminal_size-1.0.0-h38e98db_0",
+    "type": 1
+  },
+  "md5": "3e992d301b038e4f744e419d3a98f8bb",
+  "name": "get_terminal_size",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\get_terminal_size-1.0.0-h38e98db_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3736cd61143904972c8b516f6baf962f17c346cd14a47436bb844d3ecd950ed0",
+  "size": 3255,
+  "subdir": "win-64",
+  "timestamp": 1506008939087,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/get_terminal_size-1.0.0-h38e98db_0.conda",
+  "version": "1.0.0"
+}

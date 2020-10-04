@@ -1,0 +1,54 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-1.0-py38_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sphinxcontrib/__init__.py",
+    "Lib/site-packages/sphinxcontrib/__pycache__/__init__.cpython-38.pyc",
+    ".nonadmin"
+  ],
+  "fn": "sphinxcontrib-1.0-py38_1.conda",
+  "legacy_bz2_md5": "9318ff0eabecf29ce278d2a331983679",
+  "legacy_bz2_size": 4009,
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-1.0-py38_1",
+    "type": 1
+  },
+  "md5": "1fe0013e4b093f29b8e55be043865734",
+  "name": "sphinxcontrib",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-1.0-py38_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3c99fd0dc189eebe41aaa75e8f0a359e6b60d381adc0f835ea38c9752b5f4464",
+        "sha256_in_prefix": "3c99fd0dc189eebe41aaa75e8f0a359e6b60d381adc0f835ea38c9752b5f4464",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbca31d41f12d9494a703bd5d625428ba2aeb3a48d765a04dfcafb14866ac716",
+        "sha256_in_prefix": "dbca31d41f12d9494a703bd5d625428ba2aeb3a48d765a04dfcafb14866ac716",
+        "size_in_bytes": 134
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "79110863ed9aba330809b9d8fa4d5c8d944b6eb1396ba16419c81017b26ab3f8",
+  "size": 4597,
+  "subdir": "win-64",
+  "timestamp": 1573661744667,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sphinxcontrib-1.0-py38_1.conda",
+  "version": "1.0"
+}

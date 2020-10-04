@@ -1,0 +1,63 @@
+{
+  "build": "216",
+  "build_number": 216,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "mkl >=2020.1"
+  ],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\intel-openmp-2020.1-216",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll",
+    ".nonadmin"
+  ],
+  "fn": "intel-openmp-2020.1-216.conda",
+  "legacy_bz2_md5": "d90e06ff526157d602abffcc8eebe7f2",
+  "legacy_bz2_size": 2064821,
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\intel-openmp-2020.1-216",
+    "type": 1
+  },
+  "md5": "d0ddf5f521632e8918eb24091a2ca516",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\intel-openmp-2020.1-216.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "d8efd3a28b8bb44ff6271680964a946b5c6b6ca728856552366968cd1270dd64",
+        "sha256_in_prefix": "d8efd3a28b8bb44ff6271680964a946b5c6b6ca728856552366968cd1270dd64",
+        "size_in_bytes": 1951600
+      },
+      {
+        "_path": "Library/bin/libiomp5md.pdb",
+        "path_type": "hardlink",
+        "sha256": "59106498d85fea17f1d901eefcaf86df9f3abafb585973710be06542ef124422",
+        "sha256_in_prefix": "59106498d85fea17f1d901eefcaf86df9f3abafb585973710be06542ef124422",
+        "size_in_bytes": 5368832
+      },
+      {
+        "_path": "Library/bin/libiompstubs5md.dll",
+        "path_type": "hardlink",
+        "sha256": "8760fd3e42a44667caffc332d6356c006924a735856ae6ed28d55b5b9fd5f767",
+        "sha256_in_prefix": "8760fd3e42a44667caffc332d6356c006924a735856ae6ed28d55b5b9fd5f767",
+        "size_in_bytes": 110448
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f2645ac430fe9c282c92dfb9013165d9a6bbe4147ea5f92a4bd2d5bdb7defcf1",
+  "size": 1645724,
+  "subdir": "win-64",
+  "timestamp": 1589197498492,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2020.1-216.conda",
+  "version": "2020.1"
+}

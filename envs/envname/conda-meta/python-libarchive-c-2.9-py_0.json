@@ -1,0 +1,194 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "libarchive",
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\python-libarchive-c-2.9-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/libarchive/__init__.py",
+    "Lib/site-packages/libarchive/entry.py",
+    "Lib/site-packages/libarchive/exception.py",
+    "Lib/site-packages/libarchive/extract.py",
+    "Lib/site-packages/libarchive/ffi.py",
+    "Lib/site-packages/libarchive/flags.py",
+    "Lib/site-packages/libarchive/read.py",
+    "Lib/site-packages/libarchive/write.py",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/INSTALLER",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/LICENSE.md",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/METADATA",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/RECORD",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/WHEEL",
+    "Lib/site-packages/libarchive_c-2.9.dist-info/top_level.txt",
+    ".nonadmin",
+    "Lib/site-packages/libarchive/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/entry.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/exception.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/extract.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/ffi.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/flags.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/read.cpython-38.pyc",
+    "Lib/site-packages/libarchive/__pycache__/write.cpython-38.pyc"
+  ],
+  "fn": "python-libarchive-c-2.9-py_0.conda",
+  "legacy_bz2_md5": "ad1a251a8fa04894e04ddb49b6d4eddc",
+  "legacy_bz2_size": 51080,
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\python-libarchive-c-2.9-py_0",
+    "type": 1
+  },
+  "md5": "17117f74dd274d0a25f53d1376cb9b10",
+  "name": "python-libarchive-c",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\python-libarchive-c-2.9-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/libarchive/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d916c147a6ee3e2c99737a61c46dc20b84439c74a7527b30fb8589dd84b880d9",
+        "sha256_in_prefix": "d916c147a6ee3e2c99737a61c46dc20b84439c74a7527b30fb8589dd84b880d9",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/libarchive/entry.py",
+        "path_type": "hardlink",
+        "sha256": "2770b770d911d537154d6b729416771a7ad21464cf2178768acee2442dd5edb4",
+        "sha256_in_prefix": "2770b770d911d537154d6b729416771a7ad21464cf2178768acee2442dd5edb4",
+        "size_in_bytes": 5207
+      },
+      {
+        "_path": "site-packages/libarchive/exception.py",
+        "path_type": "hardlink",
+        "sha256": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+        "sha256_in_prefix": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/libarchive/extract.py",
+        "path_type": "hardlink",
+        "sha256": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+        "sha256_in_prefix": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "site-packages/libarchive/ffi.py",
+        "path_type": "hardlink",
+        "sha256": "5d4aca9ae8cc91ab286f68c0ccd108ed551e0429b63b05db8d47c143feeed3b7",
+        "sha256_in_prefix": "5d4aca9ae8cc91ab286f68c0ccd108ed551e0429b63b05db8d47c143feeed3b7",
+        "size_in_bytes": 10265
+      },
+      {
+        "_path": "site-packages/libarchive/flags.py",
+        "path_type": "hardlink",
+        "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "sha256_in_prefix": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/libarchive/read.py",
+        "path_type": "hardlink",
+        "sha256": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+        "sha256_in_prefix": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+        "size_in_bytes": 4094
+      },
+      {
+        "_path": "site-packages/libarchive/write.py",
+        "path_type": "hardlink",
+        "sha256": "3fa95bde562cdf5e58fa862842cfa7bf7096496c5f3a1524883e3120d1e2243d",
+        "sha256_in_prefix": "3fa95bde562cdf5e58fa862842cfa7bf7096496c5f3a1524883e3120d1e2243d",
+        "size_in_bytes": 8218
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+        "sha256_in_prefix": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "54e76f75ab8358ab516e46e215f497116e7e24cd25cfec8ba456873301ea1fc3",
+        "sha256_in_prefix": "54e76f75ab8358ab516e46e215f497116e7e24cd25cfec8ba456873301ea1fc3",
+        "size_in_bytes": 2343
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ce54b32404e4f0086a2c4b01e204a6167eb08b1e40001541b5ef69476379c345",
+        "sha256_in_prefix": "ce54b32404e4f0086a2c4b01e204a6167eb08b1e40001541b5ef69476379c345",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/libarchive_c-2.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "sha256_in_prefix": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/entry.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/exception.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/extract.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/ffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/flags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/libarchive/__pycache__/write.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "38019f42fa40d94cf8c42a79aa95165a858a9424e719afc5cdbcdf992f1d3bfa",
+  "size": 47614,
+  "subdir": "noarch",
+  "timestamp": 1587221098138,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-libarchive-c-2.9-py_0.conda",
+  "version": "2.9"
+}

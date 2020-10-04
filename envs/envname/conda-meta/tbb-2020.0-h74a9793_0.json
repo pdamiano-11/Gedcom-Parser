@@ -1,0 +1,63 @@
+{
+  "build": "h74a9793_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\tbb-2020.0-h74a9793_0",
+  "features": "",
+  "files": [
+    "Library/bin/tbb.dll",
+    "Library/bin/tbbmalloc.dll",
+    "Library/bin/tbbmalloc_proxy.dll",
+    ".nonadmin"
+  ],
+  "fn": "tbb-2020.0-h74a9793_0.conda",
+  "legacy_bz2_md5": "a8d1b944fab1135af679d133fcb2ecfb",
+  "legacy_bz2_size": 183006,
+  "license": "Apache 2.0",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\tbb-2020.0-h74a9793_0",
+    "type": 1
+  },
+  "md5": "19afcbc1d586169785633f45d5deeb2f",
+  "name": "tbb",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\tbb-2020.0-h74a9793_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/tbb.dll",
+        "path_type": "hardlink",
+        "sha256": "2c7d966978bcbb5e89b33665f7ea359df5aa45e27b9e882e1be403323d916ab3",
+        "sha256_in_prefix": "2c7d966978bcbb5e89b33665f7ea359df5aa45e27b9e882e1be403323d916ab3",
+        "size_in_bytes": 276480
+      },
+      {
+        "_path": "Library/bin/tbbmalloc.dll",
+        "path_type": "hardlink",
+        "sha256": "6b2e11d583bf81c1f65bdd229ab987bd1b29742f3e6ca6da73deb82af8aa216e",
+        "sha256_in_prefix": "6b2e11d583bf81c1f65bdd229ab987bd1b29742f3e6ca6da73deb82af8aa216e",
+        "size_in_bytes": 124928
+      },
+      {
+        "_path": "Library/bin/tbbmalloc_proxy.dll",
+        "path_type": "hardlink",
+        "sha256": "36b94c02a71457d45c78c358feb018694c393876207654e5f7ab11555efb50f3",
+        "sha256_in_prefix": "36b94c02a71457d45c78c358feb018694c393876207654e5f7ab11555efb50f3",
+        "size_in_bytes": 36352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a675c34129571b011589ed03563d17f0c7945a81bad46014cc51163cd37eb1cc",
+  "size": 164871,
+  "subdir": "win-64",
+  "timestamp": 1580939842165,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tbb-2020.0-h74a9793_0.conda",
+  "version": "2020.0"
+}

@@ -1,0 +1,148 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathtools-0.1.2-py_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pathtools-0.1.2.dist-info/AUTHORS",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/INSTALLER",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/LICENSE",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/METADATA",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/RECORD",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/WHEEL",
+    "Lib/site-packages/pathtools-0.1.2.dist-info/top_level.txt",
+    "Lib/site-packages/pathtools/__init__.py",
+    "Lib/site-packages/pathtools/path.py",
+    "Lib/site-packages/pathtools/patterns.py",
+    "Lib/site-packages/pathtools/version.py",
+    ".nonadmin",
+    "Lib/site-packages/pathtools/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/pathtools/__pycache__/path.cpython-38.pyc",
+    "Lib/site-packages/pathtools/__pycache__/patterns.cpython-38.pyc",
+    "Lib/site-packages/pathtools/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "pathtools-0.1.2-py_1.conda",
+  "legacy_bz2_md5": "c009e8fa5e8c167d0625c11f6ec621ea",
+  "legacy_bz2_size": 10694,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathtools-0.1.2-py_1",
+    "type": 1
+  },
+  "md5": "b2c7f06f3d61c78e29f24fb86f1915aa",
+  "name": "pathtools",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathtools-0.1.2-py_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "985450a09c9868d30a1a604fa5833ed178ecd7ed344d567261e6d2fe0c267a37",
+        "sha256_in_prefix": "985450a09c9868d30a1a604fa5833ed178ecd7ed344d567261e6d2fe0c267a37",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b52d83fba08f61bd1e603fee1b44cbc7ead9fcb512a5ceb8c53fec90ba415ac4",
+        "sha256_in_prefix": "b52d83fba08f61bd1e603fee1b44cbc7ead9fcb512a5ceb8c53fec90ba415ac4",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "91f44b4268d3a66edd63898e9c9ec27b1824151ad57d5605d6c2627e6e43fc17",
+        "sha256_in_prefix": "91f44b4268d3a66edd63898e9c9ec27b1824151ad57d5605d6c2627e6e43fc17",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a06acc56c75e9a4130ff73f76c6cb108c08c26e714588200d4051fd31859c6ff",
+        "sha256_in_prefix": "a06acc56c75e9a4130ff73f76c6cb108c08c26e714588200d4051fd31859c6ff",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pathtools-0.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "686394f4dd36475a10ad6b366fa91f2364510288a5c2c797ce0590a16a41765f",
+        "sha256_in_prefix": "686394f4dd36475a10ad6b366fa91f2364510288a5c2c797ce0590a16a41765f",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pathtools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5b3adaa105c1b17cf81e24b2d8f9d048c048fb47782e420a59e017774936e089",
+        "sha256_in_prefix": "5b3adaa105c1b17cf81e24b2d8f9d048c048fb47782e420a59e017774936e089",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "site-packages/pathtools/path.py",
+        "path_type": "hardlink",
+        "sha256": "c27aa03ffcbdab8922405b1986c9e59bc79475dc2c9901efbbbd56c29f11da60",
+        "sha256_in_prefix": "c27aa03ffcbdab8922405b1986c9e59bc79475dc2c9901efbbbd56c29f11da60",
+        "size_in_bytes": 6614
+      },
+      {
+        "_path": "site-packages/pathtools/patterns.py",
+        "path_type": "hardlink",
+        "sha256": "c566ad1ec62e9154c8c153b0f0ee01074fbff9a8f1db3daf806080fcd51fcacb",
+        "sha256_in_prefix": "c566ad1ec62e9154c8c153b0f0ee01074fbff9a8f1db3daf806080fcd51fcacb",
+        "size_in_bytes": 10698
+      },
+      {
+        "_path": "site-packages/pathtools/version.py",
+        "path_type": "hardlink",
+        "sha256": "53ea961e0e6b024867dfef0447d19800c320a8b8fac14f506bde52f23c1c1f25",
+        "sha256_in_prefix": "53ea961e0e6b024867dfef0447d19800c320a8b8fac14f506bde52f23c1c1f25",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "Lib/site-packages/pathtools/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pathtools/__pycache__/path.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pathtools/__pycache__/patterns.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pathtools/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3ed62a8a24cd920ca2a807b2470caa1b34ba0c333630c2478444168edf2a1331",
+  "size": 10224,
+  "subdir": "noarch",
+  "timestamp": 1575416069044,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pathtools-0.1.2-py_1.conda",
+  "version": "0.1.2"
+}

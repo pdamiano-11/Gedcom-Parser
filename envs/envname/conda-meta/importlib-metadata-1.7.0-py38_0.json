@@ -1,0 +1,312 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "zipp >=0.5"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib-metadata-1.7.0-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/INSTALLER",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/LICENSE",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/METADATA",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/RECORD",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/WHEEL",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/direct_url.json",
+    "Lib/site-packages/importlib_metadata-1.7.0.dist-info/top_level.txt",
+    "Lib/site-packages/importlib_metadata/__init__.py",
+    "Lib/site-packages/importlib_metadata/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/__pycache__/_compat.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/_compat.py",
+    "Lib/site-packages/importlib_metadata/docs/__init__.py",
+    "Lib/site-packages/importlib_metadata/docs/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/docs/__pycache__/conf.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/docs/changelog.rst",
+    "Lib/site-packages/importlib_metadata/docs/conf.py",
+    "Lib/site-packages/importlib_metadata/docs/index.rst",
+    "Lib/site-packages/importlib_metadata/docs/using.rst",
+    "Lib/site-packages/importlib_metadata/tests/__init__.py",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/fixtures.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/test_api.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/test_integration.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/test_main.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/__pycache__/test_zip.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/data/__init__.py",
+    "Lib/site-packages/importlib_metadata/tests/data/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/importlib_metadata/tests/data/example-21.12-py3-none-any.whl",
+    "Lib/site-packages/importlib_metadata/tests/data/example-21.12-py3.6.egg",
+    "Lib/site-packages/importlib_metadata/tests/fixtures.py",
+    "Lib/site-packages/importlib_metadata/tests/test_api.py",
+    "Lib/site-packages/importlib_metadata/tests/test_integration.py",
+    "Lib/site-packages/importlib_metadata/tests/test_main.py",
+    "Lib/site-packages/importlib_metadata/tests/test_zip.py",
+    ".nonadmin"
+  ],
+  "fn": "importlib-metadata-1.7.0-py38_0.conda",
+  "legacy_bz2_md5": "c256a0ec8b26e0571fd5e0c05f5ed340",
+  "legacy_bz2_size": 52635,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib-metadata-1.7.0-py38_0",
+    "type": 1
+  },
+  "md5": "cd4e6afce40e77f5aa3277cae62db5c4",
+  "name": "importlib-metadata",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib-metadata-1.7.0-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c0d7ba740721989d55bd507c0fda1373e8071da742b9a48101ebf7eac60433a5",
+        "sha256_in_prefix": "c0d7ba740721989d55bd507c0fda1373e8071da742b9a48101ebf7eac60433a5",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "02f33601c52135b17fd98ca8f2db725410a1fea19b44769113731582b1d80d5c",
+        "sha256_in_prefix": "02f33601c52135b17fd98ca8f2db725410a1fea19b44769113731582b1d80d5c",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e26d7df6b08668a291b9343bc49054b329fe6a0e3932bca95ae1f93229c5faf2",
+        "sha256_in_prefix": "e26d7df6b08668a291b9343bc49054b329fe6a0e3932bca95ae1f93229c5faf2",
+        "size_in_bytes": 2877
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e93dd36191386058b61d34b505e647357022f0de763994f83be749ebea267bfe",
+        "sha256_in_prefix": "e93dd36191386058b61d34b505e647357022f0de763994f83be749ebea267bfe",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "decd56021ff29a615dae9dfb878ca952aacbf45e3c09aa518883da2469305db9",
+        "sha256_in_prefix": "decd56021ff29a615dae9dfb878ca952aacbf45e3c09aa518883da2469305db9",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata-1.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+        "sha256_in_prefix": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a619eb11c18ffbc705fbf659e697892f871454000d38ad02a52582fb4f88540b",
+        "sha256_in_prefix": "a619eb11c18ffbc705fbf659e697892f871454000d38ad02a52582fb4f88540b",
+        "size_in_bytes": 18961
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca93be1c49eeedbf6285bce586462d8c4894c77260bc27543034a8bda5417bfd",
+        "sha256_in_prefix": "ca93be1c49eeedbf6285bce586462d8c4894c77260bc27543034a8bda5417bfd",
+        "size_in_bytes": 22383
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22aa9578ccf8de477b2c39234f9fc45c6729a82292d82a1765f58f24f20c8eff",
+        "sha256_in_prefix": "22aa9578ccf8de477b2c39234f9fc45c6729a82292d82a1765f58f24f20c8eff",
+        "size_in_bytes": 4117
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "0e7339e416c928509c66624e900ae6c8eefafb483ba40e8711fcd26165cdf3c9",
+        "sha256_in_prefix": "0e7339e416c928509c66624e900ae6c8eefafb483ba40e8711fcd26165cdf3c9",
+        "size_in_bytes": 4417
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88a70041e3e6f1ce7cfe7b901b90636325fdacea39ed43a6ac941890a234ccdd",
+        "sha256_in_prefix": "88a70041e3e6f1ce7cfe7b901b90636325fdacea39ed43a6ac941890a234ccdd",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/__pycache__/conf.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "336d5299f5731b3f548406789affc29238f3deba5f532249d3c17b9c7fc8076f",
+        "sha256_in_prefix": "336d5299f5731b3f548406789affc29238f3deba5f532249d3c17b9c7fc8076f",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/changelog.rst",
+        "path_type": "hardlink",
+        "sha256": "e8465f97ce13d12407cc05cd9538937a01b47014daf7088cb74a1dd21b769fff",
+        "sha256_in_prefix": "e8465f97ce13d12407cc05cd9538937a01b47014daf7088cb74a1dd21b769fff",
+        "size_in_bytes": 8739
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/conf.py",
+        "path_type": "hardlink",
+        "sha256": "9be6fa323bb980592948787e9722788b0a9fffcb782e3618151ba6b6eb504997",
+        "sha256_in_prefix": "9be6fa323bb980592948787e9722788b0a9fffcb782e3618151ba6b6eb504997",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/index.rst",
+        "path_type": "hardlink",
+        "sha256": "adb5eb0e42c028b20371ca8c139bbd0823047cc2a9aeacd03a420ebb03a77f3e",
+        "sha256_in_prefix": "adb5eb0e42c028b20371ca8c139bbd0823047cc2a9aeacd03a420ebb03a77f3e",
+        "size_in_bytes": 1907
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/docs/using.rst",
+        "path_type": "hardlink",
+        "sha256": "93f2f81f0c2c7f5d1aa7dc567a3c82fbf80bcff5adbd17c33b3b89037a3b670d",
+        "sha256_in_prefix": "93f2f81f0c2c7f5d1aa7dc567a3c82fbf80bcff5adbd17c33b3b89037a3b670d",
+        "size_in_bytes": 9504
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b56401b54aa83d0b764f74cb22dfd1c873a5d23a76195a588785bfed3d39d3b4",
+        "sha256_in_prefix": "b56401b54aa83d0b764f74cb22dfd1c873a5d23a76195a588785bfed3d39d3b4",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/fixtures.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6835c553c5545ee12805d21f11265f30bab7520cc6cdb3011df10d5d1fe46600",
+        "sha256_in_prefix": "6835c553c5545ee12805d21f11265f30bab7520cc6cdb3011df10d5d1fe46600",
+        "size_in_bytes": 7504
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/test_api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f075afe535bac601f17121e12ebda619e144c98fda3741b1806635666af3120d",
+        "sha256_in_prefix": "f075afe535bac601f17121e12ebda619e144c98fda3741b1806635666af3120d",
+        "size_in_bytes": 7432
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/test_integration.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c05757cd6d6e21b34d15e7b5c5866cad1486e70d4267589d792199c4b92a7a9",
+        "sha256_in_prefix": "5c05757cd6d6e21b34d15e7b5c5866cad1486e70d4267589d792199c4b92a7a9",
+        "size_in_bytes": 2673
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/test_main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be0b038fe5e7a9ddd76a309f55a964c589d5187e5a02b5f3d3b462448162d9f2",
+        "sha256_in_prefix": "be0b038fe5e7a9ddd76a309f55a964c589d5187e5a02b5f3d3b462448162d9f2",
+        "size_in_bytes": 11987
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/__pycache__/test_zip.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "25937f5cfb6bf7454240676c43cfef40be1835741d12820fc8ef8d9c9ad36bd2",
+        "sha256_in_prefix": "25937f5cfb6bf7454240676c43cfef40be1835741d12820fc8ef8d9c9ad36bd2",
+        "size_in_bytes": 3462
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a8df5abfb9c277cbefe6c88478e7863ee64ea19653d7965d2209f9484e1b2ac",
+        "sha256_in_prefix": "3a8df5abfb9c277cbefe6c88478e7863ee64ea19653d7965d2209f9484e1b2ac",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/data/example-21.12-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "23e918b9f11389dfad0d8c91f1fd4e149dede6efc8a36de4d1c6d0c494d43782",
+        "sha256_in_prefix": "23e918b9f11389dfad0d8c91f1fd4e149dede6efc8a36de4d1c6d0c494d43782",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/data/example-21.12-py3.6.egg",
+        "path_type": "hardlink",
+        "sha256": "f847ae8050228e47543bdc724074d9910c19a055cad3f431202063e91e40009a",
+        "sha256_in_prefix": "f847ae8050228e47543bdc724074d9910c19a055cad3f431202063e91e40009a",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "51afcfab2a81845aa490d185b17b6031a87abd72908dea8aa352a187361d9fec",
+        "sha256_in_prefix": "51afcfab2a81845aa490d185b17b6031a87abd72908dea8aa352a187361d9fec",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "60c0064ec44436bb6fa70d8248b9919dd24c05e4f8abf3341927be42c9e7319e",
+        "sha256_in_prefix": "60c0064ec44436bb6fa70d8248b9919dd24c05e4f8abf3341927be42c9e7319e",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/test_integration.py",
+        "path_type": "hardlink",
+        "sha256": "ca4269c234a4570bd61c6e20530e1152b67353fec9297f2f6723dffe4148acb1",
+        "sha256_in_prefix": "ca4269c234a4570bd61c6e20530e1152b67353fec9297f2f6723dffe4148acb1",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/test_main.py",
+        "path_type": "hardlink",
+        "sha256": "75cb03ab2c5346d6ab7768f9cac0c3bd5c1f2babef5dd46d642690d10963491f",
+        "sha256_in_prefix": "75cb03ab2c5346d6ab7768f9cac0c3bd5c1f2babef5dd46d642690d10963491f",
+        "size_in_bytes": 9026
+      },
+      {
+        "_path": "Lib/site-packages/importlib_metadata/tests/test_zip.py",
+        "path_type": "hardlink",
+        "sha256": "94e08d3f27c94a6f67cf4fb64509dd33b39057efe0463273c919ef32a5ea4522",
+        "sha256_in_prefix": "94e08d3f27c94a6f67cf4fb64509dd33b39057efe0463273c919ef32a5ea4522",
+        "size_in_bytes": 2675
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d3850218255ba6acba48d0156fe4836e972ff42471c958f5c16a5c70f98c6af8",
+  "size": 53872,
+  "subdir": "win-64",
+  "timestamp": 1593446585052,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/importlib-metadata-1.7.0-py38_0.conda",
+  "version": "1.7.0"
+}

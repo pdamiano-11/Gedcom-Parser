@@ -1,0 +1,39 @@
+{
+  "build": "h21ff451_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\libllvm9-9.0.1-h21ff451_0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "libllvm9-9.0.1-h21ff451_0.conda",
+  "legacy_bz2_md5": "41614b1af753cb0d2ffd00a6a6f53216",
+  "legacy_bz2_size": 63101,
+  "license": "LLVM-Exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\libllvm9-9.0.1-h21ff451_0",
+    "type": 1
+  },
+  "md5": "52a11f4f16dd490a556d3eedb3df040d",
+  "name": "libllvm9",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\libllvm9-9.0.1-h21ff451_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c578b38c6c2f4a86b2e3ab4897efb863eef9da03169631dad4c33249bbd85628",
+  "size": 62672,
+  "subdir": "win-64",
+  "timestamp": 1585171818052,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libllvm9-9.0.1-h21ff451_0.conda",
+  "version": "9.0.1"
+}

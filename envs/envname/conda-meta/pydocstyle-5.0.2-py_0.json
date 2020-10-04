@@ -1,0 +1,248 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "snowballstemmer"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pydocstyle-5.0.2-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/LICENSE-MIT",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/METADATA",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/RECORD",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/WHEEL",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/entry_points.txt",
+    "Lib/site-packages/pydocstyle-5.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/pydocstyle/__init__.py",
+    "Lib/site-packages/pydocstyle/__main__.py",
+    "Lib/site-packages/pydocstyle/checker.py",
+    "Lib/site-packages/pydocstyle/cli.py",
+    "Lib/site-packages/pydocstyle/config.py",
+    "Lib/site-packages/pydocstyle/data/imperatives.txt",
+    "Lib/site-packages/pydocstyle/data/imperatives_blacklist.txt",
+    "Lib/site-packages/pydocstyle/parser.py",
+    "Lib/site-packages/pydocstyle/utils.py",
+    "Lib/site-packages/pydocstyle/violations.py",
+    "Lib/site-packages/pydocstyle/wordlists.py",
+    ".nonadmin",
+    "Lib/site-packages/pydocstyle/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/__main__.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/checker.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/cli.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/config.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/parser.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/violations.cpython-38.pyc",
+    "Lib/site-packages/pydocstyle/__pycache__/wordlists.cpython-38.pyc",
+    "Scripts/pydocstyle-script.py",
+    "Scripts/pydocstyle.exe"
+  ],
+  "fn": "pydocstyle-5.0.2-py_0.conda",
+  "legacy_bz2_md5": "fb3a02755ff13e4d2447723ace7dc2ac",
+  "legacy_bz2_size": 36529,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pydocstyle-5.0.2-py_0",
+    "type": 1
+  },
+  "md5": "1ce86b3063c60a6873decaaebbbefc33",
+  "name": "pydocstyle",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pydocstyle-5.0.2-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "2dd86e0a622901b247d92580cdc877fae72a3507e55f23e375dc148d61a8a462",
+        "sha256_in_prefix": "2dd86e0a622901b247d92580cdc877fae72a3507e55f23e375dc148d61a8a462",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6bd2bb8800278cf0d497df723491d7da427d83c81f2985667cf9e1f3a269d532",
+        "sha256_in_prefix": "6bd2bb8800278cf0d497df723491d7da427d83c81f2985667cf9e1f3a269d532",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4ecfd48a3f6590088b47d619195d32125f11d551b9873072f3b4eab3a633ef2",
+        "sha256_in_prefix": "d4ecfd48a3f6590088b47d619195d32125f11d551b9873072f3b4eab3a633ef2",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3a6d82a2d7e9e8fce2c3d105fbfee8afceded8633e1694144b6f11448f61afa3",
+        "sha256_in_prefix": "3a6d82a2d7e9e8fce2c3d105fbfee8afceded8633e1694144b6f11448f61afa3",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "20e06467c531a6d704ef71ff8f96a03319a80c7e772c62aee5567c670a3f6ceb",
+        "sha256_in_prefix": "20e06467c531a6d704ef71ff8f96a03319a80c7e772c62aee5567c670a3f6ceb",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a555397d8b23b5b339bd0e1f271b6689e022007eb22a5f26602b4a5cd5665494",
+        "sha256_in_prefix": "a555397d8b23b5b339bd0e1f271b6689e022007eb22a5f26602b4a5cd5665494",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/pydocstyle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7bed9a68530b972d4051bb9b4bd96cd0a24b758863c44fa1bc6360d87b9d299d",
+        "sha256_in_prefix": "7bed9a68530b972d4051bb9b4bd96cd0a24b758863c44fa1bc6360d87b9d299d",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "site-packages/pydocstyle/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "e873fc4faf8c2bd247f73ad74beebfdbe8c2e3ba799b287ea103a462a66a2e91",
+        "sha256_in_prefix": "e873fc4faf8c2bd247f73ad74beebfdbe8c2e3ba799b287ea103a462a66a2e91",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/pydocstyle/checker.py",
+        "path_type": "hardlink",
+        "sha256": "c38a4acad66c867053f4c7a3ab86962dade74de792c7831ec961f3c3ef0a18b3",
+        "sha256_in_prefix": "c38a4acad66c867053f4c7a3ab86962dade74de792c7831ec961f3c3ef0a18b3",
+        "size_in_bytes": 41775
+      },
+      {
+        "_path": "site-packages/pydocstyle/cli.py",
+        "path_type": "hardlink",
+        "sha256": "309d5b5b64a873e5fccbddcbbd99135188258306ce6fd35626cb069356e2c0ee",
+        "sha256_in_prefix": "309d5b5b64a873e5fccbddcbbd99135188258306ce6fd35626cb069356e2c0ee",
+        "size_in_bytes": 2787
+      },
+      {
+        "_path": "site-packages/pydocstyle/config.py",
+        "path_type": "hardlink",
+        "sha256": "7f89415ba447dab520d26019faf50e1ae9a7b556174f9250011de94a0a655496",
+        "sha256_in_prefix": "7f89415ba447dab520d26019faf50e1ae9a7b556174f9250011de94a0a655496",
+        "size_in_bytes": 26876
+      },
+      {
+        "_path": "site-packages/pydocstyle/data/imperatives.txt",
+        "path_type": "hardlink",
+        "sha256": "4b5e2aa7aa1fff803d4cc5353c456c75f612ed7f0b060a8c991152480c44cab3",
+        "sha256_in_prefix": "4b5e2aa7aa1fff803d4cc5353c456c75f612ed7f0b060a8c991152480c44cab3",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "site-packages/pydocstyle/data/imperatives_blacklist.txt",
+        "path_type": "hardlink",
+        "sha256": "d056d929b74dd4a0b74706d40112e68847e9353301f4d1f03563df58874a098d",
+        "sha256_in_prefix": "d056d929b74dd4a0b74706d40112e68847e9353301f4d1f03563df58874a098d",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "site-packages/pydocstyle/parser.py",
+        "path_type": "hardlink",
+        "sha256": "a90fd005899f2cf89545b0465cd1b94d9e3c6539b5366bdc7f9b5f8387bce5e1",
+        "sha256_in_prefix": "a90fd005899f2cf89545b0465cd1b94d9e3c6539b5366bdc7f9b5f8387bce5e1",
+        "size_in_bytes": 25006
+      },
+      {
+        "_path": "site-packages/pydocstyle/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3769ae48dacf72cedaadf15900d74838f6ada20f82b010f80aa9a1aed4d5695e",
+        "sha256_in_prefix": "3769ae48dacf72cedaadf15900d74838f6ada20f82b010f80aa9a1aed4d5695e",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "site-packages/pydocstyle/violations.py",
+        "path_type": "hardlink",
+        "sha256": "5ff4ed0055c21df52d0867ca1ec42ba6b6080d901cae9768938b6ad9de6535bf",
+        "sha256_in_prefix": "5ff4ed0055c21df52d0867ca1ec42ba6b6080d901cae9768938b6ad9de6535bf",
+        "size_in_bytes": 12215
+      },
+      {
+        "_path": "site-packages/pydocstyle/wordlists.py",
+        "path_type": "hardlink",
+        "sha256": "d53d8ef15a8aa109fae576a60df003ceabf35a9ea0e8b25b4e6bb26bf415277d",
+        "sha256_in_prefix": "d53d8ef15a8aa109fae576a60df003ceabf35a9ea0e8b25b4e6bb26bf415277d",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/checker.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/violations.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pydocstyle/__pycache__/wordlists.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/pydocstyle-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/pydocstyle.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "779edd1abbc05bb3ef4adbfa4d81f49231901f168408147cff5657988406b668",
+  "size": 37673,
+  "subdir": "noarch",
+  "timestamp": 1592848049299,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pydocstyle-5.0.2-py_0.conda",
+  "version": "5.0.2"
+}

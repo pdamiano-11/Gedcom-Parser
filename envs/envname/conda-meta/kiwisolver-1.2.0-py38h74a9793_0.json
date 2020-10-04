@@ -1,0 +1,97 @@
+{
+  "build": "py38h74a9793_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\kiwisolver-1.2.0-py38h74a9793_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/LICENSE",
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/METADATA",
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/RECORD",
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/WHEEL",
+    "Lib/site-packages/kiwisolver-1.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/kiwisolver.cp38-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "kiwisolver-1.2.0-py38h74a9793_0.conda",
+  "legacy_bz2_md5": "56f6c6ef16af986c8358205782392b19",
+  "legacy_bz2_size": 62126,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\kiwisolver-1.2.0-py38h74a9793_0",
+    "type": 1
+  },
+  "md5": "e34aae80a83eb36cbe9eccd20acc5650",
+  "name": "kiwisolver",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\kiwisolver-1.2.0-py38h74a9793_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "26da8d49744796f2601fb5fe9e5d8b9e8102064ca60a8dc1825b6177cb05450c",
+        "sha256_in_prefix": "26da8d49744796f2601fb5fe9e5d8b9e8102064ca60a8dc1825b6177cb05450c",
+        "size_in_bytes": 3279
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "189ae14aa277ee028a59df65a8fba5b46de670fd35df129e1cb0fb432179cf83",
+        "sha256_in_prefix": "189ae14aa277ee028a59df65a8fba5b46de670fd35df129e1cb0fb432179cf83",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3800b67b7fd79e8a261b5f31259d3f0bc5212bcf55a21f93683236f947742ffb",
+        "sha256_in_prefix": "3800b67b7fd79e8a261b5f31259d3f0bc5212bcf55a21f93683236f947742ffb",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f8e0dcd9ad803bf609e53e3a34eaae1df5a344cedb42f96df9fdf345a2c18cbe",
+        "sha256_in_prefix": "f8e0dcd9ad803bf609e53e3a34eaae1df5a344cedb42f96df9fdf345a2c18cbe",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+        "sha256_in_prefix": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/kiwisolver.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "38e4dfed654b1bb6f14531cec1ee1165b224b70fd8db74c7715fb7f73f94a45f",
+        "sha256_in_prefix": "38e4dfed654b1bb6f14531cec1ee1165b224b70fd8db74c7715fb7f73f94a45f",
+        "size_in_bytes": 122368
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e0022b6999b106daeda68e29e938f7005b4c87e95a66ead7b56fbf14fdb0a653",
+  "size": 57232,
+  "subdir": "win-64",
+  "timestamp": 1588545687031,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/kiwisolver-1.2.0-py38h74a9793_0.conda",
+  "version": "1.2.0"
+}

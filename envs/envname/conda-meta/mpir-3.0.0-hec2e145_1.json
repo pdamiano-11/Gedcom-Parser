@@ -1,0 +1,190 @@
+{
+  "build": "hec2e145_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpir-3.0.0-hec2e145_1",
+  "features": "",
+  "files": [
+    "Library/bin/gmp.dll",
+    "Library/bin/mpir.dll",
+    "Library/bin/mpir.pdb",
+    "Library/bin/mpir_static.pdb",
+    "Library/bin/mpirxx_static.pdb",
+    "Library/include/gmp-config.h",
+    "Library/include/gmp-impl.h",
+    "Library/include/gmp-longlong.h",
+    "Library/include/gmp-mparam.h",
+    "Library/include/gmp.h",
+    "Library/include/gmpxx.h",
+    "Library/include/mpir.h",
+    "Library/include/mpirxx.h",
+    "Library/lib/gmp.lib",
+    "Library/lib/gmp_static.lib",
+    "Library/lib/gmpxx_static.lib",
+    "Library/lib/mpir.lib",
+    "Library/lib/mpir_static.lib",
+    "Library/lib/mpirxx_static.lib",
+    ".nonadmin"
+  ],
+  "fn": "mpir-3.0.0-hec2e145_1.conda",
+  "legacy_bz2_md5": "a81c98412a6e2522c5190d873605112e",
+  "legacy_bz2_size": 3147404,
+  "license": "LGPL 3",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpir-3.0.0-hec2e145_1",
+    "type": 1
+  },
+  "md5": "ad419df3beb25a55d29dc1ca8e407d48",
+  "name": "mpir",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpir-3.0.0-hec2e145_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gmp.dll",
+        "path_type": "hardlink",
+        "sha256": "cf46db2056e186687733c07d839ef3cb567e471ff8acb64552de145543880261",
+        "sha256_in_prefix": "cf46db2056e186687733c07d839ef3cb567e471ff8acb64552de145543880261",
+        "size_in_bytes": 613376
+      },
+      {
+        "_path": "Library/bin/mpir.dll",
+        "path_type": "hardlink",
+        "sha256": "cf46db2056e186687733c07d839ef3cb567e471ff8acb64552de145543880261",
+        "sha256_in_prefix": "cf46db2056e186687733c07d839ef3cb567e471ff8acb64552de145543880261",
+        "size_in_bytes": 613376
+      },
+      {
+        "_path": "Library/bin/mpir.pdb",
+        "path_type": "hardlink",
+        "sha256": "0952ed02b2bc8b37e8580440bf0f0c9213b03bfc098dc1df3d73b11e687163fa",
+        "sha256_in_prefix": "0952ed02b2bc8b37e8580440bf0f0c9213b03bfc098dc1df3d73b11e687163fa",
+        "size_in_bytes": 4009984
+      },
+      {
+        "_path": "Library/bin/mpir_static.pdb",
+        "path_type": "hardlink",
+        "sha256": "04b76dfd69f1f51bd2957fff54b89cb8cbf48f44a113394b06c8653f0fd4abc3",
+        "sha256_in_prefix": "04b76dfd69f1f51bd2957fff54b89cb8cbf48f44a113394b06c8653f0fd4abc3",
+        "size_in_bytes": 167936
+      },
+      {
+        "_path": "Library/bin/mpirxx_static.pdb",
+        "path_type": "hardlink",
+        "sha256": "f8c72b3d5e6d50f49361630cd7df4de2d653f7455849229394fa8d514bc9a453",
+        "sha256_in_prefix": "f8c72b3d5e6d50f49361630cd7df4de2d653f7455849229394fa8d514bc9a453",
+        "size_in_bytes": 348160
+      },
+      {
+        "_path": "Library/include/gmp-config.h",
+        "path_type": "hardlink",
+        "sha256": "e8e392c4d1aaf1acac33b932a22644440698e0bcf3d8c38ef143739e657abba9",
+        "sha256_in_prefix": "e8e392c4d1aaf1acac33b932a22644440698e0bcf3d8c38ef143739e657abba9",
+        "size_in_bytes": 10533
+      },
+      {
+        "_path": "Library/include/gmp-impl.h",
+        "path_type": "hardlink",
+        "sha256": "6c52524dd20ad8b250eac1c7d72b3a0d9bde789817ea2b7be51367b2180b46ab",
+        "sha256_in_prefix": "6c52524dd20ad8b250eac1c7d72b3a0d9bde789817ea2b7be51367b2180b46ab",
+        "size_in_bytes": 181077
+      },
+      {
+        "_path": "Library/include/gmp-longlong.h",
+        "path_type": "hardlink",
+        "sha256": "1d580c876f09f4f2bd5682431a87918d0a40122945f1b31174d66563800bb1cb",
+        "sha256_in_prefix": "1d580c876f09f4f2bd5682431a87918d0a40122945f1b31174d66563800bb1cb",
+        "size_in_bytes": 17470
+      },
+      {
+        "_path": "Library/include/gmp-mparam.h",
+        "path_type": "hardlink",
+        "sha256": "1c39605609140ff4c0964fc027be496d6617609e6b8434360aa16d8dfa6d1581",
+        "sha256_in_prefix": "1c39605609140ff4c0964fc027be496d6617609e6b8434360aa16d8dfa6d1581",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "Library/include/gmp.h",
+        "path_type": "hardlink",
+        "sha256": "660ece64c11a7866752a751476c1ab056ae14e117ff9fc66b5775351fccb171e",
+        "sha256_in_prefix": "660ece64c11a7866752a751476c1ab056ae14e117ff9fc66b5775351fccb171e",
+        "size_in_bytes": 97422
+      },
+      {
+        "_path": "Library/include/gmpxx.h",
+        "path_type": "hardlink",
+        "sha256": "aa1fbdc265a3e88468384b3748b733a0eaf1c365b95d805a16f4cd4282ed868c",
+        "sha256_in_prefix": "aa1fbdc265a3e88468384b3748b733a0eaf1c365b95d805a16f4cd4282ed868c",
+        "size_in_bytes": 123668
+      },
+      {
+        "_path": "Library/include/mpir.h",
+        "path_type": "hardlink",
+        "sha256": "660ece64c11a7866752a751476c1ab056ae14e117ff9fc66b5775351fccb171e",
+        "sha256_in_prefix": "660ece64c11a7866752a751476c1ab056ae14e117ff9fc66b5775351fccb171e",
+        "size_in_bytes": 97422
+      },
+      {
+        "_path": "Library/include/mpirxx.h",
+        "path_type": "hardlink",
+        "sha256": "aa1fbdc265a3e88468384b3748b733a0eaf1c365b95d805a16f4cd4282ed868c",
+        "sha256_in_prefix": "aa1fbdc265a3e88468384b3748b733a0eaf1c365b95d805a16f4cd4282ed868c",
+        "size_in_bytes": 123668
+      },
+      {
+        "_path": "Library/lib/gmp.lib",
+        "path_type": "hardlink",
+        "sha256": "fdd1b4abd241337cdb26de06c85c1c04e887e12cc5edb1eacc3684f111e24760",
+        "sha256_in_prefix": "fdd1b4abd241337cdb26de06c85c1c04e887e12cc5edb1eacc3684f111e24760",
+        "size_in_bytes": 124676
+      },
+      {
+        "_path": "Library/lib/gmp_static.lib",
+        "path_type": "hardlink",
+        "sha256": "175590027942c10d2a8657d2aec89cf2c7256845ec7440abb672e1af95de1386",
+        "sha256_in_prefix": "175590027942c10d2a8657d2aec89cf2c7256845ec7440abb672e1af95de1386",
+        "size_in_bytes": 3287892
+      },
+      {
+        "_path": "Library/lib/gmpxx_static.lib",
+        "path_type": "hardlink",
+        "sha256": "c8d0834336e7a990cbf9d1777d43384d5ce7654bf6e7478b18eb7d2c30a5dbe9",
+        "sha256_in_prefix": "c8d0834336e7a990cbf9d1777d43384d5ce7654bf6e7478b18eb7d2c30a5dbe9",
+        "size_in_bytes": 1434720
+      },
+      {
+        "_path": "Library/lib/mpir.lib",
+        "path_type": "hardlink",
+        "sha256": "fdd1b4abd241337cdb26de06c85c1c04e887e12cc5edb1eacc3684f111e24760",
+        "sha256_in_prefix": "fdd1b4abd241337cdb26de06c85c1c04e887e12cc5edb1eacc3684f111e24760",
+        "size_in_bytes": 124676
+      },
+      {
+        "_path": "Library/lib/mpir_static.lib",
+        "path_type": "hardlink",
+        "sha256": "175590027942c10d2a8657d2aec89cf2c7256845ec7440abb672e1af95de1386",
+        "sha256_in_prefix": "175590027942c10d2a8657d2aec89cf2c7256845ec7440abb672e1af95de1386",
+        "size_in_bytes": 3287892
+      },
+      {
+        "_path": "Library/lib/mpirxx_static.lib",
+        "path_type": "hardlink",
+        "sha256": "c8d0834336e7a990cbf9d1777d43384d5ce7654bf6e7478b18eb7d2c30a5dbe9",
+        "sha256_in_prefix": "c8d0834336e7a990cbf9d1777d43384d5ce7654bf6e7478b18eb7d2c30a5dbe9",
+        "size_in_bytes": 1434720
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61f3ce9696251a042f32056ba7329494e647f9af698ed91554b54c059bf71a22",
+  "size": 1356479,
+  "subdir": "win-64",
+  "timestamp": 1511294423928,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mpir-3.0.0-hec2e145_1.conda",
+  "version": "3.0.0"
+}
