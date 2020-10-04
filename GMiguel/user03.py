@@ -2,6 +2,7 @@ import sys
 import copy
 import numpy as np
 import pandas as pd
+import datetime
 sys.path.append("c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
 sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\testFiles")
 import Project02
@@ -11,11 +12,12 @@ def user03(gedcom_file):
     individuals = Project02.createIndividualsDataFrame(gedcom_file)
     indiv = copy.deepcopy(individuals[["Name", "Birthday", "Dead"]]) #makes a copy of original inviduals dataframe
     lst = ""
+
     for index, row in indiv.iterrows(): #iterates through indiv 
         if type(row["Dead"]) == float and pd.isna(row["Dead"]):  #checks if the Dead row is empty
             pass
         else:
-            if row["Birthday"] < row["Dead"]:    #if Death date is AFTER birth, it's valid
+            if pd.to_datetime(row["Birthday"]) < pd.to_datetime(row["Dead"]):    #if Death date is AFTER birth, it's valid
                 print("Valid")
                 print(row["Birthday"],row["Dead"] )
                 
@@ -30,3 +32,10 @@ def user03(gedcom_file):
 
 
 user03("testFiles/test6.ged")
+'''
+ if "BIRT" in lst:
+            i = lst.index("BIRT")
+            date_b = datetime.datetime.strptime(" ".join(lst[i+3:i+6]),'%d %b %Y')
+            individuals.Birthday[idx] = date_b
+            #edited date_b
+'''

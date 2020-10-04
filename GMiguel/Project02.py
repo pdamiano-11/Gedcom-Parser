@@ -125,13 +125,13 @@ def createFamiliesDataFrame(gedcom_name):
             i = lst.index("MARR")
             date_d= pd.to_datetime('-'.join(lst[i+3:i+6]))
             families.Married[idx] = date_d.strftime("%b-%d-%Y")
-            
+    
         div_case = lst.index("_CURRENT")
         if lst[div_case+1] == "N":
             families.Divorced[idx] = "True"
         else:
             families.Divorced[idx] = "False"
-        
+
         if 'HUSB' in lst:
             i = lst.index('HUSB')
             families['Husband ID'][idx] = lst[i+1]
