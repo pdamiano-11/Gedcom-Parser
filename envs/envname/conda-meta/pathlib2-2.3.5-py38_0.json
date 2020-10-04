@@ -1,0 +1,103 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathlib2-2.3.5-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+    "Lib/site-packages/pathlib2/__init__.py",
+    "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-38.pyc",
+    ".nonadmin"
+  ],
+  "fn": "pathlib2-2.3.5-py38_0.conda",
+  "legacy_bz2_md5": "3a849e60a099ea3b04a9fdaa4e734529",
+  "legacy_bz2_size": 36143,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathlib2-2.3.5-py38_0",
+    "type": 1
+  },
+  "md5": "ab06b2e3aba2a2587028078caa0ff822",
+  "name": "pathlib2",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\pathlib2-2.3.5-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+        "sha256_in_prefix": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+        "sha256_in_prefix": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+        "size_in_bytes": 3301
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "face796d47d8cc1f51a1791ebadac6427894c20e5c3501a96848e931832310a9",
+        "sha256_in_prefix": "face796d47d8cc1f51a1791ebadac6427894c20e5c3501a96848e931832310a9",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "sha256_in_prefix": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "sha256_in_prefix": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+        "sha256_in_prefix": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+        "size_in_bytes": 59133
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbd186df92c89a3cd6c14cf3f21e94db78c3187328da666a6a0a0ba710f661f3",
+        "sha256_in_prefix": "dbd186df92c89a3cd6c14cf3f21e94db78c3187328da666a6a0a0ba710f661f3",
+        "size_in_bytes": 49541
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5f3ce1bd2a68479af487f29563dfeb293fde11c98453513d4ffb0b3e22fea16d",
+  "size": 37117,
+  "subdir": "win-64",
+  "timestamp": 1573737845510,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pathlib2-2.3.5-py38_0.conda",
+  "version": "2.3.5"
+}

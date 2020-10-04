@@ -1,0 +1,40 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "path <13.2",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\path.py-12.4.0-0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "path.py-12.4.0-0.conda",
+  "legacy_bz2_md5": "4a3a4d4f2fdd2d648560f471523d2ceb",
+  "legacy_bz2_size": 6962,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\path.py-12.4.0-0",
+    "type": 1
+  },
+  "md5": "9486083de9b88024c3011a2c71767154",
+  "name": "path.py",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\path.py-12.4.0-0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "601c61eefbe3bbdcb5cb384009847736d80c78953eb9693706e3c8054898f9e5",
+  "size": 7189,
+  "subdir": "noarch",
+  "timestamp": 1576515485194,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/path.py-12.4.0-0.conda",
+  "version": "12.4.0"
+}

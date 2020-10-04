@@ -1,0 +1,62 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\locket-0.2.0-py38_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/locket-0.2.0-py3.8.egg-info",
+    "Lib/site-packages/locket/__init__.py",
+    "Lib/site-packages/locket/__pycache__/__init__.cpython-38.pyc",
+    ".nonadmin"
+  ],
+  "fn": "locket-0.2.0-py38_1.conda",
+  "legacy_bz2_md5": "be8cccdf6c4fb070d825b424f545b33c",
+  "legacy_bz2_size": 9119,
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\locket-0.2.0-py38_1",
+    "type": 1
+  },
+  "md5": "4941d136beb1fc851b6a4388f728850f",
+  "name": "locket",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\locket-0.2.0-py38_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/locket-0.2.0-py3.8.egg-info",
+        "path_type": "hardlink",
+        "sha256": "5929a70f06917d20e22664ae52403f708f961196997620136185cf23dcf475bb",
+        "sha256_in_prefix": "5929a70f06917d20e22664ae52403f708f961196997620136185cf23dcf475bb",
+        "size_in_bytes": 2787
+      },
+      {
+        "_path": "Lib/site-packages/locket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "11a9cb824dd8beb48b1b7e4338bdc219184863e5cbefa7be4b9039d1a45293f0",
+        "sha256_in_prefix": "11a9cb824dd8beb48b1b7e4338bdc219184863e5cbefa7be4b9039d1a45293f0",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "Lib/site-packages/locket/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6dc3da7862ebb4133dd267b6cc7160ce761423554e81e30be48e4586471e1049",
+        "sha256_in_prefix": "6dc3da7862ebb4133dd267b6cc7160ce761423554e81e30be48e4586471e1049",
+        "size_in_bytes": 5043
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c9b22664d0e1ca3c7fa4b18b856d5d7e0f424ecc95eff999b465dd7403952a2d",
+  "size": 9624,
+  "subdir": "win-64",
+  "timestamp": 1573488759730,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/locket-0.2.0-py38_1.conda",
+  "version": "0.2.0"
+}

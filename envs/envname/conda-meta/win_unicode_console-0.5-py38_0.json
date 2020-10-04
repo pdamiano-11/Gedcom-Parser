@@ -1,0 +1,262 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\win_unicode_console-0.5-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/run.cpython-38.pyc",
+    "Lib/site-packages/run.py",
+    "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/PKG-INFO",
+    "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/SOURCES.txt",
+    "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/dependency_links.txt",
+    "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/top_level.txt",
+    "Lib/site-packages/win_unicode_console/__init__.py",
+    "Lib/site-packages/win_unicode_console/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/buffer.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/console.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/file_object.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/info.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/raw_input.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/readline_hook.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/runner.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/streams.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/tokenize_open.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/__pycache__/unicode_argv.cpython-38.pyc",
+    "Lib/site-packages/win_unicode_console/buffer.py",
+    "Lib/site-packages/win_unicode_console/console.py",
+    "Lib/site-packages/win_unicode_console/file_object.py",
+    "Lib/site-packages/win_unicode_console/info.py",
+    "Lib/site-packages/win_unicode_console/raw_input.py",
+    "Lib/site-packages/win_unicode_console/readline_hook.py",
+    "Lib/site-packages/win_unicode_console/runner.py",
+    "Lib/site-packages/win_unicode_console/streams.py",
+    "Lib/site-packages/win_unicode_console/tokenize_open.py",
+    "Lib/site-packages/win_unicode_console/unicode_argv.py",
+    ".nonadmin"
+  ],
+  "fn": "win_unicode_console-0.5-py38_0.conda",
+  "legacy_bz2_md5": "78b2e7bf72ae30b3805db0497759c9cd",
+  "legacy_bz2_size": 33141,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\win_unicode_console-0.5-py38_0",
+    "type": 1
+  },
+  "md5": "a2975f4ef70f23a0982c26de3a315f47",
+  "name": "win_unicode_console",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\win_unicode_console-0.5-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/run.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "066a67cacad82224bebe4f262bc2bf1f9f85f971e341bf6a22e7f44eeeb6e0a9",
+        "sha256_in_prefix": "066a67cacad82224bebe4f262bc2bf1f9f85f971e341bf6a22e7f44eeeb6e0a9",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "Lib/site-packages/run.py",
+        "path_type": "hardlink",
+        "sha256": "0fe576c9c15dd0d15a5b604edf7ce54b5fa953181ec98be75394c168059008c1",
+        "sha256_in_prefix": "0fe576c9c15dd0d15a5b604edf7ce54b5fa953181ec98be75394c168059008c1",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "caa2c89b226806c58fc9b18024a0b0e0473f3f547fa324fe2e6c1dd678062aa1",
+        "sha256_in_prefix": "caa2c89b226806c58fc9b18024a0b0e0473f3f547fa324fe2e6c1dd678062aa1",
+        "size_in_bytes": 15475
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "61c3735cc35382b873c1c2cfe0a1b0657b47e841c406340ff9353e845ff7954c",
+        "sha256_in_prefix": "61c3735cc35382b873c1c2cfe0a1b0657b47e841c406340ff9353e845ff7954c",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console-0.5-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e1faba1951f787a7d882c81a164100295dc83be915453d945086f0fa3b9a41c6",
+        "sha256_in_prefix": "e1faba1951f787a7d882c81a164100295dc83be915453d945086f0fa3b9a41c6",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88c933a12888a7b1245c1a9a14e3d865b7dc0983b827348176b24d355cb0c286",
+        "sha256_in_prefix": "88c933a12888a7b1245c1a9a14e3d865b7dc0983b827348176b24d355cb0c286",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "29920c9006e398f4458d89082e3daff41681698526686a6306078752dc6a4fca",
+        "sha256_in_prefix": "29920c9006e398f4458d89082e3daff41681698526686a6306078752dc6a4fca",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/buffer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ff018eefa5f30c53b7b9ad2cb9b4b23b2f4a1f5a23c360b0570800f03a92378",
+        "sha256_in_prefix": "0ff018eefa5f30c53b7b9ad2cb9b4b23b2f4a1f5a23c360b0570800f03a92378",
+        "size_in_bytes": 1547
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/console.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be60f2428f0ae6081add3722071bc5061385a0f40806dcf4189dfe070a4292f4",
+        "sha256_in_prefix": "be60f2428f0ae6081add3722071bc5061385a0f40806dcf4189dfe070a4292f4",
+        "size_in_bytes": 2620
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/file_object.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "015c2ad510c1c85aee388165cb706111324d073fd3148e631e5c7aeb7142f7f2",
+        "sha256_in_prefix": "015c2ad510c1c85aee388165cb706111324d073fd3148e631e5c7aeb7142f7f2",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/info.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e21e546cf0cd67f4bbcbb8aa6da42e1b927950577e69c25472700d94458cd88",
+        "sha256_in_prefix": "7e21e546cf0cd67f4bbcbb8aa6da42e1b927950577e69c25472700d94458cd88",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/raw_input.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf7da8d95789b6b1cbdb75269b6f49ba1b7fc25a0bc6359c98f464f3ff6cae02",
+        "sha256_in_prefix": "bf7da8d95789b6b1cbdb75269b6f49ba1b7fc25a0bc6359c98f464f3ff6cae02",
+        "size_in_bytes": 2940
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/readline_hook.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "faadb834b5e26dcb3a2d930fc2a0af853ff5fc8bf0542af31926e509d9d2490e",
+        "sha256_in_prefix": "faadb834b5e26dcb3a2d930fc2a0af853ff5fc8bf0542af31926e509d9d2490e",
+        "size_in_bytes": 4477
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/runner.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b85c3f9391707ea33896ba58afddd74b1a42eb9d3731ca5935f31969535b86ab",
+        "sha256_in_prefix": "b85c3f9391707ea33896ba58afddd74b1a42eb9d3731ca5935f31969535b86ab",
+        "size_in_bytes": 5961
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/streams.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "53e42133dc73f227de87ea1016067d170c45f93c4398645d33f36f22c68700de",
+        "sha256_in_prefix": "53e42133dc73f227de87ea1016067d170c45f93c4398645d33f36f22c68700de",
+        "size_in_bytes": 11668
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/tokenize_open.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "29c21a5b7ad03a9cbb1827d32da31054b3a4af1654b864bf17f992f12c5c5ff5",
+        "sha256_in_prefix": "29c21a5b7ad03a9cbb1827d32da31054b3a4af1654b864bf17f992f12c5c5ff5",
+        "size_in_bytes": 4288
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/__pycache__/unicode_argv.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "80c529d0182f0ffc65b36efdc04b388ef6e729ec73e1edcedb9e122a276a52e5",
+        "sha256_in_prefix": "80c529d0182f0ffc65b36efdc04b388ef6e729ec73e1edcedb9e122a276a52e5",
+        "size_in_bytes": 1995
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/buffer.py",
+        "path_type": "hardlink",
+        "sha256": "7d3ca3699f2301f29da35b962ac4d7644bb593821a28b8922934c6adf20fee47",
+        "sha256_in_prefix": "7d3ca3699f2301f29da35b962ac4d7644bb593821a28b8922934c6adf20fee47",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/console.py",
+        "path_type": "hardlink",
+        "sha256": "3cd5afa16be56cfefd7d0155d49aafa4bba0d86a98f1f2f1814bc108c731abec",
+        "sha256_in_prefix": "3cd5afa16be56cfefd7d0155d49aafa4bba0d86a98f1f2f1814bc108c731abec",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/file_object.py",
+        "path_type": "hardlink",
+        "sha256": "b68a37fd1b21267601ca10bf0c9126164e092d7c15c58742ece127e05015d02f",
+        "sha256_in_prefix": "b68a37fd1b21267601ca10bf0c9126164e092d7c15c58742ece127e05015d02f",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/info.py",
+        "path_type": "hardlink",
+        "sha256": "17dee215768e493b59f81d028449631ca47f4bc5192f3bb710091c632aeb7309",
+        "sha256_in_prefix": "17dee215768e493b59f81d028449631ca47f4bc5192f3bb710091c632aeb7309",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/raw_input.py",
+        "path_type": "hardlink",
+        "sha256": "b2f4abfc11348deac96c1213db1262e54e069ba9a254d71c8ab8645605f1eee3",
+        "sha256_in_prefix": "b2f4abfc11348deac96c1213db1262e54e069ba9a254d71c8ab8645605f1eee3",
+        "size_in_bytes": 2971
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/readline_hook.py",
+        "path_type": "hardlink",
+        "sha256": "12d0b6b0880ad0f4bc4d17c307618d59f01521d02ba603399bcfeb9d62d34351",
+        "sha256_in_prefix": "12d0b6b0880ad0f4bc4d17c307618d59f01521d02ba603399bcfeb9d62d34351",
+        "size_in_bytes": 3947
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/runner.py",
+        "path_type": "hardlink",
+        "sha256": "c91d14de1268eae3049e83b1c3b854765f72c4a63e6af14592f3019749294ec4",
+        "sha256_in_prefix": "c91d14de1268eae3049e83b1c3b854765f72c4a63e6af14592f3019749294ec4",
+        "size_in_bytes": 5741
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/streams.py",
+        "path_type": "hardlink",
+        "sha256": "26132e50323f9cf6c02cde87f3b831c7d7489183c184f1d4056c7dc03a5409ff",
+        "sha256_in_prefix": "26132e50323f9cf6c02cde87f3b831c7d7489183c184f1d4056c7dc03a5409ff",
+        "size_in_bytes": 9381
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/tokenize_open.py",
+        "path_type": "hardlink",
+        "sha256": "193726d80fb081359d4779233998719c335b376c577699b6389e835767c18594",
+        "sha256_in_prefix": "193726d80fb081359d4779233998719c335b376c577699b6389e835767c18594",
+        "size_in_bytes": 4806
+      },
+      {
+        "_path": "Lib/site-packages/win_unicode_console/unicode_argv.py",
+        "path_type": "hardlink",
+        "sha256": "e876278967259c841ae036b0e033119ff7720101fff900fbdb6d68b2810be22d",
+        "sha256_in_prefix": "e876278967259c841ae036b0e033119ff7720101fff900fbdb6d68b2810be22d",
+        "size_in_bytes": 1787
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6c296a648038cdaa99a647c05de8959855c599863f5b000f9e2d3939e663d852",
+  "size": 35029,
+  "subdir": "win-64",
+  "timestamp": 1573732802682,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/win_unicode_console-0.5-py38_0.conda",
+  "version": "0.5"
+}

@@ -1,0 +1,79 @@
+{
+  "build": "h62dcd97_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpfr-4.0.2-h62dcd97_1",
+  "features": "",
+  "files": [
+    "Library/bin/mpfr.dll",
+    "Library/bin/mpfr.pdb",
+    "Library/include/mpfr.h",
+    "Library/lib/mpfr.lib",
+    "Library/lib/mpfr_static.lib",
+    ".nonadmin"
+  ],
+  "fn": "mpfr-4.0.2-h62dcd97_1.conda",
+  "legacy_bz2_md5": "3cd6de6b2b74f483b6554bcbe23eb517",
+  "legacy_bz2_size": 2020329,
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpfr-4.0.2-h62dcd97_1",
+    "type": 1
+  },
+  "md5": "0bc542cb4e51ea21068a94cb4c7e0b83",
+  "name": "mpfr",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\mpfr-4.0.2-h62dcd97_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/mpfr.dll",
+        "path_type": "hardlink",
+        "sha256": "3f2df662628fc49b849272ad58131895ba7d19bad9faed3993e6b98221bc2d69",
+        "sha256_in_prefix": "3f2df662628fc49b849272ad58131895ba7d19bad9faed3993e6b98221bc2d69",
+        "size_in_bytes": 420352
+      },
+      {
+        "_path": "Library/bin/mpfr.pdb",
+        "path_type": "hardlink",
+        "sha256": "90644d54fd787e936a95c31018dcad43bc057709045b1c1ae6db5b36af06a5e1",
+        "sha256_in_prefix": "90644d54fd787e936a95c31018dcad43bc057709045b1c1ae6db5b36af06a5e1",
+        "size_in_bytes": 1953792
+      },
+      {
+        "_path": "Library/include/mpfr.h",
+        "path_type": "hardlink",
+        "sha256": "f4b7b5fc1978a21d9fa9c4a81c96e240e2f6f3ee6d903f626d50304921967f23",
+        "sha256_in_prefix": "f4b7b5fc1978a21d9fa9c4a81c96e240e2f6f3ee6d903f626d50304921967f23",
+        "size_in_bytes": 51562
+      },
+      {
+        "_path": "Library/lib/mpfr.lib",
+        "path_type": "hardlink",
+        "sha256": "66abd3d397ca99a23344929225a7e7f9d0e4ff44cf8808aaad0784523dffab9b",
+        "sha256_in_prefix": "66abd3d397ca99a23344929225a7e7f9d0e4ff44cf8808aaad0784523dffab9b",
+        "size_in_bytes": 76802
+      },
+      {
+        "_path": "Library/lib/mpfr_static.lib",
+        "path_type": "hardlink",
+        "sha256": "e8c21910aa6ea65b3ea028f9d65ff97939014091247d39604a5091ba44787944",
+        "sha256_in_prefix": "e8c21910aa6ea65b3ea028f9d65ff97939014091247d39604a5091ba44787944",
+        "size_in_bytes": 5651066
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b18fbd72da48026322d272a0704b97da5c9a49416c3532668448f455c9b13b73",
+  "size": 1593245,
+  "subdir": "win-64",
+  "timestamp": 1593116228644,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mpfr-4.0.2-h62dcd97_1.conda",
+  "version": "4.0.2"
+}

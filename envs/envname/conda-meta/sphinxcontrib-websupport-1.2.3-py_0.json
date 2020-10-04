@@ -1,0 +1,397 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sphinxcontrib"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-websupport-1.2.3-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sphinxcontrib/websupport/__init__.py",
+    "Lib/site-packages/sphinxcontrib/websupport/builder.py",
+    "Lib/site-packages/sphinxcontrib/websupport/core.py",
+    "Lib/site-packages/sphinxcontrib/websupport/errors.py",
+    "Lib/site-packages/sphinxcontrib/websupport/files/ajax-loader.gif",
+    "Lib/site-packages/sphinxcontrib/websupport/files/comment-bright.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/comment-close.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/comment.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/down-pressed.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/down.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/up-pressed.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/up.png",
+    "Lib/site-packages/sphinxcontrib/websupport/files/websupport.js",
+    "Lib/site-packages/sphinxcontrib/websupport/search/__init__.py",
+    "Lib/site-packages/sphinxcontrib/websupport/search/nullsearch.py",
+    "Lib/site-packages/sphinxcontrib/websupport/search/whooshsearch.py",
+    "Lib/site-packages/sphinxcontrib/websupport/search/xapiansearch.py",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/__init__.py",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/differ.py",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.py",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.py",
+    "Lib/site-packages/sphinxcontrib/websupport/templates/searchresults.html",
+    "Lib/site-packages/sphinxcontrib/websupport/utils.py",
+    "Lib/site-packages/sphinxcontrib/websupport/version.py",
+    "Lib/site-packages/sphinxcontrib/websupport/writer.py",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3-py3.6-nspkg.pth",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/INSTALLER",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/LICENSE",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/METADATA",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/RECORD",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/WHEEL",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/direct_url.json",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/entry_points.txt",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/namespace_packages.txt",
+    "Lib/site-packages/sphinxcontrib_websupport-1.2.3.dist-info/top_level.txt",
+    ".nonadmin",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/builder.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/nullsearch.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/whooshsearch.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/xapiansearch.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/differ.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/sqlalchemy_db.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/sqlalchemystorage.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/sphinxcontrib/websupport/__pycache__/writer.cpython-38.pyc"
+  ],
+  "fn": "sphinxcontrib-websupport-1.2.3-py_0.conda",
+  "legacy_bz2_md5": "016e581bf655703bb64e64d7996bad68",
+  "legacy_bz2_size": 37203,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-websupport-1.2.3-py_0",
+    "type": 1
+  },
+  "md5": "cbd11accb1c8523d285e569f31df03d3",
+  "name": "sphinxcontrib-websupport",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\sphinxcontrib-websupport-1.2.3-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88267e7283fbd342f672f929472b08df17136a56c63f4d07fbcbaa6f30a36a37",
+        "sha256_in_prefix": "88267e7283fbd342f672f929472b08df17136a56c63f4d07fbcbaa6f30a36a37",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/builder.py",
+        "path_type": "hardlink",
+        "sha256": "de369085ac8aefe350e66002a15a428967e57ba9a7f794025278875b363f559a",
+        "sha256_in_prefix": "de369085ac8aefe350e66002a15a428967e57ba9a7f794025278875b363f559a",
+        "size_in_bytes": 8273
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/core.py",
+        "path_type": "hardlink",
+        "sha256": "3c2ffa8eace2ded93d6ff380904221e54025005bdedad117ef70f6a38622b151",
+        "sha256_in_prefix": "3c2ffa8eace2ded93d6ff380904221e54025005bdedad117ef70f6a38622b151",
+        "size_in_bytes": 19732
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/errors.py",
+        "path_type": "hardlink",
+        "sha256": "75248b64ddf47516ed3d7689fc4616fde012336e997fe43baf45b93af563497d",
+        "sha256_in_prefix": "75248b64ddf47516ed3d7689fc4616fde012336e997fe43baf45b93af563497d",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/ajax-loader.gif",
+        "path_type": "hardlink",
+        "sha256": "5d045fd991ddf2b208dd9bf39a591f50e6ec793416e2867f54e8c6c7e89b68c2",
+        "sha256_in_prefix": "5d045fd991ddf2b208dd9bf39a591f50e6ec793416e2867f54e8c6c7e89b68c2",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/comment-bright.png",
+        "path_type": "hardlink",
+        "sha256": "0737b92f8825f5ed0740482819f3fba7826297908bbd44ff00b64ee95d262d60",
+        "sha256_in_prefix": "0737b92f8825f5ed0740482819f3fba7826297908bbd44ff00b64ee95d262d60",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/comment-close.png",
+        "path_type": "hardlink",
+        "sha256": "866319c7cf09c3d5b2926ea9d9f068801c8ee0724dac66604b03ac50b1829577",
+        "sha256_in_prefix": "866319c7cf09c3d5b2926ea9d9f068801c8ee0724dac66604b03ac50b1829577",
+        "size_in_bytes": 829
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/comment.png",
+        "path_type": "hardlink",
+        "sha256": "5fb8b0b215a51fc05bc152a12ab32d44cda758721c5df53f2aeab1b1e3490aa5",
+        "sha256_in_prefix": "5fb8b0b215a51fc05bc152a12ab32d44cda758721c5df53f2aeab1b1e3490aa5",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/down-pressed.png",
+        "path_type": "hardlink",
+        "sha256": "c89ca40639d0bb71502306afdbc8646f6ef362b79c54a8f9211aa290ad8b3635",
+        "sha256_in_prefix": "c89ca40639d0bb71502306afdbc8646f6ef362b79c54a8f9211aa290ad8b3635",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/down.png",
+        "path_type": "hardlink",
+        "sha256": "75fc30ab04aa494f8ab239fba636663b950ccff763bd3b95a3c214ee2344ec89",
+        "sha256_in_prefix": "75fc30ab04aa494f8ab239fba636663b950ccff763bd3b95a3c214ee2344ec89",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/up-pressed.png",
+        "path_type": "hardlink",
+        "sha256": "cfe678a4446900f4081ab8d74ef3d1f8b1002edbf8cae3db292fcca0637310ed",
+        "sha256_in_prefix": "cfe678a4446900f4081ab8d74ef3d1f8b1002edbf8cae3db292fcca0637310ed",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/up.png",
+        "path_type": "hardlink",
+        "sha256": "108f280badfe5ec5168738c4f70a59bc6ea9d1e9243ff2b951386fb668e93502",
+        "sha256_in_prefix": "108f280badfe5ec5168738c4f70a59bc6ea9d1e9243ff2b951386fb668e93502",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/files/websupport.js",
+        "path_type": "hardlink",
+        "sha256": "180fb63dc404b6f3d32584692fdd10755edc8f0a2b79e60ff73cf40e689b4c1f",
+        "sha256_in_prefix": "180fb63dc404b6f3d32584692fdd10755edc8f0a2b79e60ff73cf40e689b4c1f",
+        "size_in_bytes": 25355
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/search/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "171f505747ea263707dc3c7d5e7a15f0724b8ae92a57aa782085eb144bf512c4",
+        "sha256_in_prefix": "171f505747ea263707dc3c7d5e7a15f0724b8ae92a57aa782085eb144bf512c4",
+        "size_in_bytes": 4794
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/search/nullsearch.py",
+        "path_type": "hardlink",
+        "sha256": "2753619d177ceff8bfaa26ddbbcc3333975559d5a145d94b62e1405fe4cb5a72",
+        "sha256_in_prefix": "2753619d177ceff8bfaa26ddbbcc3333975559d5a145d94b62e1405fe4cb5a72",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/search/whooshsearch.py",
+        "path_type": "hardlink",
+        "sha256": "328197eab7c6c4f73c2c3b20215261add55c6b239682b84b82071a59e329d8ff",
+        "sha256_in_prefix": "328197eab7c6c4f73c2c3b20215261add55c6b239682b84b82071a59e329d8ff",
+        "size_in_bytes": 2032
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/search/xapiansearch.py",
+        "path_type": "hardlink",
+        "sha256": "5b9454ab07d1fe97b2182d40a217f35fa43c86c883f6fa6b9dceb7c55ba3c07b",
+        "sha256_in_prefix": "5b9454ab07d1fe97b2182d40a217f35fa43c86c883f6fa6b9dceb7c55ba3c07b",
+        "size_in_bytes": 2734
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/storage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47d796235a8b4b0f2c9cbf9453736d8ddc6fcb16642ca12697d3dd62b0bb1e44",
+        "sha256_in_prefix": "47d796235a8b4b0f2c9cbf9453736d8ddc6fcb16642ca12697d3dd62b0bb1e44",
+        "size_in_bytes": 4356
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/storage/differ.py",
+        "path_type": "hardlink",
+        "sha256": "c0617ce3282eecfa362efd13c9ae8473e92d1b2c4a161d4709308e4c121bfe75",
+        "sha256_in_prefix": "c0617ce3282eecfa362efd13c9ae8473e92d1b2c4a161d4709308e4c121bfe75",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.py",
+        "path_type": "hardlink",
+        "sha256": "2362807032cb2be9af91c3bb3d495d598a7c952fc10bec2242b2a14db009dd87",
+        "sha256_in_prefix": "2362807032cb2be9af91c3bb3d495d598a7c952fc10bec2242b2a14db009dd87",
+        "size_in_bytes": 7643
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.py",
+        "path_type": "hardlink",
+        "sha256": "88b8fa05adcec227223dbfef918c33944b5d27fd59e5abf5fbf40b59e5266997",
+        "sha256_in_prefix": "88b8fa05adcec227223dbfef918c33944b5d27fd59e5abf5fbf40b59e5266997",
+        "size_in_bytes": 6161
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/templates/searchresults.html",
+        "path_type": "hardlink",
+        "sha256": "6f3a6392bdffed2f0a161dbf933a40ddb59fcfe7239a179d6802ecce657c3d9c",
+        "sha256_in_prefix": "6f3a6392bdffed2f0a161dbf933a40ddb59fcfe7239a179d6802ecce657c3d9c",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0fa9da3c27150be3434b8150502c88c77a9caa0a31e256cbbfe0a018d3d7ad22",
+        "sha256_in_prefix": "0fa9da3c27150be3434b8150502c88c77a9caa0a31e256cbbfe0a018d3d7ad22",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/version.py",
+        "path_type": "hardlink",
+        "sha256": "8f9dcbec8656cfa082876adbae7a88dcc2120487167ec867cd159f9ab87bea87",
+        "sha256_in_prefix": "8f9dcbec8656cfa082876adbae7a88dcc2120487167ec867cd159f9ab87bea87",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/sphinxcontrib/websupport/writer.py",
+        "path_type": "hardlink",
+        "sha256": "0aefb72e74cb99bade53d1ebd4f75e3827dac3d41d6b4a8188e322c3fdee8a30",
+        "sha256_in_prefix": "0aefb72e74cb99bade53d1ebd4f75e3827dac3d41d6b4a8188e322c3fdee8a30",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3-py3.6-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "6ef09bbd30e129409336dac26eee8755ef13b180b81b8fa14645de1dd109eade",
+        "sha256_in_prefix": "6ef09bbd30e129409336dac26eee8755ef13b180b81b8fa14645de1dd109eade",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bb7248c5d924a76ecd803e6bfe671c1d76f1baea087f92aea67f9fe15e445789",
+        "sha256_in_prefix": "bb7248c5d924a76ecd803e6bfe671c1d76f1baea087f92aea67f9fe15e445789",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b98899f396442851090d618c052570cc028982028202250c122a633a83ac7f56",
+        "sha256_in_prefix": "b98899f396442851090d618c052570cc028982028202250c122a633a83ac7f56",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "15217422ae3f9b9cc95b344183aac92e20c2e4ac34ded395de19e4299e1abe31",
+        "sha256_in_prefix": "15217422ae3f9b9cc95b344183aac92e20c2e4ac34ded395de19e4299e1abe31",
+        "size_in_bytes": 4556
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "015bdbde76fdb475b91de0de3d5fd717e76d23a0279c7048c01713838f5053f6",
+        "sha256_in_prefix": "015bdbde76fdb475b91de0de3d5fd717e76d23a0279c7048c01713838f5053f6",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "68baf758404d1700f9c52142ab42012cc180d0c4b5a433ed30fdf97056cb2a6e",
+        "sha256_in_prefix": "68baf758404d1700f9c52142ab42012cc180d0c4b5a433ed30fdf97056cb2a6e",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "549ad5dffbda88a415815a51d08d6279cc683b476bcc6bbe3348f8d0f54fd904",
+        "sha256_in_prefix": "549ad5dffbda88a415815a51d08d6279cc683b476bcc6bbe3348f8d0f54fd904",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/sphinxcontrib_websupport-1.2.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "549ad5dffbda88a415815a51d08d6279cc683b476bcc6bbe3348f8d0f54fd904",
+        "sha256_in_prefix": "549ad5dffbda88a415815a51d08d6279cc683b476bcc6bbe3348f8d0f54fd904",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/builder.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/nullsearch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/whooshsearch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/search/__pycache__/xapiansearch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/differ.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/sqlalchemy_db.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/storage/__pycache__/sqlalchemystorage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sphinxcontrib/websupport/__pycache__/writer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c8af3bfa63419d1bfca4ec444c79a39355568576deefdcfc0bf0d9c943a373bb",
+  "size": 37028,
+  "subdir": "noarch",
+  "timestamp": 1593446388117,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-websupport-1.2.3-py_0.conda",
+  "version": "1.2.3"
+}

@@ -1,0 +1,287 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\isort-4.3.21-py38_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/isort-4.3.21.dist-info/INSTALLER",
+    "Lib/site-packages/isort-4.3.21.dist-info/LICENSE",
+    "Lib/site-packages/isort-4.3.21.dist-info/METADATA",
+    "Lib/site-packages/isort-4.3.21.dist-info/RECORD",
+    "Lib/site-packages/isort-4.3.21.dist-info/WHEEL",
+    "Lib/site-packages/isort-4.3.21.dist-info/entry_points.txt",
+    "Lib/site-packages/isort-4.3.21.dist-info/top_level.txt",
+    "Lib/site-packages/isort/__init__.py",
+    "Lib/site-packages/isort/__main__.py",
+    "Lib/site-packages/isort/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/__main__.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/finders.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/hooks.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/isort.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/main.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/natural.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/pie_slice.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/pylama_isort.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/settings.cpython-38.pyc",
+    "Lib/site-packages/isort/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/isort/finders.py",
+    "Lib/site-packages/isort/hooks.py",
+    "Lib/site-packages/isort/isort.py",
+    "Lib/site-packages/isort/main.py",
+    "Lib/site-packages/isort/natural.py",
+    "Lib/site-packages/isort/pie_slice.py",
+    "Lib/site-packages/isort/pylama_isort.py",
+    "Lib/site-packages/isort/settings.py",
+    "Lib/site-packages/isort/utils.py",
+    "Scripts/isort-script.py",
+    "Scripts/isort.exe",
+    ".nonadmin"
+  ],
+  "fn": "isort-4.3.21-py38_0.conda",
+  "legacy_bz2_md5": "b59af5ce6f059b0dd60df5bd42f14dbc",
+  "legacy_bz2_size": 84691,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\isort-4.3.21-py38_0",
+    "type": 1
+  },
+  "md5": "91c77a9630d2c880b3db6f16d9d16936",
+  "name": "isort",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\isort-4.3.21-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "063294001c3d523dbacbab9dd54ac229982756ccaf592ca53240b2b0cdd82065",
+        "sha256_in_prefix": "063294001c3d523dbacbab9dd54ac229982756ccaf592ca53240b2b0cdd82065",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f1f6350ee2ce9ff527087e7c03c01cb02519a5859e2c2b1017e9fe1885e5c4e3",
+        "sha256_in_prefix": "f1f6350ee2ce9ff527087e7c03c01cb02519a5859e2c2b1017e9fe1885e5c4e3",
+        "size_in_bytes": 19749
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "21321e47b0996aebe485901fd449a8898a7624ed85c804e742855e5c4d23c3e4",
+        "sha256_in_prefix": "21321e47b0996aebe485901fd449a8898a7624ed85c804e742855e5c4d23c3e4",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "sha256_in_prefix": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "d8cf7d7921699ed7839b77a45bc8f26b66b7034faf167b4a753d5f3fddd3ca4b",
+        "sha256_in_prefix": "d8cf7d7921699ed7839b77a45bc8f26b66b7034faf167b4a753d5f3fddd3ca4b",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/isort-4.3.21.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9ab04ba15a499d05816e730e49dce48cdd44f59f9edd977e311968f3c6ecb549",
+        "sha256_in_prefix": "9ab04ba15a499d05816e730e49dce48cdd44f59f9edd977e311968f3c6ecb549",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/isort/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fc34d330049e3c90aab0a9d124f7ff62016fe5924e1e0d6e3cb92b40772a0367",
+        "sha256_in_prefix": "fc34d330049e3c90aab0a9d124f7ff62016fe5924e1e0d6e3cb92b40772a0367",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "Lib/site-packages/isort/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "f6d4e13eac8e9d8f3a6c76b127459c89377eadf28ddcef8f42834604edb1862a",
+        "sha256_in_prefix": "f6d4e13eac8e9d8f3a6c76b127459c89377eadf28ddcef8f42834604edb1862a",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a984b9228988b887d7d947e94bbd07cf737745b24bcc65c18985d46c3a0afc3d",
+        "sha256_in_prefix": "a984b9228988b887d7d947e94bbd07cf737745b24bcc65c18985d46c3a0afc3d",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db005000436de28cb3791efe31d277429dee443373df650a1cfe7593c19700b7",
+        "sha256_in_prefix": "db005000436de28cb3791efe31d277429dee443373df650a1cfe7593c19700b7",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/finders.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "08f0a1400aae44d9eddaadc8fd69572e6b5cdb26e478a845b5e711b96a92befc",
+        "sha256_in_prefix": "08f0a1400aae44d9eddaadc8fd69572e6b5cdb26e478a845b5e711b96a92befc",
+        "size_in_bytes": 12003
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/hooks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca2cf23cde4578e15a4016d511e159a360c57be650a8ac8aa5567d6eab1e60fd",
+        "sha256_in_prefix": "ca2cf23cde4578e15a4016d511e159a360c57be650a8ac8aa5567d6eab1e60fd",
+        "size_in_bytes": 3184
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/isort.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1de84276b38f525746a0d30ef18c1930d9e919cfd34edfe71ec63c0232e42705",
+        "sha256_in_prefix": "1de84276b38f525746a0d30ef18c1930d9e919cfd34edfe71ec63c0232e42705",
+        "size_in_bytes": 29876
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfccd27e7c25f01327e3ab6aa60f84a0ec5cd8538b2058bbc165f694b2ffa670",
+        "sha256_in_prefix": "cfccd27e7c25f01327e3ab6aa60f84a0ec5cd8538b2058bbc165f694b2ffa670",
+        "size_in_bytes": 16807
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/natural.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76a7fef8e65551bbecc4472b61699d477a55551805a88f527f2c10830fa6d8d8",
+        "sha256_in_prefix": "76a7fef8e65551bbecc4472b61699d477a55551805a88f527f2c10830fa6d8d8",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/pie_slice.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e56d34a26a7bf915948d80213198c7b6fc29faf505b6bda87c0102fef5bca88",
+        "sha256_in_prefix": "5e56d34a26a7bf915948d80213198c7b6fc29faf505b6bda87c0102fef5bca88",
+        "size_in_bytes": 5022
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/pylama_isort.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1068eade77c33c3e9bf4cdf0d8343d951eeceb13ccac11b9469f441072bd116c",
+        "sha256_in_prefix": "1068eade77c33c3e9bf4cdf0d8343d951eeceb13ccac11b9469f441072bd116c",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/settings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "991256d1b74be9844b89b8db083e116667972b775a47d7fc1cec950e9c32d4c3",
+        "sha256_in_prefix": "991256d1b74be9844b89b8db083e116667972b775a47d7fc1cec950e9c32d4c3",
+        "size_in_bytes": 12756
+      },
+      {
+        "_path": "Lib/site-packages/isort/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65c1d5c84944283f303bdde472eca3c0e5cb66f302ae58dcca1d312f360bfd05",
+        "sha256_in_prefix": "65c1d5c84944283f303bdde472eca3c0e5cb66f302ae58dcca1d312f360bfd05",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "Lib/site-packages/isort/finders.py",
+        "path_type": "hardlink",
+        "sha256": "d30dfdca0085b8ebf8d0e1e2c5f96b3affd79daf0aefcbac6b9c92c12f469161",
+        "sha256_in_prefix": "d30dfdca0085b8ebf8d0e1e2c5f96b3affd79daf0aefcbac6b9c92c12f469161",
+        "size_in_bytes": 13185
+      },
+      {
+        "_path": "Lib/site-packages/isort/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "19cc8f305eeb6aadc1d73e2e6dbcc85a83226390de3c39e2d0d72de54f3bb8c4",
+        "sha256_in_prefix": "19cc8f305eeb6aadc1d73e2e6dbcc85a83226390de3c39e2d0d72de54f3bb8c4",
+        "size_in_bytes": 3230
+      },
+      {
+        "_path": "Lib/site-packages/isort/isort.py",
+        "path_type": "hardlink",
+        "sha256": "92b2d6d108309d58d40f78584e94265a431ae530c4671c7a01b5fcd2f9553680",
+        "sha256_in_prefix": "92b2d6d108309d58d40f78584e94265a431ae530c4671c7a01b5fcd2f9553680",
+        "size_in_bytes": 53910
+      },
+      {
+        "_path": "Lib/site-packages/isort/main.py",
+        "path_type": "hardlink",
+        "sha256": "ad2edd02eff44fef09c62dec0d6bb4d083a3b788f4af7bc98ba6d7667e919d08",
+        "sha256_in_prefix": "ad2edd02eff44fef09c62dec0d6bb4d083a3b788f4af7bc98ba6d7667e919d08",
+        "size_in_bytes": 21974
+      },
+      {
+        "_path": "Lib/site-packages/isort/natural.py",
+        "path_type": "hardlink",
+        "sha256": "865716b0629f2140b802d8e9e4822a0c29a0d6669d63a6af7bda0d8931a32744",
+        "sha256_in_prefix": "865716b0629f2140b802d8e9e4822a0c29a0d6669d63a6af7bda0d8931a32744",
+        "size_in_bytes": 1794
+      },
+      {
+        "_path": "Lib/site-packages/isort/pie_slice.py",
+        "path_type": "hardlink",
+        "sha256": "84eea5d57a1cbc601df174d1f39dbaafe1bb5c89dc510079dff0c74380191182",
+        "sha256_in_prefix": "84eea5d57a1cbc601df174d1f39dbaafe1bb5c89dc510079dff0c74380191182",
+        "size_in_bytes": 5612
+      },
+      {
+        "_path": "Lib/site-packages/isort/pylama_isort.py",
+        "path_type": "hardlink",
+        "sha256": "c05e8d38456e89b99ed25fb9a47f69096d63e2f19a15a9aec25978f784e7cc32",
+        "sha256_in_prefix": "c05e8d38456e89b99ed25fb9a47f69096d63e2f19a15a9aec25978f784e7cc32",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "Lib/site-packages/isort/settings.py",
+        "path_type": "hardlink",
+        "sha256": "e3f25ffbd19a072f5f8ba50972d2ea7ac2003007a059e911209749987e5304d1",
+        "sha256_in_prefix": "e3f25ffbd19a072f5f8ba50972d2ea7ac2003007a059e911209749987e5304d1",
+        "size_in_bytes": 17452
+      },
+      {
+        "_path": "Lib/site-packages/isort/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2ad6b3128797f579ad72b5063fac65e65057ed87b6374f00086696c6219c21a1",
+        "sha256_in_prefix": "2ad6b3128797f579ad72b5063fac65e65057ed87b6374f00086696c6219c21a1",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "Scripts/isort-script.py",
+        "path_type": "hardlink",
+        "sha256": "279a435b15b7bf7d907491153e6a50e203a0c62203eee9eacaa6ab2578b56840",
+        "sha256_in_prefix": "279a435b15b7bf7d907491153e6a50e203a0c62203eee9eacaa6ab2578b56840",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "Scripts/isort.exe",
+        "path_type": "hardlink",
+        "sha256": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "sha256_in_prefix": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "size_in_bytes": 40960
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1b05f92209df90ff4ab163981164299eb6f9ee6ca5bcab5c9c0171ccfa98a7e4",
+  "size": 83115,
+  "subdir": "win-64",
+  "timestamp": 1574159106608,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/isort-4.3.21-py38_0.conda",
+  "version": "4.3.21"
+}

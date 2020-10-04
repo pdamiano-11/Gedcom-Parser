@@ -1,0 +1,2791 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "pyyaml"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\dask-core-2.20.0-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/dask-2.20.0.dist-info/INSTALLER",
+    "Lib/site-packages/dask-2.20.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/dask-2.20.0.dist-info/METADATA",
+    "Lib/site-packages/dask-2.20.0.dist-info/RECORD",
+    "Lib/site-packages/dask-2.20.0.dist-info/WHEEL",
+    "Lib/site-packages/dask-2.20.0.dist-info/direct_url.json",
+    "Lib/site-packages/dask-2.20.0.dist-info/top_level.txt",
+    "Lib/site-packages/dask/__init__.py",
+    "Lib/site-packages/dask/_version.py",
+    "Lib/site-packages/dask/array/__init__.py",
+    "Lib/site-packages/dask/array/backends.py",
+    "Lib/site-packages/dask/array/blockwise.py",
+    "Lib/site-packages/dask/array/chunk.py",
+    "Lib/site-packages/dask/array/core.py",
+    "Lib/site-packages/dask/array/creation.py",
+    "Lib/site-packages/dask/array/einsumfuncs.py",
+    "Lib/site-packages/dask/array/fft.py",
+    "Lib/site-packages/dask/array/gufunc.py",
+    "Lib/site-packages/dask/array/image.py",
+    "Lib/site-packages/dask/array/linalg.py",
+    "Lib/site-packages/dask/array/ma.py",
+    "Lib/site-packages/dask/array/numpy_compat.py",
+    "Lib/site-packages/dask/array/optimization.py",
+    "Lib/site-packages/dask/array/overlap.py",
+    "Lib/site-packages/dask/array/percentile.py",
+    "Lib/site-packages/dask/array/random.py",
+    "Lib/site-packages/dask/array/rechunk.py",
+    "Lib/site-packages/dask/array/reductions.py",
+    "Lib/site-packages/dask/array/reshape.py",
+    "Lib/site-packages/dask/array/routines.py",
+    "Lib/site-packages/dask/array/slicing.py",
+    "Lib/site-packages/dask/array/stats.py",
+    "Lib/site-packages/dask/array/svg.py",
+    "Lib/site-packages/dask/array/tests/__init__.py",
+    "Lib/site-packages/dask/array/tests/test_array_core.py",
+    "Lib/site-packages/dask/array/tests/test_array_function.py",
+    "Lib/site-packages/dask/array/tests/test_array_utils.py",
+    "Lib/site-packages/dask/array/tests/test_atop.py",
+    "Lib/site-packages/dask/array/tests/test_chunk.py",
+    "Lib/site-packages/dask/array/tests/test_creation.py",
+    "Lib/site-packages/dask/array/tests/test_cupy.py",
+    "Lib/site-packages/dask/array/tests/test_fft.py",
+    "Lib/site-packages/dask/array/tests/test_gufunc.py",
+    "Lib/site-packages/dask/array/tests/test_image.py",
+    "Lib/site-packages/dask/array/tests/test_linalg.py",
+    "Lib/site-packages/dask/array/tests/test_linearoperator.py",
+    "Lib/site-packages/dask/array/tests/test_masked.py",
+    "Lib/site-packages/dask/array/tests/test_numpy_compat.py",
+    "Lib/site-packages/dask/array/tests/test_optimization.py",
+    "Lib/site-packages/dask/array/tests/test_overlap.py",
+    "Lib/site-packages/dask/array/tests/test_percentiles.py",
+    "Lib/site-packages/dask/array/tests/test_random.py",
+    "Lib/site-packages/dask/array/tests/test_rechunk.py",
+    "Lib/site-packages/dask/array/tests/test_reductions.py",
+    "Lib/site-packages/dask/array/tests/test_reshape.py",
+    "Lib/site-packages/dask/array/tests/test_routines.py",
+    "Lib/site-packages/dask/array/tests/test_slicing.py",
+    "Lib/site-packages/dask/array/tests/test_sparse.py",
+    "Lib/site-packages/dask/array/tests/test_stats.py",
+    "Lib/site-packages/dask/array/tests/test_svg.py",
+    "Lib/site-packages/dask/array/tests/test_testing.py",
+    "Lib/site-packages/dask/array/tests/test_ufunc.py",
+    "Lib/site-packages/dask/array/tests/test_wrap.py",
+    "Lib/site-packages/dask/array/tests/test_xarray.py",
+    "Lib/site-packages/dask/array/tiledb_io.py",
+    "Lib/site-packages/dask/array/ufunc.py",
+    "Lib/site-packages/dask/array/utils.py",
+    "Lib/site-packages/dask/array/wrap.py",
+    "Lib/site-packages/dask/bag/__init__.py",
+    "Lib/site-packages/dask/bag/avro.py",
+    "Lib/site-packages/dask/bag/chunk.py",
+    "Lib/site-packages/dask/bag/core.py",
+    "Lib/site-packages/dask/bag/random.py",
+    "Lib/site-packages/dask/bag/tests/__init__.py",
+    "Lib/site-packages/dask/bag/tests/test_avro.py",
+    "Lib/site-packages/dask/bag/tests/test_bag.py",
+    "Lib/site-packages/dask/bag/tests/test_random.py",
+    "Lib/site-packages/dask/bag/tests/test_text.py",
+    "Lib/site-packages/dask/bag/text.py",
+    "Lib/site-packages/dask/bag/utils.py",
+    "Lib/site-packages/dask/base.py",
+    "Lib/site-packages/dask/blockwise.py",
+    "Lib/site-packages/dask/bytes/__init__.py",
+    "Lib/site-packages/dask/bytes/_compatibility.py",
+    "Lib/site-packages/dask/bytes/core.py",
+    "Lib/site-packages/dask/bytes/tests/__init__.py",
+    "Lib/site-packages/dask/bytes/tests/test_bytes_utils.py",
+    "Lib/site-packages/dask/bytes/tests/test_compression.py",
+    "Lib/site-packages/dask/bytes/tests/test_hdfs.py",
+    "Lib/site-packages/dask/bytes/tests/test_http.py",
+    "Lib/site-packages/dask/bytes/tests/test_local.py",
+    "Lib/site-packages/dask/bytes/tests/test_s3.py",
+    "Lib/site-packages/dask/bytes/utils.py",
+    "Lib/site-packages/dask/cache.py",
+    "Lib/site-packages/dask/callbacks.py",
+    "Lib/site-packages/dask/compatibility.py",
+    "Lib/site-packages/dask/config.py",
+    "Lib/site-packages/dask/context.py",
+    "Lib/site-packages/dask/core.py",
+    "Lib/site-packages/dask/dask-schema.yaml",
+    "Lib/site-packages/dask/dask.yaml",
+    "Lib/site-packages/dask/dataframe/__init__.py",
+    "Lib/site-packages/dask/dataframe/_accessor.py",
+    "Lib/site-packages/dask/dataframe/_compat.py",
+    "Lib/site-packages/dask/dataframe/_dtypes.py",
+    "Lib/site-packages/dask/dataframe/accessor.py",
+    "Lib/site-packages/dask/dataframe/backends.py",
+    "Lib/site-packages/dask/dataframe/categorical.py",
+    "Lib/site-packages/dask/dataframe/core.py",
+    "Lib/site-packages/dask/dataframe/extensions.py",
+    "Lib/site-packages/dask/dataframe/groupby.py",
+    "Lib/site-packages/dask/dataframe/hyperloglog.py",
+    "Lib/site-packages/dask/dataframe/indexing.py",
+    "Lib/site-packages/dask/dataframe/io/__init__.py",
+    "Lib/site-packages/dask/dataframe/io/csv.py",
+    "Lib/site-packages/dask/dataframe/io/demo.py",
+    "Lib/site-packages/dask/dataframe/io/hdf.py",
+    "Lib/site-packages/dask/dataframe/io/io.py",
+    "Lib/site-packages/dask/dataframe/io/json.py",
+    "Lib/site-packages/dask/dataframe/io/orc.py",
+    "Lib/site-packages/dask/dataframe/io/parquet/__init__.py",
+    "Lib/site-packages/dask/dataframe/io/parquet/arrow.py",
+    "Lib/site-packages/dask/dataframe/io/parquet/core.py",
+    "Lib/site-packages/dask/dataframe/io/parquet/fastparquet.py",
+    "Lib/site-packages/dask/dataframe/io/parquet/utils.py",
+    "Lib/site-packages/dask/dataframe/io/sql.py",
+    "Lib/site-packages/dask/dataframe/io/tests/__init__.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_csv.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_demo.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_hdf.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_io.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_json.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_orc.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_parquet.py",
+    "Lib/site-packages/dask/dataframe/io/tests/test_sql.py",
+    "Lib/site-packages/dask/dataframe/io/utils.py",
+    "Lib/site-packages/dask/dataframe/methods.py",
+    "Lib/site-packages/dask/dataframe/multi.py",
+    "Lib/site-packages/dask/dataframe/numeric.py",
+    "Lib/site-packages/dask/dataframe/optimize.py",
+    "Lib/site-packages/dask/dataframe/partitionquantiles.py",
+    "Lib/site-packages/dask/dataframe/reshape.py",
+    "Lib/site-packages/dask/dataframe/rolling.py",
+    "Lib/site-packages/dask/dataframe/shuffle.py",
+    "Lib/site-packages/dask/dataframe/tests/__init__.py",
+    "Lib/site-packages/dask/dataframe/tests/test_accessors.py",
+    "Lib/site-packages/dask/dataframe/tests/test_arithmetics_reduction.py",
+    "Lib/site-packages/dask/dataframe/tests/test_boolean.py",
+    "Lib/site-packages/dask/dataframe/tests/test_categorical.py",
+    "Lib/site-packages/dask/dataframe/tests/test_dataframe.py",
+    "Lib/site-packages/dask/dataframe/tests/test_extensions.py",
+    "Lib/site-packages/dask/dataframe/tests/test_format.py",
+    "Lib/site-packages/dask/dataframe/tests/test_groupby.py",
+    "Lib/site-packages/dask/dataframe/tests/test_hashing.py",
+    "Lib/site-packages/dask/dataframe/tests/test_hyperloglog.py",
+    "Lib/site-packages/dask/dataframe/tests/test_indexing.py",
+    "Lib/site-packages/dask/dataframe/tests/test_merge_column_and_index.py",
+    "Lib/site-packages/dask/dataframe/tests/test_multi.py",
+    "Lib/site-packages/dask/dataframe/tests/test_numeric.py",
+    "Lib/site-packages/dask/dataframe/tests/test_optimize_dataframe.py",
+    "Lib/site-packages/dask/dataframe/tests/test_reshape.py",
+    "Lib/site-packages/dask/dataframe/tests/test_rolling.py",
+    "Lib/site-packages/dask/dataframe/tests/test_shuffle.py",
+    "Lib/site-packages/dask/dataframe/tests/test_ufunc.py",
+    "Lib/site-packages/dask/dataframe/tests/test_utils_dataframe.py",
+    "Lib/site-packages/dask/dataframe/tseries/__init__.py",
+    "Lib/site-packages/dask/dataframe/tseries/resample.py",
+    "Lib/site-packages/dask/dataframe/tseries/tests/__init__.py",
+    "Lib/site-packages/dask/dataframe/tseries/tests/test_resample.py",
+    "Lib/site-packages/dask/dataframe/utils.py",
+    "Lib/site-packages/dask/datasets.py",
+    "Lib/site-packages/dask/delayed.py",
+    "Lib/site-packages/dask/diagnostics/__init__.py",
+    "Lib/site-packages/dask/diagnostics/profile.py",
+    "Lib/site-packages/dask/diagnostics/profile_visualize.py",
+    "Lib/site-packages/dask/diagnostics/progress.py",
+    "Lib/site-packages/dask/diagnostics/tests/__init__.py",
+    "Lib/site-packages/dask/diagnostics/tests/test_profiler.py",
+    "Lib/site-packages/dask/diagnostics/tests/test_progress.py",
+    "Lib/site-packages/dask/distributed.py",
+    "Lib/site-packages/dask/dot.py",
+    "Lib/site-packages/dask/hashing.py",
+    "Lib/site-packages/dask/highlevelgraph.py",
+    "Lib/site-packages/dask/local.py",
+    "Lib/site-packages/dask/multiprocessing.py",
+    "Lib/site-packages/dask/optimization.py",
+    "Lib/site-packages/dask/order.py",
+    "Lib/site-packages/dask/rewrite.py",
+    "Lib/site-packages/dask/sizeof.py",
+    "Lib/site-packages/dask/system.py",
+    "Lib/site-packages/dask/tests/__init__.py",
+    "Lib/site-packages/dask/tests/test_base.py",
+    "Lib/site-packages/dask/tests/test_cache.py",
+    "Lib/site-packages/dask/tests/test_callbacks.py",
+    "Lib/site-packages/dask/tests/test_config.py",
+    "Lib/site-packages/dask/tests/test_context.py",
+    "Lib/site-packages/dask/tests/test_core.py",
+    "Lib/site-packages/dask/tests/test_datasets.py",
+    "Lib/site-packages/dask/tests/test_delayed.py",
+    "Lib/site-packages/dask/tests/test_distributed.py",
+    "Lib/site-packages/dask/tests/test_dot.py",
+    "Lib/site-packages/dask/tests/test_hashing.py",
+    "Lib/site-packages/dask/tests/test_highgraph.py",
+    "Lib/site-packages/dask/tests/test_local.py",
+    "Lib/site-packages/dask/tests/test_multiprocessing.py",
+    "Lib/site-packages/dask/tests/test_optimization.py",
+    "Lib/site-packages/dask/tests/test_order.py",
+    "Lib/site-packages/dask/tests/test_rewrite.py",
+    "Lib/site-packages/dask/tests/test_sizeof.py",
+    "Lib/site-packages/dask/tests/test_system.py",
+    "Lib/site-packages/dask/tests/test_threaded.py",
+    "Lib/site-packages/dask/tests/test_utils.py",
+    "Lib/site-packages/dask/threaded.py",
+    "Lib/site-packages/dask/utils.py",
+    "Lib/site-packages/dask/utils_test.py",
+    ".nonadmin",
+    "Lib/site-packages/dask/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/_version.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/backends.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/blockwise.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/chunk.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/creation.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/einsumfuncs.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/fft.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/gufunc.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/image.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/linalg.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/ma.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/numpy_compat.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/optimization.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/overlap.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/percentile.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/random.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/rechunk.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/reductions.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/reshape.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/routines.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/slicing.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/stats.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/svg.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_array_core.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_array_function.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_array_utils.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_atop.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_chunk.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_creation.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_cupy.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_fft.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_gufunc.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_image.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_linalg.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_linearoperator.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_masked.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_numpy_compat.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_optimization.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_overlap.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_percentiles.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_random.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_rechunk.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_reductions.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_reshape.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_routines.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_slicing.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_sparse.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_stats.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_svg.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_testing.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_ufunc.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_wrap.cpython-38.pyc",
+    "Lib/site-packages/dask/array/tests/__pycache__/test_xarray.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/tiledb_io.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/ufunc.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/array/__pycache__/wrap.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/avro.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/chunk.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/random.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/tests/__pycache__/test_avro.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/tests/__pycache__/test_bag.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/tests/__pycache__/test_random.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/tests/__pycache__/test_text.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/text.cpython-38.pyc",
+    "Lib/site-packages/dask/bag/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/blockwise.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/__pycache__/_compatibility.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_bytes_utils.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_compression.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_hdfs.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_http.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_local.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/tests/__pycache__/test_s3.cpython-38.pyc",
+    "Lib/site-packages/dask/bytes/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/cache.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/callbacks.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/compatibility.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/config.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/context.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/_accessor.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/_compat.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/_dtypes.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/accessor.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/backends.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/categorical.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/extensions.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/groupby.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/hyperloglog.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/indexing.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/csv.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/demo.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/hdf.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/io.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/json.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/orc.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/arrow.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/fastparquet.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/sql.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_csv.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_demo.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_hdf.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_io.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_json.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_orc.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_parquet.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_sql.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/io/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/methods.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/multi.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/numeric.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/optimize.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/partitionquantiles.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/reshape.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/rolling.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/shuffle.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_accessors.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_arithmetics_reduction.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_boolean.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_categorical.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_dataframe.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_extensions.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_format.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_groupby.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_hashing.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_hyperloglog.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_indexing.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_merge_column_and_index.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_multi.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_numeric.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_optimize_dataframe.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_reshape.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_rolling.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_shuffle.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_ufunc.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tests/__pycache__/test_utils_dataframe.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tseries/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tseries/__pycache__/resample.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tseries/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/tseries/tests/__pycache__/test_resample.cpython-38.pyc",
+    "Lib/site-packages/dask/dataframe/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/datasets.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/delayed.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/__pycache__/profile.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/__pycache__/profile_visualize.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/__pycache__/progress.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/tests/__pycache__/test_profiler.cpython-38.pyc",
+    "Lib/site-packages/dask/diagnostics/tests/__pycache__/test_progress.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/distributed.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/dot.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/hashing.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/highlevelgraph.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/local.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/multiprocessing.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/optimization.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/order.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/rewrite.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/sizeof.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/system.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_base.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_cache.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_callbacks.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_config.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_context.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_core.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_datasets.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_delayed.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_distributed.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_dot.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_hashing.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_highgraph.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_local.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_multiprocessing.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_optimization.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_order.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_rewrite.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_sizeof.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_system.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_threaded.cpython-38.pyc",
+    "Lib/site-packages/dask/tests/__pycache__/test_utils.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/threaded.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dask/__pycache__/utils_test.cpython-38.pyc"
+  ],
+  "fn": "dask-core-2.20.0-py_0.conda",
+  "legacy_bz2_md5": "a43a4c9af5825b559eb05e156820ca3f",
+  "legacy_bz2_size": 636993,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\dask-core-2.20.0-py_0",
+    "type": 1
+  },
+  "md5": "447a436b5f3f18252ad06dd8b5f9987c",
+  "name": "dask-core",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\dask-core-2.20.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a021fc26a297bbb0c4e70012b5165739be75e7f6d4f827dd4c7464b9b0b88465",
+        "sha256_in_prefix": "a021fc26a297bbb0c4e70012b5165739be75e7f6d4f827dd4c7464b9b0b88465",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0a17aa974dd773526263f89afea4dd292ed9cc315ddeec8962118a2cf835305b",
+        "sha256_in_prefix": "0a17aa974dd773526263f89afea4dd292ed9cc315ddeec8962118a2cf835305b",
+        "size_in_bytes": 3414
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b3394f5f18c09f58d3430c7fec86b62696d6723d53fbed44ad62032dd8fe7138",
+        "sha256_in_prefix": "b3394f5f18c09f58d3430c7fec86b62696d6723d53fbed44ad62032dd8fe7138",
+        "size_in_bytes": 29637
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "48c86e2406f6de17c7af9a036e4df4f862ab5ad97fe679bd1cabc22a92f36b62",
+        "sha256_in_prefix": "48c86e2406f6de17c7af9a036e4df4f862ab5ad97fe679bd1cabc22a92f36b62",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/dask-2.20.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "893eb1dc3d5c2ac57ba2b7515bf53094f44175abd3a27351b5654f07e2ad8bb5",
+        "sha256_in_prefix": "893eb1dc3d5c2ac57ba2b7515bf53094f44175abd3a27351b5654f07e2ad8bb5",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dask/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90de47dd2789d70749f3c8375601efb545f1431e995ae0d00e11193146ee763e",
+        "sha256_in_prefix": "90de47dd2789d70749f3c8375601efb545f1431e995ae0d00e11193146ee763e",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "site-packages/dask/_version.py",
+        "path_type": "hardlink",
+        "sha256": "57f99d223cfc3440746dec72a4c44894caeb094dc2bac62b17fef15ab9d90796",
+        "sha256_in_prefix": "57f99d223cfc3440746dec72a4c44894caeb094dc2bac62b17fef15ab9d90796",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/dask/array/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ff6d96f261c4987141122fed756068059e55404d2c034f31748dafdcfe4f4774",
+        "sha256_in_prefix": "ff6d96f261c4987141122fed756068059e55404d2c034f31748dafdcfe4f4774",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dask/array/backends.py",
+        "path_type": "hardlink",
+        "sha256": "82f85b1fe643662d3ffae69e07df9de98555435e5d85cbdb504720da49d84b60",
+        "sha256_in_prefix": "82f85b1fe643662d3ffae69e07df9de98555435e5d85cbdb504720da49d84b60",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "site-packages/dask/array/blockwise.py",
+        "path_type": "hardlink",
+        "sha256": "65b7b6c9e6529ec92b18789e0e041fe3db0cd3a52d98fc7c1fffa2896f9e8bcb",
+        "sha256_in_prefix": "65b7b6c9e6529ec92b18789e0e041fe3db0cd3a52d98fc7c1fffa2896f9e8bcb",
+        "size_in_bytes": 8904
+      },
+      {
+        "_path": "site-packages/dask/array/chunk.py",
+        "path_type": "hardlink",
+        "sha256": "083031c0018d65d4483da55f3d81df0c91594ded60074b953e656b2411073531",
+        "sha256_in_prefix": "083031c0018d65d4483da55f3d81df0c91594ded60074b953e656b2411073531",
+        "size_in_bytes": 10628
+      },
+      {
+        "_path": "site-packages/dask/array/core.py",
+        "path_type": "hardlink",
+        "sha256": "56c0845f8bee32c94537951412a6270d6143c92c09aa44ad4f34d3396812f7d4",
+        "sha256_in_prefix": "56c0845f8bee32c94537951412a6270d6143c92c09aa44ad4f34d3396812f7d4",
+        "size_in_bytes": 153182
+      },
+      {
+        "_path": "site-packages/dask/array/creation.py",
+        "path_type": "hardlink",
+        "sha256": "ec6bc957a2fc646c1c07a60ad1a68f0427ce1cb638fbaa40f307a1cde4f37213",
+        "sha256_in_prefix": "ec6bc957a2fc646c1c07a60ad1a68f0427ce1cb638fbaa40f307a1cde4f37213",
+        "size_in_bytes": 39107
+      },
+      {
+        "_path": "site-packages/dask/array/einsumfuncs.py",
+        "path_type": "hardlink",
+        "sha256": "5aba6fe8fa19704f9bbb9fb18fa8409a03e5a60c88938e743c7f2b1a5d666865",
+        "sha256_in_prefix": "5aba6fe8fa19704f9bbb9fb18fa8409a03e5a60c88938e743c7f2b1a5d666865",
+        "size_in_bytes": 8940
+      },
+      {
+        "_path": "site-packages/dask/array/fft.py",
+        "path_type": "hardlink",
+        "sha256": "6fb04d3e5f9be02290205e29253d821210c7cf5e676e47cf2db6cc43ff4210c9",
+        "sha256_in_prefix": "6fb04d3e5f9be02290205e29253d821210c7cf5e676e47cf2db6cc43ff4210c9",
+        "size_in_bytes": 7030
+      },
+      {
+        "_path": "site-packages/dask/array/gufunc.py",
+        "path_type": "hardlink",
+        "sha256": "346033bc84f2e24c7a06f6728b7014df5b650513eb46351ce27e7a1b4636be52",
+        "sha256_in_prefix": "346033bc84f2e24c7a06f6728b7014df5b650513eb46351ce27e7a1b4636be52",
+        "size_in_bytes": 30738
+      },
+      {
+        "_path": "site-packages/dask/array/image.py",
+        "path_type": "hardlink",
+        "sha256": "a4a23f1b9dd8fe8fd66a42bfb51960acaaafd1b28141ac20004c3784dc28c8af",
+        "sha256_in_prefix": "a4a23f1b9dd8fe8fd66a42bfb51960acaaafd1b28141ac20004c3784dc28c8af",
+        "size_in_bytes": 1932
+      },
+      {
+        "_path": "site-packages/dask/array/linalg.py",
+        "path_type": "hardlink",
+        "sha256": "c52fea6b4b80ccba75a1aebe0d26fdf78e7a870555e81516e62882d1b34aadec",
+        "sha256_in_prefix": "c52fea6b4b80ccba75a1aebe0d26fdf78e7a870555e81516e62882d1b34aadec",
+        "size_in_bytes": 46292
+      },
+      {
+        "_path": "site-packages/dask/array/ma.py",
+        "path_type": "hardlink",
+        "sha256": "32b79551b4ef8dc3a4d5b19c337adfc7b5380012629dd50282cc4729af3758bb",
+        "sha256_in_prefix": "32b79551b4ef8dc3a4d5b19c337adfc7b5380012629dd50282cc4729af3758bb",
+        "size_in_bytes": 7376
+      },
+      {
+        "_path": "site-packages/dask/array/numpy_compat.py",
+        "path_type": "hardlink",
+        "sha256": "2065a0fb69e7dd5d8950bc2f564015fcd1f2a7a23e65a5958bb94b80ea48fc8b",
+        "sha256_in_prefix": "2065a0fb69e7dd5d8950bc2f564015fcd1f2a7a23e65a5958bb94b80ea48fc8b",
+        "size_in_bytes": 11515
+      },
+      {
+        "_path": "site-packages/dask/array/optimization.py",
+        "path_type": "hardlink",
+        "sha256": "ed2ab250ce12152ad41d649fa929189b89963a47c3c05297423154055bf23a71",
+        "sha256_in_prefix": "ed2ab250ce12152ad41d649fa929189b89963a47c3c05297423154055bf23a71",
+        "size_in_bytes": 11290
+      },
+      {
+        "_path": "site-packages/dask/array/overlap.py",
+        "path_type": "hardlink",
+        "sha256": "c3cd4fe7f7f192981ea660003bbddce841f085afb1206996e82e8e1d2b36a499",
+        "sha256_in_prefix": "c3cd4fe7f7f192981ea660003bbddce841f085afb1206996e82e8e1d2b36a499",
+        "size_in_bytes": 24837
+      },
+      {
+        "_path": "site-packages/dask/array/percentile.py",
+        "path_type": "hardlink",
+        "sha256": "de199506b28cc8db6abc9f1de41a1d52536e18769f853a1f8f5bdde230c9ec74",
+        "sha256_in_prefix": "de199506b28cc8db6abc9f1de41a1d52536e18769f853a1f8f5bdde230c9ec74",
+        "size_in_bytes": 8985
+      },
+      {
+        "_path": "site-packages/dask/array/random.py",
+        "path_type": "hardlink",
+        "sha256": "3614cd951fba2328296be60271ebafc23cb67429130eb13369d5d143a3a4700d",
+        "sha256_in_prefix": "3614cd951fba2328296be60271ebafc23cb67429130eb13369d5d143a3a4700d",
+        "size_in_bytes": 19970
+      },
+      {
+        "_path": "site-packages/dask/array/rechunk.py",
+        "path_type": "hardlink",
+        "sha256": "3bc3ffe115df5fddd286dae75451910e9b4ab87f596c4bd01545f31329a540a3",
+        "sha256_in_prefix": "3bc3ffe115df5fddd286dae75451910e9b4ab87f596c4bd01545f31329a540a3",
+        "size_in_bytes": 22103
+      },
+      {
+        "_path": "site-packages/dask/array/reductions.py",
+        "path_type": "hardlink",
+        "sha256": "2c0738bb3301896024565375246be86333cde70cead4482219aa8a0bac35b73c",
+        "sha256_in_prefix": "2c0738bb3301896024565375246be86333cde70cead4482219aa8a0bac35b73c",
+        "size_in_bytes": 41611
+      },
+      {
+        "_path": "site-packages/dask/array/reshape.py",
+        "path_type": "hardlink",
+        "sha256": "799b4f24628f8ca1a6490cf4f41d56a0f6fd2324341fbdc5b2c4170a57851efd",
+        "sha256_in_prefix": "799b4f24628f8ca1a6490cf4f41d56a0f6fd2324341fbdc5b2c4170a57851efd",
+        "size_in_bytes": 6447
+      },
+      {
+        "_path": "site-packages/dask/array/routines.py",
+        "path_type": "hardlink",
+        "sha256": "1cf66d970d22cbb2e23afdf5af26140bdb6979ca91e43f657b7925bfd4a020dd",
+        "sha256_in_prefix": "1cf66d970d22cbb2e23afdf5af26140bdb6979ca91e43f657b7925bfd4a020dd",
+        "size_in_bytes": 44371
+      },
+      {
+        "_path": "site-packages/dask/array/slicing.py",
+        "path_type": "hardlink",
+        "sha256": "f9849a621ede8bdb82772f1cbca79a1b7d7a9f2126537f2a2fb5a84a94ba3cd0",
+        "sha256_in_prefix": "f9849a621ede8bdb82772f1cbca79a1b7d7a9f2126537f2a2fb5a84a94ba3cd0",
+        "size_in_bytes": 38358
+      },
+      {
+        "_path": "site-packages/dask/array/stats.py",
+        "path_type": "hardlink",
+        "sha256": "4ea68b823d996d8a3bdeb5a89b66b73068dd80057550e6217bb2b3ff7025c80a",
+        "sha256_in_prefix": "4ea68b823d996d8a3bdeb5a89b66b73068dd80057550e6217bb2b3ff7025c80a",
+        "size_in_bytes": 13847
+      },
+      {
+        "_path": "site-packages/dask/array/svg.py",
+        "path_type": "hardlink",
+        "sha256": "9e6bf93ba5be247f1ab348173ec0b33d3c0bfadd831abc9b53c81510fddda776",
+        "sha256_in_prefix": "9e6bf93ba5be247f1ab348173ec0b33d3c0bfadd831abc9b53c81510fddda776",
+        "size_in_bytes": 7700
+      },
+      {
+        "_path": "site-packages/dask/array/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_array_core.py",
+        "path_type": "hardlink",
+        "sha256": "5eda5822a3ad71899b0eea2608e5a0fb0a442ceb47498cb0cbba7e47cbe196bb",
+        "sha256_in_prefix": "5eda5822a3ad71899b0eea2608e5a0fb0a442ceb47498cb0cbba7e47cbe196bb",
+        "size_in_bytes": 128901
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_array_function.py",
+        "path_type": "hardlink",
+        "sha256": "60d54ccc27775c27f9655814a1ad33ba7bdea927c60147862b90b2713932210e",
+        "sha256_in_prefix": "60d54ccc27775c27f9655814a1ad33ba7bdea927c60147862b90b2713932210e",
+        "size_in_bytes": 6992
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_array_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7614150a8e0ed99bec6008b9afbad2d130506b3f7ca1c52340cd17d2a290f88c",
+        "sha256_in_prefix": "7614150a8e0ed99bec6008b9afbad2d130506b3f7ca1c52340cd17d2a290f88c",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_atop.py",
+        "path_type": "hardlink",
+        "sha256": "c2a4836b2d16871df64ae947ab63c950c8ee510217f0ceb6fc747c008162f2bd",
+        "sha256_in_prefix": "c2a4836b2d16871df64ae947ab63c950c8ee510217f0ceb6fc747c008162f2bd",
+        "size_in_bytes": 17215
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_chunk.py",
+        "path_type": "hardlink",
+        "sha256": "0be4de60f8859a114ae46eea62eb2b452f88ce4a23205dcc196202efa715d95d",
+        "sha256_in_prefix": "0be4de60f8859a114ae46eea62eb2b452f88ce4a23205dcc196202efa715d95d",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_creation.py",
+        "path_type": "hardlink",
+        "sha256": "c9c7e908c7a92209743033af3f8654bbc6796f53f1eae01c9c4932cf13d9b54d",
+        "sha256_in_prefix": "c9c7e908c7a92209743033af3f8654bbc6796f53f1eae01c9c4932cf13d9b54d",
+        "size_in_bytes": 25881
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_cupy.py",
+        "path_type": "hardlink",
+        "sha256": "7e5e58d4b98fa990aa98c69c070b3a8037935895091bfcb76cb45b7333c93670",
+        "sha256_in_prefix": "7e5e58d4b98fa990aa98c69c070b3a8037935895091bfcb76cb45b7333c93670",
+        "size_in_bytes": 28385
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_fft.py",
+        "path_type": "hardlink",
+        "sha256": "7e8e44fdf44fbc495bf1e3c6ce46c888284d396d14ca18a414e3e114d3998c5b",
+        "sha256_in_prefix": "7e8e44fdf44fbc495bf1e3c6ce46c888284d396d14ca18a414e3e114d3998c5b",
+        "size_in_bytes": 8416
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_gufunc.py",
+        "path_type": "hardlink",
+        "sha256": "b0026542503d69b57dc6c31ddd2adac2d42529f5760778a377def36282bb6925",
+        "sha256_in_prefix": "b0026542503d69b57dc6c31ddd2adac2d42529f5760778a377def36282bb6925",
+        "size_in_bytes": 17808
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_image.py",
+        "path_type": "hardlink",
+        "sha256": "1468064d022e62ade54865ef8bfa2039f82eadba3e89e7ec53692ffe379f4c1e",
+        "sha256_in_prefix": "1468064d022e62ade54865ef8bfa2039f82eadba3e89e7ec53692ffe379f4c1e",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_linalg.py",
+        "path_type": "hardlink",
+        "sha256": "3492f0850a14070f6b0de0e463708a35368965600582d662f139f1cedefb1ce4",
+        "sha256_in_prefix": "3492f0850a14070f6b0de0e463708a35368965600582d662f139f1cedefb1ce4",
+        "size_in_bytes": 28977
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_linearoperator.py",
+        "path_type": "hardlink",
+        "sha256": "e41abe6d90e2f6d40ce38ba9d4d13c425f52d81528d8dc27c6455df17e258fa3",
+        "sha256_in_prefix": "e41abe6d90e2f6d40ce38ba9d4d13c425f52d81528d8dc27c6455df17e258fa3",
+        "size_in_bytes": 829
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_masked.py",
+        "path_type": "hardlink",
+        "sha256": "fbdfc6aebad00660795d0d75ae46766688f3bc55d495238af8239a8a0c0ef2b9",
+        "sha256_in_prefix": "fbdfc6aebad00660795d0d75ae46766688f3bc55d495238af8239a8a0c0ef2b9",
+        "size_in_bytes": 12126
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_numpy_compat.py",
+        "path_type": "hardlink",
+        "sha256": "72b1bc7c547a1868d33197754b5cba31c2b233f01f841a0c3d72d0066dd641ad",
+        "sha256_in_prefix": "72b1bc7c547a1868d33197754b5cba31c2b233f01f841a0c3d72d0066dd641ad",
+        "size_in_bytes": 1286
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_optimization.py",
+        "path_type": "hardlink",
+        "sha256": "37297ead77d6a2a8094944827d3018c53701a81f00424fb301e3a2de314bc73d",
+        "sha256_in_prefix": "37297ead77d6a2a8094944827d3018c53701a81f00424fb301e3a2de314bc73d",
+        "size_in_bytes": 12487
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_overlap.py",
+        "path_type": "hardlink",
+        "sha256": "e733cf3f839af27e8dbfc8f66624ac56f2e064e7ff9062b697e4fcb8a56ca5af",
+        "sha256_in_prefix": "e733cf3f839af27e8dbfc8f66624ac56f2e064e7ff9062b697e4fcb8a56ca5af",
+        "size_in_bytes": 21970
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_percentiles.py",
+        "path_type": "hardlink",
+        "sha256": "739cfc81a03960d8b94d41fd164c95c086613a5b02ecd43eef833facdea5ccc2",
+        "sha256_in_prefix": "739cfc81a03960d8b94d41fd164c95c086613a5b02ecd43eef833facdea5ccc2",
+        "size_in_bytes": 2805
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_random.py",
+        "path_type": "hardlink",
+        "sha256": "9c92eff1611a0941548c1a16436fb06b8a754193d564985735ceb7c8a7cac76a",
+        "sha256_in_prefix": "9c92eff1611a0941548c1a16436fb06b8a754193d564985735ceb7c8a7cac76a",
+        "size_in_bytes": 11670
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_rechunk.py",
+        "path_type": "hardlink",
+        "sha256": "76cf1bc5abdcb52d84e849c8cffbe33f7b317bd277ac76fa5e8afaf51c4a8999",
+        "sha256_in_prefix": "76cf1bc5abdcb52d84e849c8cffbe33f7b317bd277ac76fa5e8afaf51c4a8999",
+        "size_in_bytes": 24208
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_reductions.py",
+        "path_type": "hardlink",
+        "sha256": "3067e33091a37073697782b44075defad8fc8168cc055726dee66f10f49919b1",
+        "sha256_in_prefix": "3067e33091a37073697782b44075defad8fc8168cc055726dee66f10f49919b1",
+        "size_in_bytes": 25645
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_reshape.py",
+        "path_type": "hardlink",
+        "sha256": "14a7f536af42689ee7d99a131b7ec93745d33c2542b18904c64008ddcc803fd3",
+        "sha256_in_prefix": "14a7f536af42689ee7d99a131b7ec93745d33c2542b18904c64008ddcc803fd3",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_routines.py",
+        "path_type": "hardlink",
+        "sha256": "04fa05249dcfcbe4fb71048fd9fbc85463e7f2948d8efe53ac62e92d3a4b28bd",
+        "sha256_in_prefix": "04fa05249dcfcbe4fb71048fd9fbc85463e7f2948d8efe53ac62e92d3a4b28bd",
+        "size_in_bytes": 54114
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_slicing.py",
+        "path_type": "hardlink",
+        "sha256": "33ecf1096c70d0139b5973f9f0100d7bc9f6af2137f81b84c28f522d51f40a3e",
+        "sha256_in_prefix": "33ecf1096c70d0139b5973f9f0100d7bc9f6af2137f81b84c28f522d51f40a3e",
+        "size_in_bytes": 28582
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_sparse.py",
+        "path_type": "hardlink",
+        "sha256": "c967e917b11375c150fc2b3f672221ae351f464c55b549cba5d19d4fe49b4727",
+        "sha256_in_prefix": "c967e917b11375c150fc2b3f672221ae351f464c55b549cba5d19d4fe49b4727",
+        "size_in_bytes": 6206
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_stats.py",
+        "path_type": "hardlink",
+        "sha256": "3b1b3c1327840dc0c04197faf6da34c5faa82b29828839505d8d3d1e699aa69f",
+        "sha256_in_prefix": "3b1b3c1327840dc0c04197faf6da34c5faa82b29828839505d8d3d1e699aa69f",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_svg.py",
+        "path_type": "hardlink",
+        "sha256": "6ff01c3274a0daa7563a2a4896e72c2ccde03d85232c26bc2a50cf8368a59c17",
+        "sha256_in_prefix": "6ff01c3274a0daa7563a2a4896e72c2ccde03d85232c26bc2a50cf8368a59c17",
+        "size_in_bytes": 2435
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_testing.py",
+        "path_type": "hardlink",
+        "sha256": "3d7edec9696e7c59892c04fd4707515f2ccbbefc6a7a43067ddf7e7285583c7c",
+        "sha256_in_prefix": "3d7edec9696e7c59892c04fd4707515f2ccbbefc6a7a43067ddf7e7285583c7c",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_ufunc.py",
+        "path_type": "hardlink",
+        "sha256": "f5398814f4220c283e200f505dbfc75701a26f76e931c73c65a711fcea83fc0b",
+        "sha256_in_prefix": "f5398814f4220c283e200f505dbfc75701a26f76e931c73c65a711fcea83fc0b",
+        "size_in_bytes": 12967
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_wrap.py",
+        "path_type": "hardlink",
+        "sha256": "1a768e5996c121b2f86c8f71c3832b5e08a2c7af0ce2dd91c04ecc49a92e25fc",
+        "sha256_in_prefix": "1a768e5996c121b2f86c8f71c3832b5e08a2c7af0ce2dd91c04ecc49a92e25fc",
+        "size_in_bytes": 2057
+      },
+      {
+        "_path": "site-packages/dask/array/tests/test_xarray.py",
+        "path_type": "hardlink",
+        "sha256": "9ba04571b4940792258cc14e452f566024c2db4efa08bd09903ed21e87c956c8",
+        "sha256_in_prefix": "9ba04571b4940792258cc14e452f566024c2db4efa08bd09903ed21e87c956c8",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "site-packages/dask/array/tiledb_io.py",
+        "path_type": "hardlink",
+        "sha256": "24128e135eea6c02e752dd62aba63325051f18808920b3edf4b965f1ad5aadee",
+        "sha256_in_prefix": "24128e135eea6c02e752dd62aba63325051f18808920b3edf4b965f1ad5aadee",
+        "size_in_bytes": 4957
+      },
+      {
+        "_path": "site-packages/dask/array/ufunc.py",
+        "path_type": "hardlink",
+        "sha256": "0896115d291ff04ad3b1a25b67b37c30f6c3906ddc210e84e0b831a63db3748e",
+        "sha256_in_prefix": "0896115d291ff04ad3b1a25b67b37c30f6c3906ddc210e84e0b831a63db3748e",
+        "size_in_bytes": 10577
+      },
+      {
+        "_path": "site-packages/dask/array/utils.py",
+        "path_type": "hardlink",
+        "sha256": "59a0dc04513d54ab98af45ee331bca8c5d9af7be0ee95d38297ecaadeb36a47b",
+        "sha256_in_prefix": "59a0dc04513d54ab98af45ee331bca8c5d9af7be0ee95d38297ecaadeb36a47b",
+        "size_in_bytes": 11059
+      },
+      {
+        "_path": "site-packages/dask/array/wrap.py",
+        "path_type": "hardlink",
+        "sha256": "3111bd1765e9abf17680e7831298ce587d0530038d83fb535be81775e2b8be40",
+        "sha256_in_prefix": "3111bd1765e9abf17680e7831298ce587d0530038d83fb535be81775e2b8be40",
+        "size_in_bytes": 4804
+      },
+      {
+        "_path": "site-packages/dask/bag/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e05c8aff6cac83c3df72c75017de3cc6ae8fbb62f767b0bf68daad112241116",
+        "sha256_in_prefix": "3e05c8aff6cac83c3df72c75017de3cc6ae8fbb62f767b0bf68daad112241116",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/dask/bag/avro.py",
+        "path_type": "hardlink",
+        "sha256": "a0dc3b6d3d92aeffd0b32cf3a4bd76d0ca589f149162ed8d26c0722d04c93599",
+        "sha256_in_prefix": "a0dc3b6d3d92aeffd0b32cf3a4bd76d0ca589f149162ed8d26c0722d04c93599",
+        "size_in_bytes": 8919
+      },
+      {
+        "_path": "site-packages/dask/bag/chunk.py",
+        "path_type": "hardlink",
+        "sha256": "0736c3b150622875e99f4b479a3ce5dc30d17a24f93a18d06eecada8bd2e1f41",
+        "sha256_in_prefix": "0736c3b150622875e99f4b479a3ce5dc30d17a24f93a18d06eecada8bd2e1f41",
+        "size_in_bytes": 728
+      },
+      {
+        "_path": "site-packages/dask/bag/core.py",
+        "path_type": "hardlink",
+        "sha256": "704cd767d00c6f8af75e06881db50baf6db3ab9bb554bdb488034eda9ef28f1e",
+        "sha256_in_prefix": "704cd767d00c6f8af75e06881db50baf6db3ab9bb554bdb488034eda9ef28f1e",
+        "size_in_bytes": 77970
+      },
+      {
+        "_path": "site-packages/dask/bag/random.py",
+        "path_type": "hardlink",
+        "sha256": "f3d649c2bd5383b376932d776a473cee4d6ee6ea3b41339db37fd61d8b5ff6b1",
+        "sha256_in_prefix": "f3d649c2bd5383b376932d776a473cee4d6ee6ea3b41339db37fd61d8b5ff6b1",
+        "size_in_bytes": 3507
+      },
+      {
+        "_path": "site-packages/dask/bag/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/bag/tests/test_avro.py",
+        "path_type": "hardlink",
+        "sha256": "fd42582e6d3ad3cc52a7b00a17d7a461fd833094bbc2943c29b13b37eb18bf22",
+        "sha256_in_prefix": "fd42582e6d3ad3cc52a7b00a17d7a461fd833094bbc2943c29b13b37eb18bf22",
+        "size_in_bytes": 3770
+      },
+      {
+        "_path": "site-packages/dask/bag/tests/test_bag.py",
+        "path_type": "hardlink",
+        "sha256": "ba8af03d328768ff0beddcfbfc22276792a7036b56594ce5525b3ceef2df959f",
+        "sha256_in_prefix": "ba8af03d328768ff0beddcfbfc22276792a7036b56594ce5525b3ceef2df959f",
+        "size_in_bytes": 44090
+      },
+      {
+        "_path": "site-packages/dask/bag/tests/test_random.py",
+        "path_type": "hardlink",
+        "sha256": "b4c8596737069d99ae950af8f4b072fc7628872d74c730c3c11b9a99a5fc044e",
+        "sha256_in_prefix": "b4c8596737069d99ae950af8f4b072fc7628872d74c730c3c11b9a99a5fc044e",
+        "size_in_bytes": 3313
+      },
+      {
+        "_path": "site-packages/dask/bag/tests/test_text.py",
+        "path_type": "hardlink",
+        "sha256": "04d0859962891bf413199a952c917a60a55af28605d61a28be2db19ff859adc5",
+        "sha256_in_prefix": "04d0859962891bf413199a952c917a60a55af28605d61a28be2db19ff859adc5",
+        "size_in_bytes": 4034
+      },
+      {
+        "_path": "site-packages/dask/bag/text.py",
+        "path_type": "hardlink",
+        "sha256": "6a09924b5696c97e124c302f28efc4bd9ae7bfa59c45610c86b453dc586c666e",
+        "sha256_in_prefix": "6a09924b5696c97e124c302f28efc4bd9ae7bfa59c45610c86b453dc586c666e",
+        "size_in_bytes": 5114
+      },
+      {
+        "_path": "site-packages/dask/bag/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a8a4171416e3b7955b1ea01888939cbd3bc5dce9e551a2cfa4defb04628f4886",
+        "sha256_in_prefix": "a8a4171416e3b7955b1ea01888939cbd3bc5dce9e551a2cfa4defb04628f4886",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "site-packages/dask/base.py",
+        "path_type": "hardlink",
+        "sha256": "94c0084c3705601419b0fb2f61e77cb680a09dcfb93b3dd5454591254ed71a04",
+        "sha256_in_prefix": "94c0084c3705601419b0fb2f61e77cb680a09dcfb93b3dd5454591254ed71a04",
+        "size_in_bytes": 35556
+      },
+      {
+        "_path": "site-packages/dask/blockwise.py",
+        "path_type": "hardlink",
+        "sha256": "db212b6bb0545950f53d23ab4def30619ed6e3bb918d049fda1ff44f7427bfd2",
+        "sha256_in_prefix": "db212b6bb0545950f53d23ab4def30619ed6e3bb918d049fda1ff44f7427bfd2",
+        "size_in_bytes": 30769
+      },
+      {
+        "_path": "site-packages/dask/bytes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2af3461744aadc1fc550fca336e4c003e409a0521cc6710597db2d6695268d81",
+        "sha256_in_prefix": "2af3461744aadc1fc550fca336e4c003e409a0521cc6710597db2d6695268d81",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "site-packages/dask/bytes/_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "a51bdce55f6978c4fd720a07ac645e0aa57087ed82031f8e929aa23488f7a7fb",
+        "sha256_in_prefix": "a51bdce55f6978c4fd720a07ac645e0aa57087ed82031f8e929aa23488f7a7fb",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "site-packages/dask/bytes/core.py",
+        "path_type": "hardlink",
+        "sha256": "0cee319a87f21596f35536311f735308cc3ca40bc297c4a899601678174d1d93",
+        "sha256_in_prefix": "0cee319a87f21596f35536311f735308cc3ca40bc297c4a899601678174d1d93",
+        "size_in_bytes": 6694
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_bytes_utils.py",
+        "path_type": "hardlink",
+        "sha256": "89614a234358205f639b8acd611fe09193f309cfcbaaf60fcfd4ea391df9df98",
+        "sha256_in_prefix": "89614a234358205f639b8acd611fe09193f309cfcbaaf60fcfd4ea391df9df98",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_compression.py",
+        "path_type": "hardlink",
+        "sha256": "4c5f6c1feed800b81fae1e73d2c37a8592b67455c26cff39c48caaddd852760b",
+        "sha256_in_prefix": "4c5f6c1feed800b81fae1e73d2c37a8592b67455c26cff39c48caaddd852760b",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_hdfs.py",
+        "path_type": "hardlink",
+        "sha256": "d8ae9d07468e4c31df893ea9385377561adea23f95428a91d45ea56656783eaa",
+        "sha256_in_prefix": "d8ae9d07468e4c31df893ea9385377561adea23f95428a91d45ea56656783eaa",
+        "size_in_bytes": 7744
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_http.py",
+        "path_type": "hardlink",
+        "sha256": "f0cf4f683b3d079aceecb37d98c999910c4f0995aa56d91efc75647a7df0272c",
+        "sha256_in_prefix": "f0cf4f683b3d079aceecb37d98c999910c4f0995aa56d91efc75647a7df0272c",
+        "size_in_bytes": 5954
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_local.py",
+        "path_type": "hardlink",
+        "sha256": "9e31feb450f40339bf926fdfc85264d780b2cc66e6f946b664180b65cca98bab",
+        "sha256_in_prefix": "9e31feb450f40339bf926fdfc85264d780b2cc66e6f946b664180b65cca98bab",
+        "size_in_bytes": 11903
+      },
+      {
+        "_path": "site-packages/dask/bytes/tests/test_s3.py",
+        "path_type": "hardlink",
+        "sha256": "f9ccbb95fac2ff7bb975db84a0cc8bf8d069fd2c12a60c181d2e94adccf8e2f1",
+        "sha256_in_prefix": "f9ccbb95fac2ff7bb975db84a0cc8bf8d069fd2c12a60c181d2e94adccf8e2f1",
+        "size_in_bytes": 14943
+      },
+      {
+        "_path": "site-packages/dask/bytes/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d8782198fceabf7bbd45aed6fd1bc63bb1a356f1559178417a73024221e2988c",
+        "sha256_in_prefix": "d8782198fceabf7bbd45aed6fd1bc63bb1a356f1559178417a73024221e2988c",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "site-packages/dask/cache.py",
+        "path_type": "hardlink",
+        "sha256": "b47bbedc1fc0d83a44c8a19c06429cab319138377269ba870af56644a690fdec",
+        "sha256_in_prefix": "b47bbedc1fc0d83a44c8a19c06429cab319138377269ba870af56644a690fdec",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "site-packages/dask/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "40c8f536d11aed0173460d3f3df92e9c48107142e3b671af0d5553c8e2ffc68c",
+        "sha256_in_prefix": "40c8f536d11aed0173460d3f3df92e9c48107142e3b671af0d5553c8e2ffc68c",
+        "size_in_bytes": 3971
+      },
+      {
+        "_path": "site-packages/dask/compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "cba83e0d4add7cc6ecedcf190c3741c35212b581fe1887e55204229c5fd6909d",
+        "sha256_in_prefix": "cba83e0d4add7cc6ecedcf190c3741c35212b581fe1887e55204229c5fd6909d",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/dask/config.py",
+        "path_type": "hardlink",
+        "sha256": "e779de8d7c10195ce045bb6a1aba418ba7920b34628a0161969ec5b54e00c69b",
+        "sha256_in_prefix": "e779de8d7c10195ce045bb6a1aba418ba7920b34628a0161969ec5b54e00c69b",
+        "size_in_bytes": 16510
+      },
+      {
+        "_path": "site-packages/dask/context.py",
+        "path_type": "hardlink",
+        "sha256": "8704f7eb6c1c28131d5a50195ae60f1cfd716f4f0a15d91beed5a51ea51bfe23",
+        "sha256_in_prefix": "8704f7eb6c1c28131d5a50195ae60f1cfd716f4f0a15d91beed5a51ea51bfe23",
+        "size_in_bytes": 1733
+      },
+      {
+        "_path": "site-packages/dask/core.py",
+        "path_type": "hardlink",
+        "sha256": "2c8a0630a4f4c983b419747088dba7cb9471c40246995747173a01812eca2757",
+        "sha256_in_prefix": "2c8a0630a4f4c983b419747088dba7cb9471c40246995747173a01812eca2757",
+        "size_in_bytes": 12369
+      },
+      {
+        "_path": "site-packages/dask/dask-schema.yaml",
+        "path_type": "hardlink",
+        "sha256": "36e66a07fb01322a31f0acdd8f2cddd518f6da0565b06cc896555d47b06a468e",
+        "sha256_in_prefix": "36e66a07fb01322a31f0acdd8f2cddd518f6da0565b06cc896555d47b06a468e",
+        "size_in_bytes": 2927
+      },
+      {
+        "_path": "site-packages/dask/dask.yaml",
+        "path_type": "hardlink",
+        "sha256": "cae1b331b4c18f6f741d5877716313cd762c0e855476b310daf65538261817b9",
+        "sha256_in_prefix": "cae1b331b4c18f6f741d5877716313cd762c0e855476b310daf65538261817b9",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/dask/dataframe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8be6c568caa2b27125d49a7fb9331f409bb764db777dc1d9dfa303c6160dc5b3",
+        "sha256_in_prefix": "8be6c568caa2b27125d49a7fb9331f409bb764db777dc1d9dfa303c6160dc5b3",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "site-packages/dask/dataframe/_accessor.py",
+        "path_type": "hardlink",
+        "sha256": "fdb5cd13a7e97437f4b5b26f97cce9f0c183a8e4b768fb8824f2d9009d9b9e45",
+        "sha256_in_prefix": "fdb5cd13a7e97437f4b5b26f97cce9f0c183a8e4b768fb8824f2d9009d9b9e45",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "site-packages/dask/dataframe/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "d7f640ab0bdedda5f315335b3da7cf025a54d94ab28dd0522de79a199ac708a2",
+        "sha256_in_prefix": "d7f640ab0bdedda5f315335b3da7cf025a54d94ab28dd0522de79a199ac708a2",
+        "size_in_bytes": 2342
+      },
+      {
+        "_path": "site-packages/dask/dataframe/_dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "bf5f8cde53aaad8acf4e90d25e73c7ed2bb81228c68b31c2c8fbc11f1803e76b",
+        "sha256_in_prefix": "bf5f8cde53aaad8acf4e90d25e73c7ed2bb81228c68b31c2c8fbc11f1803e76b",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "site-packages/dask/dataframe/accessor.py",
+        "path_type": "hardlink",
+        "sha256": "b9dfaa7a570fa1de55a1c0396ae15b48ce85fd467d66eab1c5e3c9b46ba05de1",
+        "sha256_in_prefix": "b9dfaa7a570fa1de55a1c0396ae15b48ce85fd467d66eab1c5e3c9b46ba05de1",
+        "size_in_bytes": 5362
+      },
+      {
+        "_path": "site-packages/dask/dataframe/backends.py",
+        "path_type": "hardlink",
+        "sha256": "e7994023efa4aad5c692060230a3eef9ba1035fbe201088d926f2a452c359ad6",
+        "sha256_in_prefix": "e7994023efa4aad5c692060230a3eef9ba1035fbe201088d926f2a452c359ad6",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "site-packages/dask/dataframe/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "373a9d0f9d22808a4c3b587d5fecfff559523b806d25eab601a8ec6924ab58f9",
+        "sha256_in_prefix": "373a9d0f9d22808a4c3b587d5fecfff559523b806d25eab601a8ec6924ab58f9",
+        "size_in_bytes": 9118
+      },
+      {
+        "_path": "site-packages/dask/dataframe/core.py",
+        "path_type": "hardlink",
+        "sha256": "e42f53b20b2ee2b14ec627377423e1d5a4ffaa3c9a9690ac6bda04c2ac6fa3fa",
+        "sha256_in_prefix": "e42f53b20b2ee2b14ec627377423e1d5a4ffaa3c9a9690ac6bda04c2ac6fa3fa",
+        "size_in_bytes": 225013
+      },
+      {
+        "_path": "site-packages/dask/dataframe/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "85fe6582a68b8d8ec11f62f1434ad721c81ff36858b5a79b2750fedd01f5a7f5",
+        "sha256_in_prefix": "85fe6582a68b8d8ec11f62f1434ad721c81ff36858b5a79b2750fedd01f5a7f5",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "site-packages/dask/dataframe/groupby.py",
+        "path_type": "hardlink",
+        "sha256": "44fcf0f49d70f291871cdfcf14a42921029f3c4ea8aa38722fa06f9a11b24816",
+        "sha256_in_prefix": "44fcf0f49d70f291871cdfcf14a42921029f3c4ea8aa38722fa06f9a11b24816",
+        "size_in_bytes": 62022
+      },
+      {
+        "_path": "site-packages/dask/dataframe/hyperloglog.py",
+        "path_type": "hardlink",
+        "sha256": "8ae195933bfe22bab3deedbf798aab0560437b148bd181e16970dd34be2a42d1",
+        "sha256_in_prefix": "8ae195933bfe22bab3deedbf798aab0560437b148bd181e16970dd34be2a42d1",
+        "size_in_bytes": 2437
+      },
+      {
+        "_path": "site-packages/dask/dataframe/indexing.py",
+        "path_type": "hardlink",
+        "sha256": "347012879b9a2a28620f15fada9feb489bc61932721a8755facc99462078ba20",
+        "sha256_in_prefix": "347012879b9a2a28620f15fada9feb489bc61932721a8755facc99462078ba20",
+        "size_in_bytes": 12256
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a20bc2d79ce24e6620cc9bb077f68057f6c0aae0d143eab1341753a82e9695e9",
+        "sha256_in_prefix": "a20bc2d79ce24e6620cc9bb077f68057f6c0aae0d143eab1341753a82e9695e9",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/csv.py",
+        "path_type": "hardlink",
+        "sha256": "b4bddfc0862e977064be538a6973e6754d2110243ad8db772aa80a44cb45a82a",
+        "sha256_in_prefix": "b4bddfc0862e977064be538a6973e6754d2110243ad8db772aa80a44cb45a82a",
+        "size_in_bytes": 30954
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/demo.py",
+        "path_type": "hardlink",
+        "sha256": "dc93a07a7210a4d3bb4f696a9e408766c44829d577b9d76a1db6e3dc6ac5850a",
+        "sha256_in_prefix": "dc93a07a7210a4d3bb4f696a9e408766c44829d577b9d76a1db6e3dc6ac5850a",
+        "size_in_bytes": 8517
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/hdf.py",
+        "path_type": "hardlink",
+        "sha256": "93cfe677c55376585fd48448f45dfe0bf336ede6695e1e3f5b9f75260ac2e687",
+        "sha256_in_prefix": "93cfe677c55376585fd48448f45dfe0bf336ede6695e1e3f5b9f75260ac2e687",
+        "size_in_bytes": 17363
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/io.py",
+        "path_type": "hardlink",
+        "sha256": "b2b9e2f2aa4c4de19c8e3e14ac4cdea12d06dbd2d2fd0e4e58909eda18dc3f0e",
+        "sha256_in_prefix": "b2b9e2f2aa4c4de19c8e3e14ac4cdea12d06dbd2d2fd0e4e58909eda18dc3f0e",
+        "size_in_bytes": 21623
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/json.py",
+        "path_type": "hardlink",
+        "sha256": "518d1c5a18d45cf666f6ef04e9f9c680b11bbd844b4265e092dfbd300750d050",
+        "sha256_in_prefix": "518d1c5a18d45cf666f6ef04e9f9c680b11bbd844b4265e092dfbd300750d050",
+        "size_in_bytes": 7492
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/orc.py",
+        "path_type": "hardlink",
+        "sha256": "113695c147690e64eba52b3e9fcc0ca7cfb06669c67b2cc1a705bad7ea1a8728",
+        "sha256_in_prefix": "113695c147690e64eba52b3e9fcc0ca7cfb06669c67b2cc1a705bad7ea1a8728",
+        "size_in_bytes": 3189
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/parquet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e02e581bd189c564fe5f3cb6bedcfe066ef9675757a9acfd31a9c61b4ba31a13",
+        "sha256_in_prefix": "e02e581bd189c564fe5f3cb6bedcfe066ef9675757a9acfd31a9c61b4ba31a13",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/parquet/arrow.py",
+        "path_type": "hardlink",
+        "sha256": "3bb55cc4cc086fb2e01564d2f4d26bb9d7b715f55abcd9352ee484b7fa05d930",
+        "sha256_in_prefix": "3bb55cc4cc086fb2e01564d2f4d26bb9d7b715f55abcd9352ee484b7fa05d930",
+        "size_in_bytes": 32363
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/parquet/core.py",
+        "path_type": "hardlink",
+        "sha256": "8add49bdc399ed13716707d69df911b3c38dff537795891a456ed5d8920ce3c0",
+        "sha256_in_prefix": "8add49bdc399ed13716707d69df911b3c38dff537795891a456ed5d8920ce3c0",
+        "size_in_bytes": 28799
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/parquet/fastparquet.py",
+        "path_type": "hardlink",
+        "sha256": "995cad35566b8c1b00e3f2d684d7dae33a08f0cb45ded3f675b5099cad573fe0",
+        "sha256_in_prefix": "995cad35566b8c1b00e3f2d684d7dae33a08f0cb45ded3f675b5099cad573fe0",
+        "size_in_bytes": 25174
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/parquet/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ca1d7e62c25b2d79e62b0436bc6afc5bea27f738ac30e8ff2086e37f42b5f8e1",
+        "sha256_in_prefix": "ca1d7e62c25b2d79e62b0436bc6afc5bea27f738ac30e8ff2086e37f42b5f8e1",
+        "size_in_bytes": 15822
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/sql.py",
+        "path_type": "hardlink",
+        "sha256": "946c85ce5ff7d8d6f7e6e0991c3495ae2a30e53eca143e3d70db7548b788f25d",
+        "sha256_in_prefix": "946c85ce5ff7d8d6f7e6e0991c3495ae2a30e53eca143e3d70db7548b788f25d",
+        "size_in_bytes": 14423
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_csv.py",
+        "path_type": "hardlink",
+        "sha256": "67bf7a96db9ec6ed787b79bcdcd3f482406a81cbb1e3bce08e05103e2541b410",
+        "sha256_in_prefix": "67bf7a96db9ec6ed787b79bcdcd3f482406a81cbb1e3bce08e05103e2541b410",
+        "size_in_bytes": 48702
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_demo.py",
+        "path_type": "hardlink",
+        "sha256": "0d143d9a8eced2fd66a9e82b9cd9e879dc9a8e206642373b5e5b53c4416abba1",
+        "sha256_in_prefix": "0d143d9a8eced2fd66a9e82b9cd9e879dc9a8e206642373b5e5b53c4416abba1",
+        "size_in_bytes": 3680
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_hdf.py",
+        "path_type": "hardlink",
+        "sha256": "5547fe6fddf4d2fc9a4fc6bd22f5153c20b1dbe844a7af1499e1b80d7c398736",
+        "sha256_in_prefix": "5547fe6fddf4d2fc9a4fc6bd22f5153c20b1dbe844a7af1499e1b80d7c398736",
+        "size_in_bytes": 25133
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_io.py",
+        "path_type": "hardlink",
+        "sha256": "e75fc63c61e165a956251b05adc7c7b430cd400fb5d55857d3d64eca1e063593",
+        "sha256_in_prefix": "e75fc63c61e165a956251b05adc7c7b430cd400fb5d55857d3d64eca1e063593",
+        "size_in_bytes": 22234
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_json.py",
+        "path_type": "hardlink",
+        "sha256": "eb100e120f81c49a1e33b782de302b8cd0ab480a5687a8782609642f8c404ee7",
+        "sha256_in_prefix": "eb100e120f81c49a1e33b782de302b8cd0ab480a5687a8782609642f8c404ee7",
+        "size_in_bytes": 4541
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_orc.py",
+        "path_type": "hardlink",
+        "sha256": "cd16d2fd285d17d23fbd730b9e33501c23c8afac4262cb49b41f8808c2612a4e",
+        "sha256_in_prefix": "cd16d2fd285d17d23fbd730b9e33501c23c8afac4262cb49b41f8808c2612a4e",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_parquet.py",
+        "path_type": "hardlink",
+        "sha256": "5e45824d8646aa3033ba23a5ff375dc6b8991d20670ab6e89e08338522149980",
+        "sha256_in_prefix": "5e45824d8646aa3033ba23a5ff375dc6b8991d20670ab6e89e08338522149980",
+        "size_in_bytes": 84611
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/tests/test_sql.py",
+        "path_type": "hardlink",
+        "sha256": "122a8e560d882517e6cc93e94db7ac3b13faa465c2ae17df8b3a802aa3a7f6f4",
+        "sha256_in_prefix": "122a8e560d882517e6cc93e94db7ac3b13faa465c2ae17df8b3a802aa3a7f6f4",
+        "size_in_bytes": 13359
+      },
+      {
+        "_path": "site-packages/dask/dataframe/io/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b4bd6504bfa0091b788098debba2dd4ade941872233beb49f4dd3e2a514d5abd",
+        "sha256_in_prefix": "b4bd6504bfa0091b788098debba2dd4ade941872233beb49f4dd3e2a514d5abd",
+        "size_in_bytes": 3019
+      },
+      {
+        "_path": "site-packages/dask/dataframe/methods.py",
+        "path_type": "hardlink",
+        "sha256": "4b4536397a34ccaf3787526a684e8f2ebf44c9d2c758de9dfdc802243eb1572c",
+        "sha256_in_prefix": "4b4536397a34ccaf3787526a684e8f2ebf44c9d2c758de9dfdc802243eb1572c",
+        "size_in_bytes": 16043
+      },
+      {
+        "_path": "site-packages/dask/dataframe/multi.py",
+        "path_type": "hardlink",
+        "sha256": "02c340ff349513ec338b3b00f92ce7c2e07f3e57b877f0093fa1e809d52a2eb0",
+        "sha256_in_prefix": "02c340ff349513ec338b3b00f92ce7c2e07f3e57b877f0093fa1e809d52a2eb0",
+        "size_in_bytes": 37138
+      },
+      {
+        "_path": "site-packages/dask/dataframe/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "9a1628251692eb1113b1268ddea884af67d33458d58353d746ed70dd70293fbf",
+        "sha256_in_prefix": "9a1628251692eb1113b1268ddea884af67d33458d58353d746ed70dd70293fbf",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "site-packages/dask/dataframe/optimize.py",
+        "path_type": "hardlink",
+        "sha256": "db89d36c7f1d3904577640ec1e775b25d48b51aec8231114e426f43430591b13",
+        "sha256_in_prefix": "db89d36c7f1d3904577640ec1e775b25d48b51aec8231114e426f43430591b13",
+        "size_in_bytes": 4215
+      },
+      {
+        "_path": "site-packages/dask/dataframe/partitionquantiles.py",
+        "path_type": "hardlink",
+        "sha256": "1b9aa57978cfeaeecd8ae48bd9dc88f9d76369130370846e70664e9e214a0cad",
+        "sha256_in_prefix": "1b9aa57978cfeaeecd8ae48bd9dc88f9d76369130370846e70664e9e214a0cad",
+        "size_in_bytes": 19109
+      },
+      {
+        "_path": "site-packages/dask/dataframe/reshape.py",
+        "path_type": "hardlink",
+        "sha256": "8fbe5518ef843949d31fc5ea5c0e0eb710ac94ecd30730b61f13379f822491ad",
+        "sha256_in_prefix": "8fbe5518ef843949d31fc5ea5c0e0eb710ac94ecd30730b61f13379f822491ad",
+        "size_in_bytes": 10146
+      },
+      {
+        "_path": "site-packages/dask/dataframe/rolling.py",
+        "path_type": "hardlink",
+        "sha256": "1a02a82bee32338b6e8c2150e7aae8e1ec5f57c7b5ac24ac3713310766846464",
+        "sha256_in_prefix": "1a02a82bee32338b6e8c2150e7aae8e1ec5f57c7b5ac24ac3713310766846464",
+        "size_in_bytes": 13718
+      },
+      {
+        "_path": "site-packages/dask/dataframe/shuffle.py",
+        "path_type": "hardlink",
+        "sha256": "4ec0867cb7b00817af3edd6a9447be407e5923509c935d24078bee08a38281db",
+        "sha256_in_prefix": "4ec0867cb7b00817af3edd6a9447be407e5923509c935d24078bee08a38281db",
+        "size_in_bytes": 31404
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_accessors.py",
+        "path_type": "hardlink",
+        "sha256": "80b62a42cda48f0401ccc2ad4b45359001ff3c84cbf787e7ccc63c6cc98fa312",
+        "sha256_in_prefix": "80b62a42cda48f0401ccc2ad4b45359001ff3c84cbf787e7ccc63c6cc98fa312",
+        "size_in_bytes": 8165
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_arithmetics_reduction.py",
+        "path_type": "hardlink",
+        "sha256": "5e3b7e40dc216be436a31a2f61e37667cb165e5c4420236b8d75193691cacfaa",
+        "sha256_in_prefix": "5e3b7e40dc216be436a31a2f61e37667cb165e5c4420236b8d75193691cacfaa",
+        "size_in_bytes": 51303
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_boolean.py",
+        "path_type": "hardlink",
+        "sha256": "225d4c1b2c481dd36a98cda5465697f548ec088d436dd17a5cb4cc566ebfae5f",
+        "sha256_in_prefix": "225d4c1b2c481dd36a98cda5465697f548ec088d436dd17a5cb4cc566ebfae5f",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "f7263004ebb3cc06dbb4f8ae1dec483861702ee8868ba505e2c88731dc074ee7",
+        "sha256_in_prefix": "f7263004ebb3cc06dbb4f8ae1dec483861702ee8868ba505e2c88731dc074ee7",
+        "size_in_bytes": 14735
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "501e8a226ee387474975f3f7542fdb3b0737a7a62ecf809b770fd91d5064f821",
+        "sha256_in_prefix": "501e8a226ee387474975f3f7542fdb3b0737a7a62ecf809b770fd91d5064f821",
+        "size_in_bytes": 134693
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "a2bffb05128c6ce5aa8b72abb0945a5e117e0134cadabecc4f0f7c77131a4871",
+        "sha256_in_prefix": "a2bffb05128c6ce5aa8b72abb0945a5e117e0134cadabecc4f0f7c77131a4871",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_format.py",
+        "path_type": "hardlink",
+        "sha256": "f118c3cf5a9085d8b895fb86da28ca0c42261a899aff4b3b54d8615278f55f9c",
+        "sha256_in_prefix": "f118c3cf5a9085d8b895fb86da28ca0c42261a899aff4b3b54d8615278f55f9c",
+        "size_in_bytes": 13919
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_groupby.py",
+        "path_type": "hardlink",
+        "sha256": "8f7ec4440f2ae3c434fed70d91d123f12c92f45ae1d31602ca02e0c90cdd5044",
+        "sha256_in_prefix": "8f7ec4440f2ae3c434fed70d91d123f12c92f45ae1d31602ca02e0c90cdd5044",
+        "size_in_bytes": 78504
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_hashing.py",
+        "path_type": "hardlink",
+        "sha256": "33f3587ef7542d65f643c90f8a11cd0cfd178de161d1e82991bcc0c1496ea1fc",
+        "sha256_in_prefix": "33f3587ef7542d65f643c90f8a11cd0cfd178de161d1e82991bcc0c1496ea1fc",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_hyperloglog.py",
+        "path_type": "hardlink",
+        "sha256": "06bb556364d03f6d5100314eec43d2e29249df4674db353d4a3af90130e8d8f4",
+        "sha256_in_prefix": "06bb556364d03f6d5100314eec43d2e29249df4674db353d4a3af90130e8d8f4",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_indexing.py",
+        "path_type": "hardlink",
+        "sha256": "f5838654e4408f39f70340951fdff309630451ef0a535ab683a6df1a0a029b62",
+        "sha256_in_prefix": "f5838654e4408f39f70340951fdff309630451ef0a535ab683a6df1a0a029b62",
+        "size_in_bytes": 19605
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_merge_column_and_index.py",
+        "path_type": "hardlink",
+        "sha256": "f47b76775ef0fcb259b1db64aab1c5d3c9ce6d528bad5011edc4836bad8e38c6",
+        "sha256_in_prefix": "f47b76775ef0fcb259b1db64aab1c5d3c9ce6d528bad5011edc4836bad8e38c6",
+        "size_in_bytes": 5481
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_multi.py",
+        "path_type": "hardlink",
+        "sha256": "e6bc645f8b75c668ededfe2c708abb4380aeaca3d4ad15aa3fdc6454585ee355",
+        "sha256_in_prefix": "e6bc645f8b75c668ededfe2c708abb4380aeaca3d4ad15aa3fdc6454585ee355",
+        "size_in_bytes": 70126
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_numeric.py",
+        "path_type": "hardlink",
+        "sha256": "ec13c69a459c7bb3b2cc96444f46d85e9c8872ee4f58c68344717d54edba88c9",
+        "sha256_in_prefix": "ec13c69a459c7bb3b2cc96444f46d85e9c8872ee4f58c68344717d54edba88c9",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_optimize_dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "dbc0c9b59623667e5430b5f5f749283cb3e5da7112a9ce3f6d47b3948e7219c3",
+        "sha256_in_prefix": "dbc0c9b59623667e5430b5f5f749283cb3e5da7112a9ce3f6d47b3948e7219c3",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_reshape.py",
+        "path_type": "hardlink",
+        "sha256": "5b7b1be18788457605e78625340a8fd3074adc19d5bcdd85fdb2a3993a452d6a",
+        "sha256_in_prefix": "5b7b1be18788457605e78625340a8fd3074adc19d5bcdd85fdb2a3993a452d6a",
+        "size_in_bytes": 8779
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_rolling.py",
+        "path_type": "hardlink",
+        "sha256": "a5a5b47dfc2b8409d7344eba24840645b7cbd3bd12c9f36eaf725ef1a401fb5b",
+        "sha256_in_prefix": "a5a5b47dfc2b8409d7344eba24840645b7cbd3bd12c9f36eaf725ef1a401fb5b",
+        "size_in_bytes": 13094
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_shuffle.py",
+        "path_type": "hardlink",
+        "sha256": "6e6e96383cceca8b4724fb6263e4a7262e514c36069925edc490a038bbe4b0a8",
+        "sha256_in_prefix": "6e6e96383cceca8b4724fb6263e4a7262e514c36069925edc490a038bbe4b0a8",
+        "size_in_bytes": 32843
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_ufunc.py",
+        "path_type": "hardlink",
+        "sha256": "f4d17425ed3a02d8ef6d8c3d66b70e92b592d263ed6ca912be6db157d914d408",
+        "sha256_in_prefix": "f4d17425ed3a02d8ef6d8c3d66b70e92b592d263ed6ca912be6db157d914d408",
+        "size_in_bytes": 15183
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tests/test_utils_dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "c2969c22fbac3a7fb2dc37ccd649aa6a459e4ac05e0e151bff2757c4c1b6feb2",
+        "sha256_in_prefix": "c2969c22fbac3a7fb2dc37ccd649aa6a459e4ac05e0e151bff2757c4c1b6feb2",
+        "size_in_bytes": 13949
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tseries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tseries/resample.py",
+        "path_type": "hardlink",
+        "sha256": "e57823aedd7dd5a3784ca00ea9983ca7d92b3c4f736ac23bad2196b0d1b1d998",
+        "sha256_in_prefix": "e57823aedd7dd5a3784ca00ea9983ca7d92b3c4f736ac23bad2196b0d1b1d998",
+        "size_in_bytes": 7497
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tseries/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/dataframe/tseries/tests/test_resample.py",
+        "path_type": "hardlink",
+        "sha256": "4ce00acb2ea660f8546cb231f7105436263fc8d6d2b2b776c5c696f7521ce470",
+        "sha256_in_prefix": "4ce00acb2ea660f8546cb231f7105436263fc8d6d2b2b776c5c696f7521ce470",
+        "size_in_bytes": 7039
+      },
+      {
+        "_path": "site-packages/dask/dataframe/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3f7b8228c913d241ab032de4047c52fa92f7662ac3f12fc983bd0c1194cb1bcc",
+        "sha256_in_prefix": "3f7b8228c913d241ab032de4047c52fa92f7662ac3f12fc983bd0c1194cb1bcc",
+        "size_in_bytes": 31595
+      },
+      {
+        "_path": "site-packages/dask/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "3774c3dd1ac3da98d6105692e5d7782254f37e6232afee3c5932788d47f801ec",
+        "sha256_in_prefix": "3774c3dd1ac3da98d6105692e5d7782254f37e6232afee3c5932788d47f801ec",
+        "size_in_bytes": 4847
+      },
+      {
+        "_path": "site-packages/dask/delayed.py",
+        "path_type": "hardlink",
+        "sha256": "8a328d45956b13c4df38a22fc8e32a17c024412ee8109549dce0a200ddfb9f7f",
+        "sha256_in_prefix": "8a328d45956b13c4df38a22fc8e32a17c024412ee8109549dce0a200ddfb9f7f",
+        "size_in_bytes": 21504
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a68f1ddf23471d3b03ede3c94978ebe4dd42ecd5ef60075597d6099cdaa4975",
+        "sha256_in_prefix": "9a68f1ddf23471d3b03ede3c94978ebe4dd42ecd5ef60075597d6099cdaa4975",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/profile.py",
+        "path_type": "hardlink",
+        "sha256": "74afe1def36959426547e0cd5cff60ff44f606c9d1b65b4540a54a8988669507",
+        "sha256_in_prefix": "74afe1def36959426547e0cd5cff60ff44f606c9d1b65b4540a54a8988669507",
+        "size_in_bytes": 11204
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/profile_visualize.py",
+        "path_type": "hardlink",
+        "sha256": "88c8676a20cd2f748408b1c367cb8a57a986c2f3cc2feaddfeacc755be535183",
+        "sha256_in_prefix": "88c8676a20cd2f748408b1c367cb8a57a986c2f3cc2feaddfeacc755be535183",
+        "size_in_bytes": 14902
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/progress.py",
+        "path_type": "hardlink",
+        "sha256": "b816d0593b4c301ccaa030aa06d71a1e87ca364da946c2e07f244b804894c19e",
+        "sha256_in_prefix": "b816d0593b4c301ccaa030aa06d71a1e87ca364da946c2e07f244b804894c19e",
+        "size_in_bytes": 4219
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/tests/test_profiler.py",
+        "path_type": "hardlink",
+        "sha256": "7941a59d8ec00b97a0d069da3b6729b664d9c27085695eb92655e9c7aa0e9e55",
+        "sha256_in_prefix": "7941a59d8ec00b97a0d069da3b6729b664d9c27085695eb92655e9c7aa0e9e55",
+        "size_in_bytes": 10832
+      },
+      {
+        "_path": "site-packages/dask/diagnostics/tests/test_progress.py",
+        "path_type": "hardlink",
+        "sha256": "fe9d498f5ef6442cc20357a840c2d85a545212cb4eea6b80079345f3ba82bf45",
+        "sha256_in_prefix": "fe9d498f5ef6442cc20357a840c2d85a545212cb4eea6b80079345f3ba82bf45",
+        "size_in_bytes": 3145
+      },
+      {
+        "_path": "site-packages/dask/distributed.py",
+        "path_type": "hardlink",
+        "sha256": "9f34d8598ec1c4f27ce84dce7f12fa17a991a982e52f8b1f0f5e3aa32b84208f",
+        "sha256_in_prefix": "9f34d8598ec1c4f27ce84dce7f12fa17a991a982e52f8b1f0f5e3aa32b84208f",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "site-packages/dask/dot.py",
+        "path_type": "hardlink",
+        "sha256": "9ed23cf5d0ff84282da1cd1138dab32f9170d3c9cf3fa8ef1b0a284fd5ed7a3d",
+        "sha256_in_prefix": "9ed23cf5d0ff84282da1cd1138dab32f9170d3c9cf3fa8ef1b0a284fd5ed7a3d",
+        "size_in_bytes": 8565
+      },
+      {
+        "_path": "site-packages/dask/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "3f029d8d405ac314d97f1fe6dcd0019ee84e1105ef37cd14b003d49736338c2e",
+        "sha256_in_prefix": "3f029d8d405ac314d97f1fe6dcd0019ee84e1105ef37cd14b003d49736338c2e",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "site-packages/dask/highlevelgraph.py",
+        "path_type": "hardlink",
+        "sha256": "60735d56fa770ecd9c8c0bd07f3649380f757e4d5874f9bc767f94d587dbac53",
+        "sha256_in_prefix": "60735d56fa770ecd9c8c0bd07f3649380f757e4d5874f9bc767f94d587dbac53",
+        "size_in_bytes": 8793
+      },
+      {
+        "_path": "site-packages/dask/local.py",
+        "path_type": "hardlink",
+        "sha256": "268ee68c568e2c7e3c9162ab682aac02a5ad60ecc4db1d20c848388b965a9c24",
+        "sha256_in_prefix": "268ee68c568e2c7e3c9162ab682aac02a5ad60ecc4db1d20c848388b965a9c24",
+        "size_in_bytes": 16510
+      },
+      {
+        "_path": "site-packages/dask/multiprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "30b830ef7b141cb25e872dca703cc139220a7b31d58d5f300417740fd369b5fa",
+        "sha256_in_prefix": "30b830ef7b141cb25e872dca703cc139220a7b31d58d5f300417740fd369b5fa",
+        "size_in_bytes": 6745
+      },
+      {
+        "_path": "site-packages/dask/optimization.py",
+        "path_type": "hardlink",
+        "sha256": "6c02484e9c046be4351d9c1ab03e3d6bfaf076319105246ecc9bb4caf064ba1e",
+        "sha256_in_prefix": "6c02484e9c046be4351d9c1ab03e3d6bfaf076319105246ecc9bb4caf064ba1e",
+        "size_in_bytes": 36170
+      },
+      {
+        "_path": "site-packages/dask/order.py",
+        "path_type": "hardlink",
+        "sha256": "20ed03af69023df29309a39cff9398e4f6688f4d4c29c10c7a0354926c1911b7",
+        "sha256_in_prefix": "20ed03af69023df29309a39cff9398e4f6688f4d4c29c10c7a0354926c1911b7",
+        "size_in_bytes": 27868
+      },
+      {
+        "_path": "site-packages/dask/rewrite.py",
+        "path_type": "hardlink",
+        "sha256": "47b8ad20fbfc3e5afa3473c2ced0d79176bff883ba3ed94dce4b56e012281c57",
+        "sha256_in_prefix": "47b8ad20fbfc3e5afa3473c2ced0d79176bff883ba3ed94dce4b56e012281c57",
+        "size_in_bytes": 12594
+      },
+      {
+        "_path": "site-packages/dask/sizeof.py",
+        "path_type": "hardlink",
+        "sha256": "15583e1c41d47f616b4d75a5679905dd1f68422ca393539261abe358d8702715",
+        "sha256_in_prefix": "15583e1c41d47f616b4d75a5679905dd1f68422ca393539261abe358d8702715",
+        "size_in_bytes": 4544
+      },
+      {
+        "_path": "site-packages/dask/system.py",
+        "path_type": "hardlink",
+        "sha256": "fb9ff8c2f9d6dcdafc3c764c089103d08e313f91443c86bfcb3c87f51e808b95",
+        "sha256_in_prefix": "fb9ff8c2f9d6dcdafc3c764c089103d08e313f91443c86bfcb3c87f51e808b95",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "site-packages/dask/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dask/tests/test_base.py",
+        "path_type": "hardlink",
+        "sha256": "bd6bfd024bc127fa9909b447eb780c61876b6fef3d41d7df47f99f1cb542acaf",
+        "sha256_in_prefix": "bd6bfd024bc127fa9909b447eb780c61876b6fef3d41d7df47f99f1cb542acaf",
+        "size_in_bytes": 29892
+      },
+      {
+        "_path": "site-packages/dask/tests/test_cache.py",
+        "path_type": "hardlink",
+        "sha256": "5ecd2b919b8a3482be117ed2cccb8ae97cb0fe5a39c3741d3f9cf53c9007a00f",
+        "sha256_in_prefix": "5ecd2b919b8a3482be117ed2cccb8ae97cb0fe5a39c3741d3f9cf53c9007a00f",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "site-packages/dask/tests/test_callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "e7213f2931872d72ffe885758f9df2c93754219a24735075e2331c9fd9719f5d",
+        "sha256_in_prefix": "e7213f2931872d72ffe885758f9df2c93754219a24735075e2331c9fd9719f5d",
+        "size_in_bytes": 2534
+      },
+      {
+        "_path": "site-packages/dask/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "929806317ba8684289598d22fb21508fd6693c61168536a726626bc7b0b1ee89",
+        "sha256_in_prefix": "929806317ba8684289598d22fb21508fd6693c61168536a726626bc7b0b1ee89",
+        "size_in_bytes": 12817
+      },
+      {
+        "_path": "site-packages/dask/tests/test_context.py",
+        "path_type": "hardlink",
+        "sha256": "2444e54cebfd2ed801c31dfd4b1767f6df032b4d5c381ebc6a63d4dd89548cb2",
+        "sha256_in_prefix": "2444e54cebfd2ed801c31dfd4b1767f6df032b4d5c381ebc6a63d4dd89548cb2",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "site-packages/dask/tests/test_core.py",
+        "path_type": "hardlink",
+        "sha256": "11f334d2f3ece2ff1012b05347569b7fee160b73b6eec26710936bf9507da1f1",
+        "sha256_in_prefix": "11f334d2f3ece2ff1012b05347569b7fee160b73b6eec26710936bf9507da1f1",
+        "size_in_bytes": 6519
+      },
+      {
+        "_path": "site-packages/dask/tests/test_datasets.py",
+        "path_type": "hardlink",
+        "sha256": "8568574468f8fe534bc19780d4a5f19b2708e553a765178f84775934ab20f2f9",
+        "sha256_in_prefix": "8568574468f8fe534bc19780d4a5f19b2708e553a765178f84775934ab20f2f9",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "site-packages/dask/tests/test_delayed.py",
+        "path_type": "hardlink",
+        "sha256": "e3fa8728ee15a2174e2661ff329484a8b43876cab082e021e3124067f5e9dab8",
+        "sha256_in_prefix": "e3fa8728ee15a2174e2661ff329484a8b43876cab082e021e3124067f5e9dab8",
+        "size_in_bytes": 18365
+      },
+      {
+        "_path": "site-packages/dask/tests/test_distributed.py",
+        "path_type": "hardlink",
+        "sha256": "484badbcd4ff60399e5c89868b8b13fa6ee287d88348eacb23f827766649468a",
+        "sha256_in_prefix": "484badbcd4ff60399e5c89868b8b13fa6ee287d88348eacb23f827766649468a",
+        "size_in_bytes": 5475
+      },
+      {
+        "_path": "site-packages/dask/tests/test_dot.py",
+        "path_type": "hardlink",
+        "sha256": "0898805cdf53c91c221662d6af5b7e6afff057a59bc86317b6f3e7ef13e0b89d",
+        "sha256_in_prefix": "0898805cdf53c91c221662d6af5b7e6afff057a59bc86317b6f3e7ef13e0b89d",
+        "size_in_bytes": 8729
+      },
+      {
+        "_path": "site-packages/dask/tests/test_hashing.py",
+        "path_type": "hardlink",
+        "sha256": "e1b5069da74ad2cc486df2089a65a886a7dd919c5ce51fb4580888b10013bb12",
+        "sha256_in_prefix": "e1b5069da74ad2cc486df2089a65a886a7dd919c5ce51fb4580888b10013bb12",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "site-packages/dask/tests/test_highgraph.py",
+        "path_type": "hardlink",
+        "sha256": "943d61df4e01ea2a08338bc45ea77ca819d054a0fa0a9f48f035d14a9266d895",
+        "sha256_in_prefix": "943d61df4e01ea2a08338bc45ea77ca819d054a0fa0a9f48f035d14a9266d895",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "site-packages/dask/tests/test_local.py",
+        "path_type": "hardlink",
+        "sha256": "0699fa99793f5b9239aa0fe4b8a36f5c3c1ca1bd4eb307af9b91afdc62ac2136",
+        "sha256_in_prefix": "0699fa99793f5b9239aa0fe4b8a36f5c3c1ca1bd4eb307af9b91afdc62ac2136",
+        "size_in_bytes": 4604
+      },
+      {
+        "_path": "site-packages/dask/tests/test_multiprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "d6ee66cb7023f5f4ec5920beaa70007a82a2d7b33f5f02322b80c5d1733f98d1",
+        "sha256_in_prefix": "d6ee66cb7023f5f4ec5920beaa70007a82a2d7b33f5f02322b80c5d1733f98d1",
+        "size_in_bytes": 7969
+      },
+      {
+        "_path": "site-packages/dask/tests/test_optimization.py",
+        "path_type": "hardlink",
+        "sha256": "bb644014465cf2d40dfb1693a1846b93bc3783815eccebc1de5fd5b4c30e71b8",
+        "sha256_in_prefix": "bb644014465cf2d40dfb1693a1846b93bc3783815eccebc1de5fd5b4c30e71b8",
+        "size_in_bytes": 42522
+      },
+      {
+        "_path": "site-packages/dask/tests/test_order.py",
+        "path_type": "hardlink",
+        "sha256": "7d25d400acea25f458c408440bfae32d4dc1ff9eeb0ab29a454fcc9ca2536589",
+        "sha256_in_prefix": "7d25d400acea25f458c408440bfae32d4dc1ff9eeb0ab29a454fcc9ca2536589",
+        "size_in_bytes": 20282
+      },
+      {
+        "_path": "site-packages/dask/tests/test_rewrite.py",
+        "path_type": "hardlink",
+        "sha256": "181222832c858e1879a7d49cc9467bb9f4087db2fe9c69afd12e43de723bd42e",
+        "sha256_in_prefix": "181222832c858e1879a7d49cc9467bb9f4087db2fe9c69afd12e43de723bd42e",
+        "size_in_bytes": 4648
+      },
+      {
+        "_path": "site-packages/dask/tests/test_sizeof.py",
+        "path_type": "hardlink",
+        "sha256": "adb030f4da79bf45b88989456de98c692cd3077a6feca2948521256d0bdebe05",
+        "sha256_in_prefix": "adb030f4da79bf45b88989456de98c692cd3077a6feca2948521256d0bdebe05",
+        "size_in_bytes": 3919
+      },
+      {
+        "_path": "site-packages/dask/tests/test_system.py",
+        "path_type": "hardlink",
+        "sha256": "6d107d420cc11a72375395c7f3dbe8235d8ff6adba4a7ded5df2c6b91b897900",
+        "sha256_in_prefix": "6d107d420cc11a72375395c7f3dbe8235d8ff6adba4a7ded5df2c6b91b897900",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "site-packages/dask/tests/test_threaded.py",
+        "path_type": "hardlink",
+        "sha256": "80379597707abaee34e40cc141dba6efc3cdbffe6f9d44b914a2d10f2d4995f0",
+        "sha256_in_prefix": "80379597707abaee34e40cc141dba6efc3cdbffe6f9d44b914a2d10f2d4995f0",
+        "size_in_bytes": 4271
+      },
+      {
+        "_path": "site-packages/dask/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7538316deed521ac327a72388bb53d1089632dca8dc1aac9e1e98335b794ae3a",
+        "sha256_in_prefix": "7538316deed521ac327a72388bb53d1089632dca8dc1aac9e1e98335b794ae3a",
+        "size_in_bytes": 12780
+      },
+      {
+        "_path": "site-packages/dask/threaded.py",
+        "path_type": "hardlink",
+        "sha256": "594ae7052a766dadd96c772b7ff1990b3b1d3c90021a53734410278a981c9311",
+        "sha256_in_prefix": "594ae7052a766dadd96c772b7ff1990b3b1d3c90021a53734410278a981c9311",
+        "size_in_bytes": 2539
+      },
+      {
+        "_path": "site-packages/dask/utils.py",
+        "path_type": "hardlink",
+        "sha256": "eee3b7efb8698d73833228dfe19b71bc15bfda9160afa4a4797eb1c698212457",
+        "sha256_in_prefix": "eee3b7efb8698d73833228dfe19b71bc15bfda9160afa4a4797eb1c698212457",
+        "size_in_bytes": 34443
+      },
+      {
+        "_path": "site-packages/dask/utils_test.py",
+        "path_type": "hardlink",
+        "sha256": "b8895c4975d13a5a566176c3ae1af7d08b709608e64b106e9306f747d97f135a",
+        "sha256_in_prefix": "b8895c4975d13a5a566176c3ae1af7d08b709608e64b106e9306f747d97f135a",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/backends.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/blockwise.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/chunk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/creation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/einsumfuncs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/fft.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/gufunc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/image.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/linalg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/ma.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/numpy_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/optimization.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/overlap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/percentile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/random.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/rechunk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/reductions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/reshape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/routines.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/slicing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/stats.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/svg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_array_core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_array_function.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_array_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_atop.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_chunk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_creation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_cupy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_fft.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_gufunc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_image.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_linalg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_linearoperator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_masked.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_numpy_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_optimization.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_overlap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_percentiles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_random.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_rechunk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_reductions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_reshape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_routines.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_slicing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_sparse.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_stats.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_svg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_testing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_ufunc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_wrap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/tests/__pycache__/test_xarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/tiledb_io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/ufunc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/array/__pycache__/wrap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/avro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/chunk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/random.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/tests/__pycache__/test_avro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/tests/__pycache__/test_bag.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/tests/__pycache__/test_random.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/tests/__pycache__/test_text.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/text.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bag/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/blockwise.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/__pycache__/_compatibility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_bytes_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_compression.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_hdfs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_http.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_local.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/tests/__pycache__/test_s3.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/bytes/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/cache.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/compatibility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/context.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/_accessor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/_dtypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/accessor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/backends.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/categorical.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/extensions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/groupby.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/hyperloglog.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/indexing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/csv.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/demo.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/hdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/orc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/arrow.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/fastparquet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/parquet/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/sql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_csv.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_demo.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_hdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_orc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_parquet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/tests/__pycache__/test_sql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/io/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/methods.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/multi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/numeric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/optimize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/partitionquantiles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/reshape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/rolling.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/shuffle.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_accessors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_arithmetics_reduction.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_boolean.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_categorical.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_dataframe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_extensions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_format.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_groupby.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_hashing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_hyperloglog.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_indexing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_merge_column_and_index.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_multi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_numeric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_optimize_dataframe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_reshape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_rolling.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_shuffle.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_ufunc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tests/__pycache__/test_utils_dataframe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tseries/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tseries/__pycache__/resample.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tseries/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/tseries/tests/__pycache__/test_resample.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/dataframe/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/datasets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/delayed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/__pycache__/profile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/__pycache__/profile_visualize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/__pycache__/progress.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/tests/__pycache__/test_profiler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/diagnostics/tests/__pycache__/test_progress.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/distributed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/dot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/hashing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/highlevelgraph.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/local.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/multiprocessing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/optimization.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/order.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/rewrite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/sizeof.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/system.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_cache.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_context.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_datasets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_delayed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_distributed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_dot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_hashing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_highgraph.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_local.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_multiprocessing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_optimization.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_order.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_rewrite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_sizeof.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_system.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_threaded.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/tests/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/threaded.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dask/__pycache__/utils_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "66b2fa717d1d814482d914621261a1c8f49177d95ef88895f3929a618ee0b6f2",
+  "size": 603674,
+  "subdir": "noarch",
+  "timestamp": 1594156335654,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/dask-core-2.20.0-py_0.conda",
+  "version": "2.20.0"
+}

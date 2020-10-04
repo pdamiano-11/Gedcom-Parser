@@ -1,0 +1,119 @@
+{
+  "build": "py38_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\backports.shutil_get_terminal_size-1.0.0-py38_2",
+  "features": "",
+  "files": [
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/LICENSE",
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+    "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/backports/shutil_get_terminal_size/__init__.py",
+    "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/get_terminal_size.cpython-38.pyc",
+    "Lib/site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+    ".nonadmin"
+  ],
+  "fn": "backports.shutil_get_terminal_size-1.0.0-py38_2.conda",
+  "legacy_bz2_md5": "57cf78ad618014e5d52f9402df3f6fa1",
+  "legacy_bz2_size": 9124,
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\backports.shutil_get_terminal_size-1.0.0-py38_2",
+    "type": 1
+  },
+  "md5": "7cbae1d9e4cb781f6a8868e0df5aa00a",
+  "name": "backports.shutil_get_terminal_size",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\backports.shutil_get_terminal_size-1.0.0-py38_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9edd99f8c339cddbfe36a9707e671fccf245b3e50b80eec0877dccec87a2dfe4",
+        "sha256_in_prefix": "9edd99f8c339cddbfe36a9707e671fccf245b3e50b80eec0877dccec87a2dfe4",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e9ae63494e3ebf487ec77bd01a3734f0f911e80e5774e82f0b8fab7161948509",
+        "sha256_in_prefix": "e9ae63494e3ebf487ec77bd01a3734f0f911e80e5774e82f0b8fab7161948509",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "938f6a17870fa8f1eceddaa0a47fd817a770005d925765a530ae6946a64557e5",
+        "sha256_in_prefix": "938f6a17870fa8f1eceddaa0a47fd817a770005d925765a530ae6946a64557e5",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "sha256_in_prefix": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "sha256_in_prefix": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+        "sha256_in_prefix": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "93d696bab2ae152eb8300afb4ca12257d6d4207c6a01f5cd79d4b4f74683acc6",
+        "sha256_in_prefix": "93d696bab2ae152eb8300afb4ca12257d6d4207c6a01f5cd79d4b4f74683acc6",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/get_terminal_size.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6543118a603c55217408d1cb1e9146a83a6c625e1ffaa75b3c9b7167472c3db4",
+        "sha256_in_prefix": "6543118a603c55217408d1cb1e9146a83a6c625e1ffaa75b3c9b7167472c3db4",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "Lib/site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+        "path_type": "hardlink",
+        "sha256": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+        "sha256_in_prefix": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+        "size_in_bytes": 2913
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4f4cbf72580397b787be5ca7d0a5302bb0cd057cf7a5cee1241bb20a2d0309a9",
+  "size": 9307,
+  "subdir": "win-64",
+  "timestamp": 1573743012171,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/backports.shutil_get_terminal_size-1.0.0-py38_2.conda",
+  "version": "1.0.0"
+}

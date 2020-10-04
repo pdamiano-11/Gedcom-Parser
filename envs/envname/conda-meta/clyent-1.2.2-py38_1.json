@@ -1,0 +1,263 @@
+{
+  "build": "py38_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\clyent-1.2.2-py38_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/PKG-INFO",
+    "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/SOURCES.txt",
+    "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/dependency_links.txt",
+    "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/top_level.txt",
+    "Lib/site-packages/clyent/__init__.py",
+    "Lib/site-packages/clyent/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/clyent/__pycache__/_version.cpython-38.pyc",
+    "Lib/site-packages/clyent/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/clyent/_version.py",
+    "Lib/site-packages/clyent/colors/__init__.py",
+    "Lib/site-packages/clyent/colors/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/clyent/colors/__pycache__/color.cpython-38.pyc",
+    "Lib/site-packages/clyent/colors/__pycache__/color_formatter.cpython-38.pyc",
+    "Lib/site-packages/clyent/colors/color.py",
+    "Lib/site-packages/clyent/colors/color_formatter.py",
+    "Lib/site-packages/clyent/errors.py",
+    "Lib/site-packages/clyent/logs/__init__.py",
+    "Lib/site-packages/clyent/logs/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/clyent/logs/__pycache__/handlers.cpython-38.pyc",
+    "Lib/site-packages/clyent/logs/colors/__init__.py",
+    "Lib/site-packages/clyent/logs/colors/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/clyent/logs/colors/__pycache__/printer.cpython-38.pyc",
+    "Lib/site-packages/clyent/logs/colors/printer.py",
+    "Lib/site-packages/clyent/logs/handlers.py",
+    "Lib/site-packages/clyent/tests/__init__.py",
+    "Lib/site-packages/clyent/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/clyent/tests/__pycache__/test_clyent.cpython-38.pyc",
+    "Lib/site-packages/clyent/tests/test_clyent.py",
+    ".nonadmin"
+  ],
+  "fn": "clyent-1.2.2-py38_1.conda",
+  "legacy_bz2_md5": "8976e9dc09a9d5e8682c3f6284e7548f",
+  "legacy_bz2_size": 19837,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\clyent-1.2.2-py38_1",
+    "type": 1
+  },
+  "md5": "3ca293e0e3c806dd84afbff6b6cacec2",
+  "name": "clyent",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\clyent-1.2.2-py38_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "9f184da340e559c88e869bae238b49c19d82c7897927158e70c45c6e941af5b4",
+        "sha256_in_prefix": "9f184da340e559c88e869bae238b49c19d82c7897927158e70c45c6e941af5b4",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "5cbe8df6ba1acb73568572f86395708fc7b07dea0e7cf0bd04c75204547c659e",
+        "sha256_in_prefix": "5cbe8df6ba1acb73568572f86395708fc7b07dea0e7cf0bd04c75204547c659e",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/clyent-1.2.2-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ee531b36d193e1bdb1d1df0f80a82ce08c8f1923e3e110eb6370ffe830e7b05f",
+        "sha256_in_prefix": "ee531b36d193e1bdb1d1df0f80a82ce08c8f1923e3e110eb6370ffe830e7b05f",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/clyent/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eaf6b5e0640d646c3d3c5ad0863a8a02a3d45c6255a3d091560d6d42121e0249",
+        "sha256_in_prefix": "eaf6b5e0640d646c3d3c5ad0863a8a02a3d45c6255a3d091560d6d42121e0249",
+        "size_in_bytes": 5442
+      },
+      {
+        "_path": "Lib/site-packages/clyent/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "055bd51cf3dcd4fb18fe179d4bfac424ecd8f5ec15a67fb813aa3f065c3b4bac",
+        "sha256_in_prefix": "055bd51cf3dcd4fb18fe179d4bfac424ecd8f5ec15a67fb813aa3f065c3b4bac",
+        "size_in_bytes": 5950
+      },
+      {
+        "_path": "Lib/site-packages/clyent/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3898193c05469cd4f5714ac0c96ee3fb8da7843ae0ae568e06dc2bb1a46ce45",
+        "sha256_in_prefix": "b3898193c05469cd4f5714ac0c96ee3fb8da7843ae0ae568e06dc2bb1a46ce45",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "Lib/site-packages/clyent/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7519fe9ea6f547e66e7a247dd0c5a10ce7850781f3807069e48a8f469aa8d958",
+        "sha256_in_prefix": "7519fe9ea6f547e66e7a247dd0c5a10ce7850781f3807069e48a8f469aa8d958",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "Lib/site-packages/clyent/_version.py",
+        "path_type": "hardlink",
+        "sha256": "21ffe574a076844d0fa33ff25dba6daba6e5a7c6752b02eff95f19c262823b1c",
+        "sha256_in_prefix": "21ffe574a076844d0fa33ff25dba6daba6e5a7c6752b02eff95f19c262823b1c",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "899a5cdffc9b047c25b4cb9e38815582846b3e13b2f14c585ab3893fec64a2d7",
+        "sha256_in_prefix": "899a5cdffc9b047c25b4cb9e38815582846b3e13b2f14c585ab3893fec64a2d7",
+        "size_in_bytes": 2189
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e1be5ee74a931028a5257853fe89d77edd6a87cd3c714a7cfb9707e557fb8fa",
+        "sha256_in_prefix": "8e1be5ee74a931028a5257853fe89d77edd6a87cd3c714a7cfb9707e557fb8fa",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/__pycache__/color.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b6d0e77cc9337e5026dbaf2800ef66fb6937afb6887f4fa7954fc6c25d90da6",
+        "sha256_in_prefix": "4b6d0e77cc9337e5026dbaf2800ef66fb6937afb6887f4fa7954fc6c25d90da6",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/__pycache__/color_formatter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2267b305ef8e4d5d030aaf40d12b1dce6560223d80de01c57cf5bd4163d2f4d",
+        "sha256_in_prefix": "c2267b305ef8e4d5d030aaf40d12b1dce6560223d80de01c57cf5bd4163d2f4d",
+        "size_in_bytes": 3522
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/color.py",
+        "path_type": "hardlink",
+        "sha256": "39fcb4bdb09aa66ceec1cccb6162af46855fed2d41b595b3284b4c6fad0f5644",
+        "sha256_in_prefix": "39fcb4bdb09aa66ceec1cccb6162af46855fed2d41b595b3284b4c6fad0f5644",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "Lib/site-packages/clyent/colors/color_formatter.py",
+        "path_type": "hardlink",
+        "sha256": "f3d02b412c9291521aceb38614cacaa55cd685992224b54a06083af9df184431",
+        "sha256_in_prefix": "f3d02b412c9291521aceb38614cacaa55cd685992224b54a06083af9df184431",
+        "size_in_bytes": 6141
+      },
+      {
+        "_path": "Lib/site-packages/clyent/errors.py",
+        "path_type": "hardlink",
+        "sha256": "96c721c81cbe7769d8d01d9e5e05cad624cfcaee88cb8d50cd6e2da2097bd409",
+        "sha256_in_prefix": "96c721c81cbe7769d8d01d9e5e05cad624cfcaee88cb8d50cd6e2da2097bd409",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "97e62e3dcea27460c3a8bbc1edf8e935d1db42ec36761232eb96da3380794a46",
+        "sha256_in_prefix": "97e62e3dcea27460c3a8bbc1edf8e935d1db42ec36761232eb96da3380794a46",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9647f73296ca19bba32128dd11708291bb5ba60223a37c4b7ffad60949b166e0",
+        "sha256_in_prefix": "9647f73296ca19bba32128dd11708291bb5ba60223a37c4b7ffad60949b166e0",
+        "size_in_bytes": 1578
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/__pycache__/handlers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1c1fa922917011148b5727d4b61ba83138caeba41d9ddd730b5d23bfa0e9bf9",
+        "sha256_in_prefix": "c1c1fa922917011148b5727d4b61ba83138caeba41d9ddd730b5d23bfa0e9bf9",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/colors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/colors/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6397868724c1df247cba9874f1833b894a820cde47bebc00e0041a9790140593",
+        "sha256_in_prefix": "6397868724c1df247cba9874f1833b894a820cde47bebc00e0041a9790140593",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/colors/__pycache__/printer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3e765e67d7a21866349d61d9bd009d7bf1c0307321804de1df4a735e90ff63a",
+        "sha256_in_prefix": "d3e765e67d7a21866349d61d9bd009d7bf1c0307321804de1df4a735e90ff63a",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/colors/printer.py",
+        "path_type": "hardlink",
+        "sha256": "9598ea0a620a2b0dd1765315a2dced1b7b536888ec9e1993670a0e4bf466e86c",
+        "sha256_in_prefix": "9598ea0a620a2b0dd1765315a2dced1b7b536888ec9e1993670a0e4bf466e86c",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "Lib/site-packages/clyent/logs/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "1d6d63b1ca213dfbdf0e57211a0a6c923d22832597434d3ac5ad915077a9505f",
+        "sha256_in_prefix": "1d6d63b1ca213dfbdf0e57211a0a6c923d22832597434d3ac5ad915077a9505f",
+        "size_in_bytes": 2206
+      },
+      {
+        "_path": "Lib/site-packages/clyent/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/clyent/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec0fe117f8f296f71d7e9102c912d55f0443483527a89cb2142806975a700354",
+        "sha256_in_prefix": "ec0fe117f8f296f71d7e9102c912d55f0443483527a89cb2142806975a700354",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/clyent/tests/__pycache__/test_clyent.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d873ea377da6727c7062f9bfc07740b78fe543a8b45e29124495858ee51f2756",
+        "sha256_in_prefix": "d873ea377da6727c7062f9bfc07740b78fe543a8b45e29124495858ee51f2756",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "Lib/site-packages/clyent/tests/test_clyent.py",
+        "path_type": "hardlink",
+        "sha256": "e974251c53b08eb512e2c9d3d64b6aa2f2613c7d431c853651bf53bde67d289b",
+        "sha256_in_prefix": "e974251c53b08eb512e2c9d3d64b6aa2f2613c7d431c853651bf53bde67d289b",
+        "size_in_bytes": 1882
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5738c2c47819370294273b3ef3e9ca523a70f87cf2d29dbc4ede2f436e07fd75",
+  "size": 20732,
+  "subdir": "win-64",
+  "timestamp": 1574098383923,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/clyent-1.2.2-py38_1.conda",
+  "version": "1.2.2"
+}

@@ -1,0 +1,40 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=1.7.0,<1.7.1.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib_metadata-1.7.0-0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "importlib_metadata-1.7.0-0.conda",
+  "legacy_bz2_md5": "d77fe40254a8ac343cb5e6ae6daa8ae9",
+  "legacy_bz2_size": 10917,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib_metadata-1.7.0-0",
+    "type": 1
+  },
+  "md5": "23f2c6fd9b40edc06aea0623a122fe1e",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\ptrda\\Anaconda3\\pkgs\\importlib_metadata-1.7.0-0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e14951f4b5116e2373b5deb467144578e2412ae7e6d54df00d1b4260e75b49df",
+  "size": 11293,
+  "subdir": "noarch",
+  "timestamp": 1593446603877,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/importlib_metadata-1.7.0-0.conda",
+  "version": "1.7.0"
+}
