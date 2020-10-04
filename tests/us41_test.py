@@ -1,7 +1,9 @@
 import unittest
 import sys
-sys.path.append("/Users/tringapps/Desktop/Team_4_Code/src/UserStories")
-#imports us41 correctly as class
+import sys
+import os
+# imports us41 correctly as class
+sys.path.append(os.path.abspath('../src/userstories'))
 from us41 import us41
  
 # ----------------------------------- Test Cases for Use Case 41 -----------------------------------
