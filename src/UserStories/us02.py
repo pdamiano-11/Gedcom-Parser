@@ -3,8 +3,11 @@ Author: Grace Miguel
 I pledge my honor that I've abided by the the Stevens Honor Code.
 '''
 import sys
-sys.path.append("c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
-sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\seeds")
+import os
+sys.path.append(os.path.abspath('../src/UserStories'))
+    #"c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
+sys.path.append(os.path.abspath('../src/seeds'))
+    #"C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\seeds")
 import pandas as pd 
 import Project02
 from datetime import datetime
@@ -40,7 +43,7 @@ def user02(gedcom_file):
     else: 
         return ""
             
-        #for k, row in fam.iterrows():
+            
 
 
 
