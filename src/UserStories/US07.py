@@ -6,13 +6,13 @@ SSW555 - Sprint 1
 '''
 import datetime
 import pandas as pd
-import project02
+import Project02
 from dateutil.relativedelta import relativedelta
 
 ''' Goal: Ensure that no individuals live more than 150 years'''
 def usecase07(gedcom_name):
     today = datetime.datetime.today()
-    df = project02.createIndividualsDataFrame(gedcom_name)
+    df = Project02.createIndividualsDataFrame(gedcom_name)
     for index, row in df.iterrows(): #iterates through dataframe
         birth = pd.to_datetime(row['Birthday'])
         if row['Dead'] == 'nan':
