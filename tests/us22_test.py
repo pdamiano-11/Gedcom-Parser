@@ -68,11 +68,11 @@ class us22_test(unittest.TestCase):
         self.assertEqual(us22('test3.ged'), res)
         
     def test5(self):
-        individuals = Project02.createIndividualsDataFrame('test4.ged')
+        individuals = Project02.createIndividualsDataFrame('test5.ged')
         df = individuals[0:11]
         df = df.append(individuals.iloc[4]).reset_index(drop = True)
         res = []
-        self.assertEqual(us22('test4.ged'), res)
+        self.assertEqual(us22('test5.ged'), res)
 
 unittest.main(argv=['first-arg-is-ignored'], exit=False)
 
