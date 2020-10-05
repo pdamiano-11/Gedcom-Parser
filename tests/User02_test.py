@@ -1,6 +1,8 @@
 import sys
 import unittest
-sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\seeds")
+import os
+sys.path.append(os.path.abspath('../src'))
+sys.path.append(os.path.abspath('../src/seeds'))
 sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\GMiguel")
 sys.path.append("c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
 import user02

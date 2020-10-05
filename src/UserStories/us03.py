@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import datetime
 import os
-sys.path.append(os.path.abspath('../src/UserStories'))
+sys.path.append(os.path.abspath('../UserStories'))
 sys.path.append(os.path.abspath('../src/seeds'))
 import Project02
 
