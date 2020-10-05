@@ -1,27 +1,25 @@
 import unittest
-import datetime
 import sys
 import os
 sys.path.append(os.path.abspath('../src/userstories'))
-from us01 import us01
+import US01
 
-class us01_test(unittest.TestCase):
+# ----------------------------------- Test Cases for Use Case 41 -----------------------------------
+class usecase01_test(unittest.TestCase):
     def test1(self):
-        val = datetime.datetime(2020, 9, 25)
-        self.assertEqual(us01(val), 'This date is valid')
+        self.assertEqual(US01.usecase01("testFiles/test8.ged"),'All dates are before today')
 
     def test2(self):
-        val = datetime.datetime(1999, 12, 29)
-        self.assertEqual(us01(val), 'This date is valid')
+            self.assertEqual(US01.usecase01("testFiles/test9.ged"),'All dates are before today')
 
     def test3(self):
-        val = datetime.datetime(1800, 3, 15)
-        self.assertEqual(us01(val), 'This date is valid')
+            self.assertEqual(US01.usecase01("testFiles/test10.ged"),'All dates are before today')
 
     def test4(self):
-        val = datetime.datetime(2021, 9, 26)
-        self.assertEqual(us01(val), 'This date is after current date.')
+            self.assertEqual(US01.usecase01("testFiles/test11.ged"),"There is at least one date later than the current date")
 
     def test5(self):
-        val = datetime.datetime(3000, 9, 26)
-        self.assertEqual(us01(val), 'This date is after current date.')
+            self.assertEqual(US01.usecase01("testFiles/test12.ged"),"There is at least one date later than the current date")
+
+if __name__ == '__main__':
+    unittest.main()
