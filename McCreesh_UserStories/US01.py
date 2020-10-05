@@ -23,8 +23,8 @@ def usecase01(gedcom_name):
         dateDict.append(day)
     for index, row in df2.iterrows(): #iterates through dataframe
         dateDict.append(row['Married'])
-    for index, row in df2.iterrows(): #iterates through dataframe
-       dateDict.append(row['Divorced'])
+    #for index, row in df2.iterrows(): #iterates through dataframe
+    #   dateDict.append(row['Divorced'])
     for date in dateDict:
         if date == 'nan':
             continue
