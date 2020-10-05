@@ -22,8 +22,6 @@ def user03(gedcom_file):
             else:
                 lst = lst + row["Name"] + " "
                                 #if Death date is BEFORE birth, it's invalid
-
-    
     if len(lst) >0:
         return "The following have deaths before birth which is incorrect: " + str(lst)
     else:

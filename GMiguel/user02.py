@@ -34,7 +34,6 @@ def user02(gedcom_file):
                     pass
                 else: 
                     lst.append(row["Husband Name"])
-        
     if len(lst) > 0:
         return "The following people have births after marriage" + str(lst)
     else: 
