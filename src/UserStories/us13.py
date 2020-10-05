@@ -29,9 +29,9 @@ def siblingsAgeGap(gedcom_name):
     #indiv = copy.deepcopy(individuals[["Name", "Birthday", "Dead"]])
 
     children = copy.deepcopy(families["Children"])
-    print(children)
+    #print(children)
     #for index, row in children.iterrows():
-
+    invalids = 0
     for row in families.Children:
         if len(row) > 1:
             for i in range(len(row)):
@@ -43,14 +43,9 @@ def siblingsAgeGap(gedcom_name):
                     x_d = pd.to_datetime(list(individuals[individuals.ID == x].Birthday)[0])
                     if abs(int((main_d - x_d).days)) > 2 and abs(int((main_d - x_d).days)) < 240:
                         print("Individuals ", main, " and ", x, " are invalid.")
-                    else:
-                        print("Individuals ", main, " and ", x, " are valid.")
-
-
-
-            
-
-# siblingsAgeGap("testing.ged")   
+                        invalids+=1
+    if invalids == 0:
+        print("All siblings are valid")
 
 
 
