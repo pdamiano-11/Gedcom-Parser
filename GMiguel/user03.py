@@ -18,14 +18,16 @@ def user03(gedcom_file):
             pass
         else:
             if pd.to_datetime(row["Birthday"]) < pd.to_datetime(row["Dead"]):    #if Death date is AFTER birth, it's valid
+                pass
             else:
-                lst = lst + row["Name"] + " "                 #if Death date is BEFORE birth, it's invalid
+                lst = lst + row["Name"] + " "
+                                #if Death date is BEFORE birth, it's invalid
 
     
     if len(lst) >0:
-        print("The following have deaths before birth which is incorrect: " + lst)
-        
+        return "The following have deaths before birth which is incorrect: " + str(lst)
+    else:
+        return ""
 
 
-user03("seeds/test8.ged")
 

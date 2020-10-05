@@ -15,24 +15,32 @@ def user02(gedcom_file):
     individuals = Project02.createIndividualsDataFrame(gedcom_file)
     families = Project02.createFamiliesDataFrame(gedcom_file)
     indiv = copy.deepcopy(individuals[["Name", "Birthday"]]) #makes a copy of original inviduals dataframe
-    print(indiv)
     fam = copy.deepcopy(families[["Wife Name", "Husband Name", "Married"]])
-    print(fam)
     lst = []
     for i, row in indiv.iterrows():
         for k, rows in fam.iterrows():
-            if row["Name"] == rows["Wife Name"] or row["Name"] == rows["Husband Name"]:
+            if row["Name"] == rows["Wife Name"]:
                 if type(rows["Married"]) == float and pd.isna(rows["Married"]):
-                    print("no marriage date")
+                    pass
                 elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]):
                     pass
                 else: 
-                    lst.append(row["Wife Name"], row["Husband Name"])
-        if lst > 0:
-            print("The following people have births after marriage")
+                    lst.append(row["Wife Name"])
+        
+            if row["Name"] == rows["Husband Name"]:
+                if type(rows["Married"]) == float and pd.isna(rows["Married"]):
+                    pass
+                elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]):
+                    pass
+                else: 
+                    lst.append(row["Husband Name"])
+        
+    if len(lst) > 0:
+        return "The following people have births after marriage" + str(lst)
+    else: 
+        return ""
             
         #for k, row in fam.iterrows():
 
 
-user02("seeds/test8.ged")
 
