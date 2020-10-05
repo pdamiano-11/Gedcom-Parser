@@ -1,6 +1,10 @@
+'''
+Author: Grace Miguel
+I pledge my honor that I've abided by the the Stevens Honor Code.
+'''
 import sys
 sys.path.append("c:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\src")
-sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\testFiles")
+sys.path.append("C:\\Users\\Stevens User\\Documents\\GitHub\\Team-4-Code\\seeds")
 import pandas as pd 
 import Project02
 from datetime import datetime
@@ -14,19 +18,21 @@ def user02(gedcom_file):
     print(indiv)
     fam = copy.deepcopy(families[["Wife Name", "Husband Name", "Married"]])
     print(fam)
-    
+    lst = []
     for i, row in indiv.iterrows():
         for k, rows in fam.iterrows():
             if row["Name"] == rows["Wife Name"] or row["Name"] == rows["Husband Name"]:
                 if type(rows["Married"]) == float and pd.isna(rows["Married"]):
                     print("no marriage date")
-                elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]:
-                    print("Valid")
+                elif pd.to_datetime(row["Birthday"]) < pd.to_datetime(rows["Married"]):
+                    pass
                 else: 
-                    print("Invalid")
+                    lst.append(row["Wife Name"], row["Husband Name"])
+        if lst > 0:
+            print("The following people have births after marriage")
             
         #for k, row in fam.iterrows():
 
 
-user02("testFiles/test6.ged")
+user02("seeds/test8.ged")
 

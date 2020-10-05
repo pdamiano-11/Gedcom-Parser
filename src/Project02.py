@@ -121,13 +121,15 @@ def createFamiliesDataFrame(gedcom_name):
         
         if "MARR" in lst:
             i = lst.index("MARR")
-            families.Married[idx] = pd.to_datetime('-'.join(lst[i+3:i+6])).strftime("%b %d %Y")
-            
-        div_case = lst.index("_CURRENT")
-        if lst[div_case+1] == "N":
-            families.Divorced[idx] = "True"
-        else:
-            families.Divorced[idx] = "False"
+            if lst[i+1]=="2":
+                date_m = pd.to_datetime('-'.join(lst[i+3:i+6]))
+                families.Married[idx] = date_m.strftime("%b-%d-%Y")
+        if "_CURRENT" in lst:
+            div_case = lst.index("_CURRENT")
+            if lst[div_case+1] == "N":
+                families.Divorced[idx] = "True"
+            else:
+                families.Divorced[idx] = "False"
         
         if 'HUSB' in lst:
             i = lst.index('HUSB')
@@ -138,13 +140,13 @@ def createFamiliesDataFrame(gedcom_name):
             i = lst.index('WIFE')
             families['Wife ID'][idx] = lst[i+1]
             families['Wife Name'][idx] = list(individuals.Name[individuals.ID == lst[i+1]])[0]
-        
-        chil_ids = [idx for idx, val in enumerate(lst) if val in lst[:idx] and val == "CHIL"]
-        chil_ids = [lst.index("CHIL")] + chil_ids
-        for n in range(len(chil_ids)):
-            chil_ids[n] += 1
-            chil_ids[n] = lst[chil_ids[n]]
-        families.Children[idx] = chil_ids
+        if "CHIL" in lst:
+            chil_ids = [idx for idx, val in enumerate(lst) if val in lst[:idx] and val == "CHIL"]
+            chil_ids = [lst.index("CHIL")] + chil_ids
+            for n in range(len(chil_ids)):
+                chil_ids[n] += 1
+                chil_ids[n] = lst[chil_ids[n]]
+            families.Children[idx] = chil_ids
 
     return families
 
@@ -159,7 +161,7 @@ def displayTable(gedcom_name):
     otp.write(tabulate(individuals, headers='keys', tablefmt='psql'))
     otp.write("\n")
     otp.write("Families: \n")
-    otp.write(tabulate(families, headers='keys', tablefmt='psql'))
+    otp.write(str(families))
     otp.close()
 
 def displayOutput(gedcom_name):
