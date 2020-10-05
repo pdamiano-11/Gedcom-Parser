@@ -1,6 +1,6 @@
+
 #!/usr/bin/env python
 # coding: utf-8
-
 import pandas as pd
 import datetime
 from tabulate import tabulate
@@ -195,8 +195,3 @@ def displayOutput(gedcom_name):
 if __name__ == '__main__':
     file_name = input("Enter the name of the GEDCOM file: ")
     displayTable(file_name)
-
-
-
-
-
